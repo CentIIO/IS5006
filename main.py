@@ -24,7 +24,9 @@ now = datetime.now()
 dt_string = now.strftime("%H%M%S_%d_%m_%Y")
 #print("date and time =", dt_string)
 
-os.mkdir("log")
+if not os.path.exists("log"):
+    os.mkdir("log")
+
 logging.basicConfig(filename=os.path.join("log",dt_string+'.log'), level=logging.INFO)
 random.seed(para.seed)
 #'consumer_' + str(i)
