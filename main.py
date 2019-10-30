@@ -25,7 +25,7 @@ dt_string = now.strftime("%H%M%S_%d_%m_%Y")
 #print("date and time =", dt_string)
 
 
-logging.basicConfig(filename='Logs/'+dt_string+'.log', level=logging.INFO)
+logging.basicConfig(filename=dt_string+'.log', level=logging.INFO)
 random.seed(para.seed)
 #'consumer_' + str(i)
 # Create 500  Consumers objects and assign initial with tolerance and wallet 
