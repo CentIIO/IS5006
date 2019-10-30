@@ -14,16 +14,14 @@ def update_google_sheet_csv(seller):
     sheet_file_name = "IS5006_Group4_HW2_" + formatted_seller_name
     print("sheet_file_name:",sheet_file_name)
 
-    # ### Create a sheet. if sheet is already created, comment out it
-    sheet = client.create(sheet_file_name)
-
-    # ### Open a spreadsheet file
-    sheet = client.open(sheet_file_name)
-
-    # ### Sharing a sheet with yourself to look at it and edit it.
-    # update your email address that has google credentials
-    # if the sheet is already shared, comment out it.
-    sheet.share('a0197117y.receiver@gmail.com', perm_type='user', role='writer')
+    # ### Try to open the sheet. If it does not exist, create and share it.
+    try:
+        sheet = client.open(sheet_file_name)
+        print("sheet open successfully.")
+    except gspread.exceptions.SpreadsheetNotFound:
+        print("Google sheet not exist, create and share it.")
+        sheet = client.create(sheet_file_name)
+        sheet.share('a0197117y.receiver@gmail.com', perm_type='user', role='writer')
 
     # ### Selecting a worksheet
     # worksheet = sheet.worksheet("Sheet1")
