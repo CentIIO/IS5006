@@ -24,8 +24,8 @@ now = datetime.now()
 dt_string = now.strftime("%H%M%S_%d_%m_%Y")
 #print("date and time =", dt_string)
 
-
-logging.basicConfig(filename=dt_string+'.log', level=logging.INFO)
+os.mkdir("log")
+logging.basicConfig(filename=os.path.join("log",dt_string+'.log'), level=logging.INFO)
 random.seed(para.seed)
 #'consumer_' + str(i)
 # Create 500  Consumers objects and assign initial with tolerance and wallet 
@@ -62,5 +62,12 @@ seller_sony.kill()
 # Kill consumer threads
 for consumer in customers:
     consumer.kill()
+
+print("[main] start updating google sheet.")
+from gsheet import update_google_sheet_csv
+update_google_sheet_csv(seller_apple)
+update_google_sheet_csv(seller_samsung)
+update_google_sheet_csv(seller_sony)
+
 print ("Done")
 sys.exit(0)
