@@ -105,7 +105,7 @@ class Seller(object):
 
     # calculates the user sentiment from tweets.
     def user_sentiment(self):
-        tweets = numpy.asarray(Twitter.get_latest_tweets(self.product, 100))
+        tweets = numpy.asarray(Twitter.get_latest_tweets(self.product.name, 100))
         return 1 if len(tweets) == 0 else (tweets == 'POSITIVE').mean()
 
     # to stop the seller thread
