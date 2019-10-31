@@ -16,5 +16,5 @@ class Twitter(object):
                 logging.info ('[Twitter]:History of Twitter post %s ',s)
     # returns the latest tweet about a product.
     @staticmethod
-    def get_latest_tweets(product, n):
-        return [tweet for user, tweet in Twitter.feed[product][-n:]]
+    def get_latest_tweets(product_name, n):
+        return [tweet for user, tweet in Twitter.feed[product_name][-n:]]
