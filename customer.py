@@ -87,7 +87,10 @@ class Customer(object):
             #print("Products",product.name)
             tweets = numpy.asarray(Twitter.get_latest_tweets(product.name, 100))
             #sprint("[", self.name,"]:Products",product.name,"Tweets=",tweets)
-            user_sentiment = 1 if len(tweets) == 0 else (tweets == 'POSITIVE').mean()
+            if len(tweets) == 0:
+                user_sentiment = 1 
+            else:
+                user_sentiment =(tweets == 'POSITIVE').mean()
 
             # ANSWER d.
             # if sentiment is more than user's tolerance and user does not have the product, then he/she may buy it with 20% chance. If it already has the product, then chance of buying again is 1%
