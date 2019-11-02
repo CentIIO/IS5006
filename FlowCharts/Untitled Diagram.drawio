@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-02T06:09:09.784Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="NZExnqjyjE44teGfAiF-" version="12.1.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-02T12:52:45.865Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="An29XARIgmA1WTjQncb_" version="12.1.9" type="github" pages="1">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1349" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -213,6 +213,31 @@
         </mxCell>
         <mxCell id="eqo6fhu2GZBDlllIJW7n-30" value="Push&amp;nbsp;&lt;br&gt;Ad" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="eqo6fhu2GZBDlllIJW7n-29">
           <mxGeometry x="0.0792" y="1" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eqo6fhu2GZBDlllIJW7n-32" value="Twitter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="880" y="10" width="100" height="650" as="geometry"/>
+        </mxCell>
+        <mxCell id="eqo6fhu2GZBDlllIJW7n-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="eqo6fhu2GZBDlllIJW7n-32">
+          <mxGeometry x="45" y="580" width="10" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="eqo6fhu2GZBDlllIJW7n-31" value="product in ads" style="shape=umlFrame;whiteSpace=wrap;html=1;width=100;height=20;" vertex="1" parent="1">
+          <mxGeometry x="190" y="600" width="150" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="eqo6fhu2GZBDlllIJW7n-35" value="" style="endArrow=classic;html=1;entryX=-0.1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="406" y="648.5" as="sourcePoint"/>
+            <mxPoint x="780" y="648.5" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="346" y="648.5"/>
+              <mxPoint x="336" y="648.5"/>
+              <mxPoint x="236" y="648.5"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eqo6fhu2GZBDlllIJW7n-36" value="Create Product" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="eqo6fhu2GZBDlllIJW7n-35">
+          <mxGeometry x="0.3493" y="-1" relative="1" as="geometry">
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
