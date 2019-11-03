@@ -31,7 +31,8 @@ def update_google_sheet_csv(seller):
 
     # export data to csv and import to populate google sheet
     csv_path = os.path.join("log",formatted_seller_name + '_Data.csv')
-    pandas.DataFrame({'Sales': seller.sales_history,
+    pandas.DataFrame({'Quarter':seller.quater,
+                      'Sales': seller.sales_history,
                       'Revenue': seller.revenue_history,
                       'Profit': seller.profit_history,
                       'Expense': seller.expense_history[1:],
