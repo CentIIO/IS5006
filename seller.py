@@ -131,7 +131,6 @@ class Seller(object):
         if (GoogleAds.user_coverage(self.product.name) < 0.5):
             advert_type = GoogleAds.ADVERT_BASIC 
         else:
-            print ("TARGET")
             advert_type=GoogleAds.ADVERT_TARGETED
         scale = self.wallet // GoogleAds.advert_price[advert_type] // 2 #not spending everything
         logging.info ('[Seller]: (%s,%d) CEO selected advert_type as %s with scale of %d for %s', self.name,self.tickcount,advert_type,scale,self.product.name)
