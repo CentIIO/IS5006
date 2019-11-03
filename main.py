@@ -18,7 +18,7 @@ from seller import Seller
 from utils import plot
 import os
 from datetime import datetime
-import sys
+
 
 now = datetime.now()
 dt_string = now.strftime("%H%M%S_%d_%m_%Y")
@@ -55,11 +55,12 @@ seller_samsung.kill()
 seller_sony.kill()
 
 # Plot the sales and expenditure trends
-#plot(seller_apple)
-#plot(seller_samsung)
+plot(seller_apple)
+plot(seller_samsung)
 
-#print('Total Profit Apple:', seller_apple.my_profit())
-#print('Total Profit Samsung:', seller_samsung.my_profit())
+print('Total Profit Apple:', seller_apple.my_profit())
+print('Total Profit Samsung:', seller_samsung.my_profit())
+print('Total Profit Sony:', seller_sony.my_profit())
 
 # Kill consumer threads
 for consumer in customers:
@@ -72,4 +73,3 @@ update_google_sheet_csv(seller_samsung)
 update_google_sheet_csv(seller_sony)
 
 print ("Done")
-sys.exit(0)
