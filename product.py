@@ -9,3 +9,6 @@ class Product(object):
         self.price = price
         self.quality = quality
         logging.info ("[Product]:Product created::%s ",self.name)
+
+    def update_price(self, new_price):
+        self.price = new_price

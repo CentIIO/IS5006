@@ -21,7 +21,7 @@ class Market(object):
         seller = Market.catalogue[product]
 
         # call seller's sold function
-        seller.sold()
+        seller.sold(product)
         logging.info("[Market]:Notify Seller %s about the sale of product %s ",seller.name,product.name)
         # deduct price from user's balance
         buyer.deduct(product.price)

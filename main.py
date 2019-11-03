@@ -35,14 +35,15 @@ customers = [Customer(name=names.get_full_name(), wallet=500,tolerance=0.5 + 0.4
 
 
 # Construct a product object with following attributes
-iphone = Product(name='iphoneX', price=300, quality=0.9)
+iphoneX = Product(name='iphoneX', price=300, quality=0.9)
+iphone11 = Product(name='iphone11', price=350, quality=0.92)
 galaxy = Product(name='Note', price=200, quality=0.8)
 sony = Product(name='Xperia', price=100, quality=0.6)
 
 # Create a Seller object with product as one of the attributes
-seller_apple = Seller(name='APPLE INC', product=iphone, wallet=1000)
-seller_samsung = Seller(name='SAMSUNG MOBILES', product=galaxy, wallet=500)
-seller_sony = Seller(name='SONY', product=sony, wallet=500)
+seller_apple = Seller(name='APPLE INC', products=[iphoneX, iphone11], wallet=1000)
+seller_samsung = Seller(name='SAMSUNG MOBILES', products=[galaxy], wallet=500)
+seller_sony = Seller(name='SONY', products=[sony], wallet=500)
 # Wait till the simulation ends
 try:
     time.sleep(10)

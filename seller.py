@@ -11,22 +11,29 @@ from twitter import Twitter
 
 class Seller(object):
 
-    def __init__(self, name, product, wallet):
+    def __init__(self, name, products, wallet):
         self.name = name
-        self.product = product
+        self.products = products
         self.wallet = wallet
         logging.info ("[Seller]:Seller %s Created",self.name)
-        # register the seller in market
-        Market.register_seller(self, product)
+        self.item_sold = {}
+        self.total_item_sold = {}
+        self.sales_history = {}
+        self.sentiment_history = {}
+        self.expense_history = {}
+        for product in self.products:
+            # register the seller in market
+            Market.register_seller(self, product)
+            self.item_sold[product] = 0
+            self.total_item_sold[product] = 0
+            self.sales_history[product] = []
+            self.sentiment_history[product] = []
+            self.expense_history[product] = [0]
 
         # metrics tracker
-        self.sales_history = []
         self.revenue_history = []
         self.profit_history = []
-        self.expense_history = [0]
-        self.sentiment_history = []
-        self.item_sold = 0
-        self.total_item_sold=0
+
         self.tickcount=0
         # Flag for thread
         self.STOP = False
@@ -45,35 +52,39 @@ class Seller(object):
             self.tick()
             time.sleep(tick_time)
         #test=', '.join(x.name for x in self.sales_history)
-        logging.info("[Seller]: (%s,%d) sold  %d units of %s",self.name,self.tickcount,self.total_item_sold,self.product.name)
+        for product in self.products:
+            logging.info("[Seller]: (%s,%d) sold  %d units of %s",self.name,self.tickcount,self.total_item_sold[product],product.name)
         logging.info("[Seller]: (%s,%d) Exit", self.name,self.tickcount)
     # if an item is sold, add it to the database
-    def sold(self):
+    def sold(self,product):
         self.lock.acquire()
-        self.item_sold += 1
-        self.total_item_sold +=1
+        self.item_sold[product] += 1
+        self.total_item_sold[product] +=1
         self.lock.release()
 
     # one timestep in the simulation world
     def tick(self):
         self.lock.acquire()
-        # append the sales record to the history
-        self.sales_history.append(self.item_sold)
-        # reset the sales counter
-        self.item_sold = 0
+        for product in self.products:
+            # append the sales record to the history
+            self.sales_history[product].append(self.item_sold[product])
+            # reset the sales counter
+            self.item_sold[product] = 0
 
         self.lock.release()
 
         # Calculate the metrics for previous tick and add to tracker
-        self.revenue_history.append(self.sales_history[-1] * self.product.price)
-        self.profit_history.append(self.revenue_history[-1] - self.expense_history[-1])
-        self.sentiment_history.append(self.user_sentiment())
+        self.revenue_history.append(sum([self.sales_history[x][-1] * x.price for x in self.products]))
+        self.profit_history.append(self.revenue_history[-1] - sum([self.expense_history[x][-1] for x in self.products]))
+        sentiments = self.user_sentiment()
+        for product in self.products:
+            self.sentiment_history[product].append(sentiments[product])
 
         # add the profit to seller's wallet
         self.wallet += self.my_profit(True)
 
         # choose what to do for next timestep
-        advert_type, scale = self.CEO()
+        adverts, scale = self.CEO()
 
         # ANSWER a. print data to show progress
         #test=', '.join(for x in self.sentiment_history)
@@ -81,12 +92,15 @@ class Seller(object):
         logging.info ('[Seller]: (%s,%d) Revenue in previous quarter:%d', self.name,self.tickcount,self.my_revenue(True))
         logging.info ('[Seller]: (%s,%d) Expenses in previous quarter:%d', self.name,self.tickcount,self.my_expenses(True))
         logging.info ('[Seller]: (%s,%d) Profit in previous quarter:%d', self.name,self.tickcount,self.my_profit(True))
-        logging.info ('[Seller]: (%s,%d) Sentiment in previous quarter:%d', self.name,self.tickcount,self.user_sentiment())
+        sentiments = self.user_sentiment()
+        for product in self.products:
+            logging.info ('[Seller]: (%s,%d) Sentiment for %s in previous quarter:%d', self.name,self.tickcount,product.name, sentiments[product])
         #logging.info ('[Seller]: (%s,%d) Sales in previous quarter:%d', self.name,self.tickcount,self.sales_history(True))
         #logging.info ('[Seller]: (%s,%d)Strategy for next quarter \nAdvert Type: {}, scale: {}\n\n'.format(advert_type, scale))
         
         # perform the actions and view the expense
-        self.expense_history.append(GoogleAds.post_advertisement(self, self.product, advert_type, scale))
+        for product in self.products:
+            self.expense_history[product].append(GoogleAds.post_advertisement(self, product, adverts[product], scale))
 
     # calculates the total revenue. Gives the revenue in last tick if latest_only = True
     def my_revenue(self, latest_only=False):
@@ -95,7 +109,9 @@ class Seller(object):
 
     # calculates the total revenue. Gives the revenue in last tick if latest_only = True
     def my_expenses(self, latest_only=False):
-        bill = self.expense_history[-1] if latest_only else numpy.sum(self.expense_history)
+        bill = 0
+        for product in self.products:
+            bill += self.expense_history[product][-1] if latest_only else numpy.sum(self.expense_history[product])
         return bill
 
     # calculates the total revenue. Gives the revenue in last tick if latest_only = True
@@ -105,8 +121,11 @@ class Seller(object):
 
     # calculates the user sentiment from tweets.
     def user_sentiment(self):
-        tweets = numpy.asarray(Twitter.get_latest_tweets(self.product.name, 100))
-        return 1 if len(tweets) == 0 else (tweets == 'POSITIVE').mean()
+        sentiments = {}
+        for product in self.products:
+            tweets = numpy.asarray(Twitter.get_latest_tweets(product.name, 100))
+            sentiments[product] = 1 if len(tweets) == 0 else (tweets == 'POSITIVE').mean()
+        return sentiments
 
     # to stop the seller thread
     def kill(self):
@@ -128,11 +147,16 @@ class Seller(object):
         # You need to return the type of advert you want to publish and at what scale
         # GoogleAds.advert_price[advert_type] gives you the rate of an advert
 
-        if (GoogleAds.user_coverage(self.product.name) < 0.5):
-            advert_type = GoogleAds.ADVERT_BASIC 
-        else:
-            print ("TARGET")
-            advert_type=GoogleAds.ADVERT_TARGETED
-        scale = self.wallet // GoogleAds.advert_price[advert_type] // 2 #not spending everything
-        logging.info ('[Seller]: (%s,%d) CEO selected advert_type as %s with scale of %d for %s', self.name,self.tickcount,advert_type,scale,self.product.name)
-        return advert_type, scale
+        adverts = {}
+        for product in self.products:
+            if (GoogleAds.user_coverage(product.name) < 0.5):
+                advert_type = GoogleAds.ADVERT_BASIC
+            else:
+                advert_type=GoogleAds.ADVERT_TARGETED
+            adverts[product] = advert_type
+            # print("[Seller]: CEO decide advert type for {} is {}.".format(product.name, advert_type))
+            logging.info('[Seller]: (%s,%d) CEO selected advert_type as %s for %s', self.name,
+                     self.tickcount, advert_type, product.name)
+        scale = self.wallet // sum([GoogleAds.advert_price[v] for k,v in adverts.items()]) // 2 #not spending everything
+        logging.info('[Seller]: (%s,%d) CEO selected advert scale %s', self.name, self.tickcount, scale)
+        return adverts, scale
