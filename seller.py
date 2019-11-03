@@ -27,6 +27,7 @@ class Seller(object):
         self.sentiment_history = []
         self.item_sold = 0
         self.total_item_sold=0
+        self.quater=[]
         self.tickcount=0
         # Flag for thread
         self.STOP = False
@@ -41,6 +42,7 @@ class Seller(object):
         logging.info ("[Seller]:Seller %s started Trading",self.name)
         while not self.STOP:
             self.tickcount+=1  
+            self.quater.append(self.tickcount)
             logging.info ("[Seller]:(%s,%d): Next Quarter Begins ",self.name,self.tickcount)
             self.tick()
             time.sleep(tick_time)
