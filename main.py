@@ -1,7 +1,7 @@
 #task for assignment:
 '''draw the flowchart and export metrics to google sheets'''
 
-#author: HB,Jack Shen
+#author: HB,Jack Shen,Aman
 #task for project
 '''implement the cognitive engine/ceo'''
 
