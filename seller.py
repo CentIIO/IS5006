@@ -33,7 +33,7 @@ class Seller(object):
         # metrics tracker
         self.revenue_history = []
         self.profit_history = []
-
+        self.quarter = []
         self.tickcount=0
         # Flag for thread
         self.STOP = False
@@ -47,7 +47,8 @@ class Seller(object):
     def loop(self):
         logging.info ("[Seller]:Seller %s started Trading",self.name)
         while not self.STOP:
-            self.tickcount+=1  
+            self.tickcount+=1
+            self.quarter.append(self.tickcount)
             logging.info ("[Seller]:(%s,%d): Next Quarter Begins ",self.name,self.tickcount)
             self.tick()
             time.sleep(tick_time)
