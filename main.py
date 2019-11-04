@@ -44,10 +44,10 @@ sony = Product(name='Xperia', price=100, quality=0.6)
 # Create a Seller object with product as one of the attributes
 seller_apple = Seller(name='APPLE INC', products=[iphoneX, iphone11], wallet=1000)
 seller_samsung = Seller(name='SAMSUNG MOBILES', products=[galaxy], wallet=500)
-seller_sony = Seller(name='SONY', products=[sony], wallet=500)
+seller_sony = Seller(name='SONY INC', products=[sony], wallet=500)
 # Wait till the simulation ends
 try:
-    time.sleep(10)
+    time.sleep(20)
 except KeyboardInterrupt:
     pass
 
