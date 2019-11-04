@@ -32,6 +32,7 @@ def update_google_sheet_csv(seller):
     # export data to csv and import to populate google sheet
     csv_path = os.path.join("log",formatted_seller_name + '_Data.csv')
     dict_for_pandas = {}
+    dict_for_pandas['Quarter'] = seller.quarter
     for product in seller.products:
         dict_for_pandas['Sales_'+product.name] = seller.sales_history[product]
         dict_for_pandas['Expense_'+product.name] = seller.expense_history[product][1:]
