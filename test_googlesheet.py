@@ -28,7 +28,7 @@ def delete_google_sheet(sheet_file_name):
 
 delete_google_sheet("IS5006_Group4_HW2_APPLE_INC")
 delete_google_sheet("IS5006_Group4_HW2_SAMSUNG_MOBILES")
-delete_google_sheet("IS5006_Group4_HW2_SONY")
+delete_google_sheet("IS5006_Group4_HW2_SONY_INC")
 
 def test_list_sum():
     a = [[1,1],[2,2],[3,4]]
