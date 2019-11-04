@@ -1,7 +1,6 @@
 #task for assignment:
 '''draw the flowchart and export metrics to google sheets'''
-
-
+#Authors: Jack Chen, Haroon Basheer
 #task for project
 '''implement the cognitive engine/ceo'''
 
