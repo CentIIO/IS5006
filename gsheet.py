@@ -46,4 +46,4 @@ def update_google_sheet_csv(seller):
     #                   'Sentiment': seller.sentiment_history}).to_csv(csv_path, mode='w', index=False)
 
     content = open(csv_path, 'r').read()
-    # client.import_csv(sheet.id, content)
+    client.import_csv(sheet.id, content)
