@@ -36,18 +36,26 @@ customers = [Customer(name=names.get_full_name(), wallet=500,tolerance=0.5 + 0.4
 
 
 # Construct a product object with following attributes
-iphoneX = Product(name='iphoneX', price=300, quality=0.9)
+iphoneX = Product(name='iphoneX', price=300, quality=0.9, release_date=5)
 iphone11 = Product(name='iphone11', price=350, quality=0.92)
-galaxy = Product(name='Note', price=200, quality=0.8)
-sony = Product(name='Xperia', price=100, quality=0.6)
+galaxy = Product(name='galaxy', price=200, quality=0.8)
+xperia = Product(name='Xperia', price=100, quality=0.6)
+iphoneX_screen = Product(name='iphoneX_screen', price=30, quality=0.9)
+iphoneX_case = Product(name='iphoneX_case', price=30, quality=0.9)
+iphone11_screen = Product(name='iphone11_screen', price=35, quality=0.92)
+iphone11_case = Product(name='iphone11_case', price=35, quality=0.92)
+
+iphone11.add_accessory([iphone11_screen, iphone11_case])
+iphoneX.add_accessory([iphoneX_screen, iphoneX_case])
 
 # Create a Seller object with product as one of the attributes
 seller_apple = Seller(name='APPLE INC', products=[iphoneX, iphone11], wallet=1000)
 seller_samsung = Seller(name='SAMSUNG MOBILES', products=[galaxy], wallet=500)
-seller_sony = Seller(name='SONY INC', products=[sony], wallet=500)
+seller_sony = Seller(name='SONY INC', products=[xperia], wallet=500)
 # Wait till the simulation ends
 try:
     time.sleep(20)
+    logging.info('[main]: start killing thread')
 except KeyboardInterrupt:
     pass
 
@@ -55,6 +63,7 @@ except KeyboardInterrupt:
 seller_apple.kill()
 seller_samsung.kill()
 seller_sony.kill()
+print("[main] sellers thread killed.")
 
 # Plot the sales and expenditure trends
 #plot(seller_apple)

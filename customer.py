@@ -48,6 +48,9 @@ class Customer(object):
         if self.wallet < product.price:
             return
 
+        if Market.inventory[product] == 0:
+            return
+
         # purchase the product from market
         
         Market.buy(self, product)
@@ -95,9 +98,18 @@ class Customer(object):
                 if(product not in self.owned_products and random.random() < 0.1):
                     logging.info("[Customer]:***(%s,%d)bought the new product:[%s]",self.name,self.tickcount,product.name)
                     self.buy(product)
+                    # buy accessory
+                    for accessory in product.accessories:
+                        if random.random() < 0.9 and accessory not in self.owned_products:
+                            self.buy(accessory)
                 elif (product in self.owned_products and random.random() < 0.01):
                     logging.info("[Customer]:$$$(%s,%d)bought the same product again:[%s]",self.name,self.tickcount,product.name)
                     self.buy(product)
+                    # buy accessory
+                    for accessory in product.accessories:
+                        if random.random() < 0.9 and accessory not in self.owned_products:
+                            self.buy(accessory)
+
             else:
                 logging.info("[Customer]:###(%s,%d)doesn't buy any products ",self.name,self.tickcount)
         # remove the adverts from ad_space
@@ -120,6 +132,7 @@ class Customer(object):
 
     # set the flag to True and wait for thread to join
     def kill(self):
+        logging.info('[Customer]: (%s,%d) thread killed', self.name, self.tickcount)
         self.STOP = True
         self.thread.join(timeout=0)
 

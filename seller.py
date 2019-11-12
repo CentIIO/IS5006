@@ -10,13 +10,14 @@ from constants import tick_time
 from google_ads import GoogleAds
 from market import Market
 from twitter import Twitter
+import random
 
 
 class Seller(object):
 
     def __init__(self, name, products, wallet):
         self.name = name
-        self.products = products
+        self.products = []
         self.wallet = wallet
         logging.info ("[Seller]:Seller %s Created",self.name)
         self.item_sold = {}
@@ -24,14 +25,33 @@ class Seller(object):
         self.sales_history = {}
         self.sentiment_history = {}
         self.expense_history = {}
-        for product in self.products:
+        self.inventory_history = {}
+        for product in products:
             # register the seller in market
-            Market.register_seller(self, product)
-            self.item_sold[product] = 0
-            self.total_item_sold[product] = 0
-            self.sales_history[product] = []
-            self.sentiment_history[product] = []
-            self.expense_history[product] = [0]
+            if product not in self.products:
+                self.products.append(product)
+                Market.register_seller(self, product)
+                if product.release_date == 0:
+                    Market.update_inventory(product, product.initial_amount)
+                self.item_sold[product] = 0
+                self.total_item_sold[product] = 0
+                self.sales_history[product] = []
+                self.sentiment_history[product] = []
+                self.expense_history[product] = [0]
+                self.inventory_history[product] = []
+                # add accessory product
+                for accessory in product.accessories:
+                    if accessory not in self.products:
+                        self.products.append(accessory)
+                        Market.register_seller(self, accessory)
+                        if product.release_date == 0:
+                            Market.update_inventory(accessory, accessory.initial_amount)
+                        self.item_sold[accessory] = 0
+                        self.total_item_sold[accessory] = 0
+                        self.sales_history[accessory] = []
+                        self.sentiment_history[accessory] = []
+                        self.expense_history[accessory] = [0]
+                        self.inventory_history[accessory] = []
 
         # metrics tracker
         self.revenue_history = []
@@ -75,6 +95,17 @@ class Seller(object):
             # reset the sales counter
             self.item_sold[product] = 0
 
+            # initial release of product
+            if self.tickcount == product.release_date and product.release_date != 0:
+                Market.update_inventory(product,product.initial_amount)
+            # reproduce of product
+            if self.tickcount % product.reproduce_period == 0:
+                Market.update_inventory(product, product.reproduce_amount)
+
+            try:
+                self.inventory_history[product].append(Market.get_inventory(product))
+            except:
+                print("[seller]exception: product name:{}".format(product.name))
         self.lock.release()
 
         # Calculate the metrics for previous tick and add to tracker
@@ -133,6 +164,7 @@ class Seller(object):
 
     # to stop the seller thread
     def kill(self):
+        logging.info ('[Seller]: (%s,%d) thread killed', self.name,self.tickcount)
         self.STOP = True
         self.thread.join()
 
@@ -151,6 +183,13 @@ class Seller(object):
         # You need to return the type of advert you want to publish and at what scale
         # GoogleAds.advert_price[advert_type] gives you the rate of an advert
 
+        # adjust price based on latest sales
+        for product in self.products:
+            if self.sales_history[product][-1] == 0 and random.random() < 0.5:
+                product.update_price(product.price * 0.9)
+            if self.sales_history[product][-1] >= 2 and random.random() < 0.5:
+                product.update_price(product.price * 1.1)
+
         adverts = {}
         for product in self.products:
             if (GoogleAds.user_coverage(product.name) < 0.5):
@@ -161,6 +200,6 @@ class Seller(object):
             # print("[Seller]: CEO decide advert type for {} is {}.".format(product.name, advert_type))
             logging.info('[Seller]: (%s,%d) CEO selected advert_type as %s for %s', self.name,
                      self.tickcount, advert_type, product.name)
-        scale = self.wallet // sum([GoogleAds.advert_price[v] for k,v in adverts.items()]) // 2 #not spending everything
+        scale = int(self.wallet // sum([GoogleAds.advert_price[v] for k,v in adverts.items()]) // 2) #not spending everything
         logging.info('[Seller]: (%s,%d) CEO selected advert scale %s', self.name, self.tickcount, scale)
         return adverts, scale
