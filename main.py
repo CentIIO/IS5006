@@ -32,7 +32,7 @@ logging.basicConfig(filename=os.path.join("log",dt_string+'.log'), level=logging
 random.seed(para.seed)
 #'consumer_' + str(i)
 # Create 500  Consumers objects and assign initial with tolerance and wallet 
-customers = [Customer(name=names.get_full_name(), wallet=500,tolerance=0.5 + 0.4 * random.random() ) for i in range(1,(para.numberofcustomer+1))]
+customers = [Customer(name=names.get_full_name(), wallet=500,type=0.5 + 0.4 * random.random() ) for i in range(1,(para.numberofcustomer+1))]
 
 
 # Construct a product object with following attributes

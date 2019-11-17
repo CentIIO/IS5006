@@ -66,7 +66,7 @@ class GoogleAds(object):
     def register_user(user):
         GoogleAds.lock.acquire()
         GoogleAds.users.append(user)
-        logging.info("[GoogleAds]:Customer %s added to Google list of user with Tolerance:%s",user.name,user.tolerance)
+        logging.info("[GoogleAds]:Customer %s added to Google list of user with quality/price/sentiment Tolerance:%s,%s,%s",user.name,user.quality_tolerance,user.price_tolerance,user.sentiment_tolerance)
         GoogleAds.lock.release()
 
     @staticmethod
