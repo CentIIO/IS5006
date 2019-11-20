@@ -1,0 +1,1392 @@
+INFO:root:[Customer]:Customer Ann Pacheco Created
+INFO:root:[GoogleAds]:Customer Ann Pacheco added to Google list of user with quality/price/sentiment Tolerance:0.5,0.5,0.5
+INFO:root:[Customer]:Customer Ann Pacheco entered Trading
+INFO:root:[Customer]:(Ann Pacheco,1): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,1) currently seeing ads for the Products:[]
+INFO:root:[Customer]:(Ann Pacheco,1) Ad Space cleared 
+INFO:root:[Customer]:Customer Kay Medina Created
+INFO:root:[GoogleAds]:Customer Kay Medina added to Google list of user with quality/price/sentiment Tolerance:0.5,0.5,0.5
+INFO:root:[Customer]:Customer Kay Medina entered Trading
+INFO:root:[Customer]:(Kay Medina,1): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,1) currently seeing ads for the Products:[]
+INFO:root:[Customer]:(Kay Medina,1) Ad Space cleared 
+INFO:root:[Customer]:Customer James Sutter Created
+INFO:root:[GoogleAds]:Customer James Sutter added to Google list of user with quality/price/sentiment Tolerance:0.5,0.5,0.5
+INFO:root:[Customer]:Customer James Sutter entered Trading
+INFO:root:[Customer]:(James Sutter,1): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,1) currently seeing ads for the Products:[]
+INFO:root:[Customer]:(James Sutter,1) Ad Space cleared 
+INFO:root:[Customer]:Customer Bette Brown Created
+INFO:root:[GoogleAds]:Customer Bette Brown added to Google list of user with quality/price/sentiment Tolerance:0.7,0.7,0.7
+INFO:root:[Customer]:Customer Bette Brown entered Trading
+INFO:root:[Customer]:(Bette Brown,1): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,1) currently seeing ads for the Products:[]
+INFO:root:[Customer]:(Bette Brown,1) Ad Space cleared 
+INFO:root:[Customer]:Customer Helen Weal Created
+INFO:root:[GoogleAds]:Customer Helen Weal added to Google list of user with quality/price/sentiment Tolerance:0.5,0.5,0.5
+INFO:root:[Customer]:Customer Helen Weal entered Trading
+INFO:root:[Customer]:(Helen Weal,1): Next Quarter Begins 
+INFO:root:[Customer]:(Helen Weal,1) currently seeing ads for the Products:[]
+INFO:root:[Customer]:(Helen Weal,1) Ad Space cleared 
+INFO:root:[Product]:Product created::iphoneX 
+INFO:root:[Product]:Product created::iphone11 
+INFO:root:[Product]:Product created::galaxy 
+INFO:root:[Product]:Product created::Xperia 
+INFO:root:[Product]:Product created::iphoneX_screen 
+INFO:root:[Product]:Product created::iphoneX_case 
+INFO:root:[Product]:Product created::iphone11_screen 
+INFO:root:[Product]:Product created::iphone11_case 
+INFO:root:[Seller]:Seller APPLE INC Created
+INFO:root:[Market]:Seller APPLE INC is registered in the market with the product iphoneX 
+INFO:root:[Market]:Seller APPLE INC is registered in the market with the product iphoneX_screen 
+INFO:root:[Market]:Seller APPLE INC is registered in the market with the product iphoneX_case 
+INFO:root:[Market]:Seller APPLE INC is registered in the market with the product iphone11 
+INFO:root:[Market]:Seller APPLE INC is registered in the market with the product iphone11_screen 
+INFO:root:[Market]:Seller APPLE INC is registered in the market with the product iphone11_case 
+INFO:root:[Seller]:Seller APPLE INC started Trading
+INFO:root:[Seller]:(APPLE INC,1): Next Quarter Begins 
+INFO:root:[Seller]: (APPLE INC,1) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]:Seller SAMSUNG MOBILES Created
+INFO:root:[Seller]: (APPLE INC,1) CEO selected advert_type as BASIC for iphoneX_screen
+INFO:root:[Market]:Seller SAMSUNG MOBILES is registered in the market with the product galaxy 
+INFO:root:[Seller]: (APPLE INC,1) CEO selected advert_type as BASIC for iphoneX_case
+INFO:root:[Seller]:Seller SAMSUNG MOBILES started Trading
+INFO:root:[Seller]: (APPLE INC,1) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]:Seller SONY INC Created
+INFO:root:[Seller]:(SAMSUNG MOBILES,1): Next Quarter Begins 
+INFO:root:[Seller]: (APPLE INC,1) CEO selected advert_type as BASIC for iphone11_screen
+INFO:root:[Market]:Seller SONY INC is registered in the market with the product Xperia 
+INFO:root:[Seller]: (SAMSUNG MOBILES,1) CEO selected advert_type as BASIC for galaxy
+INFO:root:[Seller]: (APPLE INC,1) CEO selected advert_type as BASIC for iphone11_case
+INFO:root:[Seller]:Seller SONY INC started Trading
+INFO:root:[Seller]: (SAMSUNG MOBILES,1) CEO selected advert scale 50
+INFO:root:[Seller]: (APPLE INC,1) CEO selected advert scale 16
+INFO:root:[Seller]:(SONY INC,1): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,1) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,1) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,1) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (SAMSUNG MOBILES,1) Expenses in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,1) Expenses in previous quarter:0
+INFO:root:[Seller]: (SONY INC,1) CEO selected advert scale 50
+INFO:root:[Seller]: (SAMSUNG MOBILES,1) Profit in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,1) Profit in previous quarter:0
+INFO:root:[Seller]: (SONY INC,1) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,1) Sentiment for galaxy in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,1) Sentiment for iphoneX in previous quarter:1
+INFO:root:[Seller]: (SONY INC,1) Expenses in previous quarter:0
+INFO:root:[Seller]: (SONY INC,1) Profit in previous quarter:0
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product galaxy to users Kay Medina, Kay Medina, Helen Weal, Bette Brown, Bette Brown 
+INFO:root:[Seller]: (SONY INC,1) Sentiment for Xperia in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,1) Sentiment for iphoneX_screen in previous quarter:1
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25]}  
+INFO:root:[Seller]: (APPLE INC,1) Sentiment for iphoneX_case in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Ann Pacheco, Kay Medina, James Sutter, Helen Weal, James Sutter 
+INFO:root:[Seller]: (APPLE INC,1) Sentiment for iphone11 in previous quarter:1
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25], 'SONY INC': [25]}  
+INFO:root:[Seller]: (APPLE INC,1) Sentiment for iphone11_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,1) Sentiment for iphone11_case in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users Bette Brown, Helen Weal, Bette Brown, Kay Medina, James Sutter 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25], 'SONY INC': [25], 'APPLE INC': [25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_screen to users James Sutter, Kay Medina, Ann Pacheco, Helen Weal, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25], 'SONY INC': [25], 'APPLE INC': [25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_case to users James Sutter, Helen Weal, Kay Medina, Helen Weal, James Sutter 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25], 'SONY INC': [25], 'APPLE INC': [25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users Helen Weal, Bette Brown, James Sutter, Ann Pacheco, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25], 'SONY INC': [25], 'APPLE INC': [25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_screen to users Bette Brown, Helen Weal, James Sutter, Ann Pacheco, James Sutter 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25], 'SONY INC': [25], 'APPLE INC': [25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_case to users Bette Brown, Helen Weal, Helen Weal, Kay Medina, Bette Brown 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25], 'SONY INC': [25], 'APPLE INC': [25, 25, 25, 25, 25, 25]}  
+INFO:root:[Customer]:(Ann Pacheco,2): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,2) currently seeing ads for the Products:[iphoneX_screen, Xperia, iphone11_screen, iphone11]
+INFO:root:[Customer]:(Ann Pacheco,2) Ad Space cleared 
+INFO:root:[Customer]:(Kay Medina,2): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,2) currently seeing ads for the Products:[iphoneX_case, iphone11_case, galaxy, iphoneX_screen, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:(Kay Medina,2) Ad Space cleared 
+INFO:root:[Customer]:(James Sutter,2): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,2) currently seeing ads for the Products:[iphone11_screen, iphoneX_case, iphoneX_screen, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:(James Sutter,2) Ad Space cleared 
+INFO:root:[Customer]:(Bette Brown,2): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,2) currently seeing ads for the Products:[iphone11_screen, iphone11_case, galaxy, iphoneX, iphone11]
+INFO:root:[Customer]:***(Bette Brown,2)bought the new product:[iphone11_case]
+INFO:root:[Customer]:***(Bette Brown,2)bought the new product:[galaxy]
+INFO:root:[Customer]:(Bette Brown,2) Ad Space cleared 
+INFO:root:[Customer]:(Helen Weal,2): Next Quarter Begins 
+INFO:root:[Customer]:(Helen Weal,2) currently seeing ads for the Products:[iphone11_screen, iphoneX_case, iphone11_case, galaxy, iphoneX_screen, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:(Helen Weal,2) Ad Space cleared 
+INFO:root:[Seller]:(SAMSUNG MOBILES,2): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,2) CEO selected advert_type as BASIC for galaxy
+INFO:root:[Seller]:(SONY INC,2): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,2) CEO selected advert scale 47
+INFO:root:[Seller]:(APPLE INC,2): Next Quarter Begins 
+INFO:root:[Seller]: (SONY INC,2) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (SONY INC,2) CEO selected advert scale 47
+INFO:root:[Seller]: (SAMSUNG MOBILES,2) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,2) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,2) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (SAMSUNG MOBILES,2) Expenses in previous quarter:25
+INFO:root:[Seller]: (SONY INC,2) Expenses in previous quarter:25
+INFO:root:[Seller]: (APPLE INC,2) CEO selected advert_type as BASIC for iphoneX_screen
+INFO:root:[Seller]: (SAMSUNG MOBILES,2) Profit in previous quarter:-25
+INFO:root:[Seller]: (SONY INC,2) Profit in previous quarter:-25
+INFO:root:[Seller]: (APPLE INC,2) CEO selected advert_type as BASIC for iphoneX_case
+INFO:root:[Seller]: (SAMSUNG MOBILES,2) Sentiment for galaxy in previous quarter:1
+INFO:root:[Seller]: (SONY INC,2) Sentiment for Xperia in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,2) CEO selected advert_type as BASIC for iphone11
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product galaxy to users Kay Medina, Helen Weal, Ann Pacheco, Ann Pacheco, Ann Pacheco 
+INFO:root:[Seller]: (APPLE INC,2) CEO selected advert_type as BASIC for iphone11_screen
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25], 'SONY INC': [25], 'APPLE INC': [25, 25, 25, 25, 25, 25]}  
+INFO:root:[Seller]: (APPLE INC,2) CEO selected advert_type as BASIC for iphone11_case
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Ann Pacheco, James Sutter, Kay Medina, Ann Pacheco, Bette Brown 
+INFO:root:[Seller]: (APPLE INC,2) CEO selected advert scale 14
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25], 'SONY INC': [25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25]}  
+INFO:root:[Seller]: (APPLE INC,2) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,2) Expenses in previous quarter:150
+INFO:root:[Seller]: (APPLE INC,2) Profit in previous quarter:-150
+INFO:root:[Seller]: (APPLE INC,2) Sentiment for iphoneX in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,2) Sentiment for iphoneX_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,2) Sentiment for iphoneX_case in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,2) Sentiment for iphone11 in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,2) Sentiment for iphone11_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,2) Sentiment for iphone11_case in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users Ann Pacheco, Kay Medina, Ann Pacheco, James Sutter, Helen Weal 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25], 'SONY INC': [25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_screen to users James Sutter, Ann Pacheco, Bette Brown, Kay Medina, James Sutter 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25], 'SONY INC': [25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_case to users Bette Brown, James Sutter, Bette Brown, Ann Pacheco, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25], 'SONY INC': [25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users Helen Weal, Ann Pacheco, James Sutter, Kay Medina, Helen Weal 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25], 'SONY INC': [25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_screen to users James Sutter, Helen Weal, Helen Weal, James Sutter, James Sutter 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25], 'SONY INC': [25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_case to users James Sutter, Helen Weal, Kay Medina, Bette Brown, James Sutter 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25], 'SONY INC': [25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Customer]:(Ann Pacheco,3): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,3) currently seeing ads for the Products:[iphoneX_case, galaxy, iphoneX_screen, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:***(Ann Pacheco,3)bought the new product:[iphoneX]
+INFO:root:[Customer]:(Ann Pacheco,3) Ad Space cleared 
+INFO:root:[Customer]:(Kay Medina,3): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,3) currently seeing ads for the Products:[iphoneX_case, iphone11_case, galaxy, iphoneX_screen, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:***(Kay Medina,3)bought the new product:[iphone11]
+INFO:root:[Customer]:(Kay Medina,3) Ad Space cleared 
+INFO:root:[Customer]:(James Sutter,3): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,3) currently seeing ads for the Products:[iphone11_screen, iphoneX_case, iphone11_case, iphoneX_screen, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:***(James Sutter,3)bought the new product:[iphoneX_case]
+INFO:root:[Customer]:(James Sutter,3) Ad Space cleared 
+INFO:root:[Customer]:(Bette Brown,3): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,3) currently seeing ads for the Products:[iphone11_case, iphoneX_screen, Xperia, iphoneX_case]
+INFO:root:[Customer]:(Bette Brown,3) Ad Space cleared 
+INFO:root:[Customer]:(Helen Weal,3): Next Quarter Begins 
+INFO:root:[Customer]:(Helen Weal,3) currently seeing ads for the Products:[iphone11_screen, iphone11_case, galaxy, iphoneX, iphone11]
+INFO:root:[Customer]:***(Helen Weal,3)bought the new product:[iphone11_case]
+INFO:root:[Customer]:(Helen Weal,3) Ad Space cleared 
+INFO:root:[Seller]:(SAMSUNG MOBILES,3): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,3) CEO selected advert_type as BASIC for galaxy
+INFO:root:[Seller]: (SAMSUNG MOBILES,3) CEO selected advert scale 45
+INFO:root:[Seller]: (SAMSUNG MOBILES,3) Revenue in previous quarter:0
+INFO:root:[Seller]:(SONY INC,3): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,3) Expenses in previous quarter:25
+INFO:root:[Seller]: (SONY INC,3) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (SONY INC,3) CEO selected advert scale 45
+INFO:root:[Seller]: (SAMSUNG MOBILES,3) Profit in previous quarter:-25
+INFO:root:[Seller]: (SONY INC,3) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,3) Sentiment for galaxy in previous quarter:1
+INFO:root:[Seller]: (SONY INC,3) Expenses in previous quarter:25
+INFO:root:[Seller]: (SONY INC,3) Profit in previous quarter:-25
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product galaxy to users Bette Brown, Bette Brown, Helen Weal, Helen Weal, Kay Medina 
+INFO:root:[Seller]: (SONY INC,3) Sentiment for Xperia in previous quarter:1
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25], 'SONY INC': [25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Kay Medina, Kay Medina, Kay Medina, Bette Brown, James Sutter 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25], 'SONY INC': [25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Seller]:(APPLE INC,3): Next Quarter Begins 
+INFO:root:[Seller]: (APPLE INC,3) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (APPLE INC,3) CEO selected advert_type as BASIC for iphoneX_screen
+INFO:root:[Seller]: (APPLE INC,3) CEO selected advert_type as BASIC for iphoneX_case
+INFO:root:[Seller]: (APPLE INC,3) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (APPLE INC,3) CEO selected advert_type as BASIC for iphone11_screen
+INFO:root:[Seller]: (APPLE INC,3) CEO selected advert_type as BASIC for iphone11_case
+INFO:root:[Seller]: (APPLE INC,3) CEO selected advert scale 11
+INFO:root:[Seller]: (APPLE INC,3) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,3) Expenses in previous quarter:150
+INFO:root:[Seller]: (APPLE INC,3) Profit in previous quarter:-150
+INFO:root:[Seller]: (APPLE INC,3) Sentiment for iphoneX in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,3) Sentiment for iphoneX_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,3) Sentiment for iphoneX_case in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,3) Sentiment for iphone11 in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,3) Sentiment for iphone11_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,3) Sentiment for iphone11_case in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users Helen Weal, Bette Brown, James Sutter, Helen Weal, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25], 'SONY INC': [25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_screen to users James Sutter, Kay Medina, James Sutter, Kay Medina, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25], 'SONY INC': [25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_case to users Bette Brown, James Sutter, Kay Medina, Kay Medina, Helen Weal 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25], 'SONY INC': [25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users Ann Pacheco, James Sutter, Bette Brown, Bette Brown, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25], 'SONY INC': [25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_screen to users Kay Medina, Bette Brown, Ann Pacheco, Bette Brown, James Sutter 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25], 'SONY INC': [25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_case to users James Sutter, Kay Medina, Helen Weal, Kay Medina, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25], 'SONY INC': [25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Customer]:(Ann Pacheco,4): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,4) currently seeing ads for the Products:[iphone11_screen, iphone11]
+INFO:root:[Customer]:(Ann Pacheco,4) Ad Space cleared 
+INFO:root:[Customer]:(Kay Medina,4): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,4) currently seeing ads for the Products:[iphone11_screen, iphoneX_case, iphone11_case, galaxy, iphoneX_screen, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:(Kay Medina,4) Ad Space cleared 
+INFO:root:[Customer]:(James Sutter,4): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,4) currently seeing ads for the Products:[iphone11_screen, iphoneX_case, iphone11_case, iphoneX_screen, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:***(James Sutter,4)bought the new product:[iphone11]
+INFO:root:[Customer]:(James Sutter,4) Ad Space cleared 
+INFO:root:[Customer]:(Bette Brown,4): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,4) currently seeing ads for the Products:[iphone11_screen, iphoneX_case, galaxy, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:(Bette Brown,4) Ad Space cleared 
+INFO:root:[Customer]:(Helen Weal,4): Next Quarter Begins 
+INFO:root:[Customer]:(Helen Weal,4) currently seeing ads for the Products:[iphone11_case, iphoneX_case, galaxy, iphoneX]
+INFO:root:[Customer]:(Helen Weal,4) Ad Space cleared 
+INFO:root:[Seller]:(SAMSUNG MOBILES,4): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,4) CEO selected advert_type as BASIC for galaxy
+INFO:root:[Seller]: (SAMSUNG MOBILES,4) CEO selected advert scale 42
+INFO:root:[Seller]: (SAMSUNG MOBILES,4) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,4) Expenses in previous quarter:25
+INFO:root:[Seller]: (SAMSUNG MOBILES,4) Profit in previous quarter:-25
+INFO:root:[Seller]: (SAMSUNG MOBILES,4) Sentiment for galaxy in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product galaxy to users James Sutter, James Sutter, Ann Pacheco, Kay Medina, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25], 'SONY INC': [25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Seller]:(SONY INC,4): Next Quarter Begins 
+INFO:root:[Seller]: (SONY INC,4) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (SONY INC,4) CEO selected advert scale 42
+INFO:root:[Seller]: (SONY INC,4) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,4) Expenses in previous quarter:25
+INFO:root:[Seller]: (SONY INC,4) Profit in previous quarter:-25
+INFO:root:[Seller]: (SONY INC,4) Sentiment for Xperia in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Ann Pacheco, Ann Pacheco, James Sutter, James Sutter, Bette Brown 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Seller]:(APPLE INC,4): Next Quarter Begins 
+INFO:root:[Seller]: (APPLE INC,4) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (APPLE INC,4) CEO selected advert_type as BASIC for iphoneX_screen
+INFO:root:[Seller]: (APPLE INC,4) CEO selected advert_type as BASIC for iphoneX_case
+INFO:root:[Seller]: (APPLE INC,4) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (APPLE INC,4) CEO selected advert_type as BASIC for iphone11_screen
+INFO:root:[Seller]: (APPLE INC,4) CEO selected advert_type as BASIC for iphone11_case
+INFO:root:[Seller]: (APPLE INC,4) CEO selected advert scale 9
+INFO:root:[Seller]: (APPLE INC,4) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,4) Expenses in previous quarter:150
+INFO:root:[Seller]: (APPLE INC,4) Profit in previous quarter:-150
+INFO:root:[Seller]: (APPLE INC,4) Sentiment for iphoneX in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,4) Sentiment for iphoneX_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,4) Sentiment for iphoneX_case in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,4) Sentiment for iphone11 in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,4) Sentiment for iphone11_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,4) Sentiment for iphone11_case in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users Helen Weal, Bette Brown, Kay Medina, Ann Pacheco, Bette Brown 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_screen to users Helen Weal, Helen Weal, James Sutter, Helen Weal, Ann Pacheco 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_case to users James Sutter, Helen Weal, Helen Weal, Ann Pacheco, James Sutter 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users Bette Brown, Ann Pacheco, Ann Pacheco, James Sutter, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_screen to users Bette Brown, Ann Pacheco, James Sutter, Kay Medina, James Sutter 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_case to users Kay Medina, Ann Pacheco, Kay Medina, Kay Medina, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Customer]:(Ann Pacheco,5): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,5): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,5) currently seeing ads for the Products:[iphone11_screen, iphoneX_case, iphone11_case, galaxy, iphoneX_screen, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:(Kay Medina,5) currently seeing ads for the Products:[iphone11_screen, iphone11_case, galaxy, iphoneX, iphone11]
+INFO:root:[Customer]:***(Ann Pacheco,5)bought the new product:[iphone11_screen]
+INFO:root:[Customer]:(Kay Medina,5) Ad Space cleared 
+INFO:root:[Customer]:***(Ann Pacheco,5)bought the new product:[galaxy]
+INFO:root:[Customer]:***(Ann Pacheco,5)bought the new product:[iphoneX]
+INFO:root:[Customer]:(Ann Pacheco,5) Ad Space cleared 
+INFO:root:[Customer]:(James Sutter,5): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,5) currently seeing ads for the Products:[iphone11_screen, iphoneX_case, galaxy, iphoneX_screen, Xperia, iphone11]
+INFO:root:[Customer]:***(James Sutter,5)bought the new product:[iphoneX_screen]
+INFO:root:[Customer]:(James Sutter,5) Ad Space cleared 
+INFO:root:[Customer]:(Bette Brown,5): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,5) currently seeing ads for the Products:[iphone11_screen, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:***(Bette Brown,5)bought the new product:[iphone11_screen]
+INFO:root:[Customer]:(Bette Brown,5) Ad Space cleared 
+INFO:root:[Customer]:(Helen Weal,5): Next Quarter Begins 
+INFO:root:[Customer]:(Helen Weal,5) currently seeing ads for the Products:[iphoneX_screen, iphoneX_case, iphoneX]
+INFO:root:[Customer]:***(Helen Weal,5)bought the new product:[iphoneX_case]
+INFO:root:[Customer]:(Helen Weal,5) Ad Space cleared 
+INFO:root:[Seller]:(SAMSUNG MOBILES,5): Next Quarter Begins 
+INFO:root:[Seller]:(SONY INC,5): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,5) CEO selected advert_type as BASIC for galaxy
+INFO:root:[Seller]: (SONY INC,5) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (SAMSUNG MOBILES,5) CEO selected advert scale 40
+INFO:root:[Seller]: (SONY INC,5) CEO selected advert scale 40
+INFO:root:[Seller]: (SAMSUNG MOBILES,5) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,5) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,5) Expenses in previous quarter:25
+INFO:root:[Seller]: (SONY INC,5) Expenses in previous quarter:25
+INFO:root:[Seller]: (SAMSUNG MOBILES,5) Profit in previous quarter:-25
+INFO:root:[Seller]: (SONY INC,5) Profit in previous quarter:-25
+INFO:root:[Seller]: (SAMSUNG MOBILES,5) Sentiment for galaxy in previous quarter:1
+INFO:root:[Seller]: (SONY INC,5) Sentiment for Xperia in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product galaxy to users Ann Pacheco, Ann Pacheco, Helen Weal, Ann Pacheco, Ann Pacheco 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Ann Pacheco, James Sutter, Kay Medina, Helen Weal, Helen Weal 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Seller]:(APPLE INC,5): Next Quarter Begins 
+INFO:root:[Seller]: (APPLE INC,5) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (APPLE INC,5) CEO selected advert_type as BASIC for iphoneX_screen
+INFO:root:[Seller]: (APPLE INC,5) CEO selected advert_type as BASIC for iphoneX_case
+INFO:root:[Seller]: (APPLE INC,5) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (APPLE INC,5) CEO selected advert_type as BASIC for iphone11_screen
+INFO:root:[Seller]: (APPLE INC,5) CEO selected advert_type as BASIC for iphone11_case
+INFO:root:[Seller]: (APPLE INC,5) CEO selected advert scale 6
+INFO:root:[Seller]: (APPLE INC,5) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,5) Expenses in previous quarter:150
+INFO:root:[Seller]: (APPLE INC,5) Profit in previous quarter:-150
+INFO:root:[Seller]: (APPLE INC,5) Sentiment for iphoneX in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,5) Sentiment for iphoneX_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,5) Sentiment for iphoneX_case in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,5) Sentiment for iphone11 in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,5) Sentiment for iphone11_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,5) Sentiment for iphone11_case in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users Helen Weal, Ann Pacheco, James Sutter, Ann Pacheco, Ann Pacheco 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_screen to users Kay Medina, Kay Medina, Ann Pacheco, Kay Medina, Helen Weal 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_case to users Ann Pacheco, Kay Medina, Helen Weal, Bette Brown, James Sutter 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users James Sutter, Kay Medina, James Sutter, Helen Weal, Bette Brown 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_screen to users Ann Pacheco, Ann Pacheco, Ann Pacheco, James Sutter, Bette Brown 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_case to users Bette Brown, Helen Weal, Ann Pacheco, Kay Medina, Ann Pacheco 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Customer]:(Kay Medina,6): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,6) currently seeing ads for the Products:[iphoneX_case, iphone11_case, iphoneX_screen, Xperia, iphone11]
+INFO:root:[Customer]:(Ann Pacheco,6): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,6) Ad Space cleared 
+INFO:root:[Customer]:(Ann Pacheco,6) currently seeing ads for the Products:[iphone11_screen, iphoneX_case, iphone11_case, galaxy, iphoneX_screen, Xperia, iphoneX]
+INFO:root:[Customer]:***(Ann Pacheco,6)bought the new product:[iphoneX_case]
+INFO:root:[Customer]:***(Ann Pacheco,6)bought the new product:[iphone11_case]
+INFO:root:[Customer]:***(Ann Pacheco,6)bought the new product:[Xperia]
+INFO:root:[Customer]:(Ann Pacheco,6) Ad Space cleared 
+INFO:root:[Customer]:(James Sutter,6): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,6) currently seeing ads for the Products:[iphone11_screen, iphoneX_case, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:***(James Sutter,6)bought the new product:[iphone11_screen]
+INFO:root:[Customer]:***(James Sutter,6)bought the new product:[Xperia]
+INFO:root:[Customer]:***(James Sutter,6)bought the new product:[iphoneX]
+INFO:root:[Customer]:(James Sutter,6) Ad Space cleared 
+INFO:root:[Customer]:(Bette Brown,6): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,6) currently seeing ads for the Products:[iphone11_case, iphone11_screen, iphoneX_case, iphone11]
+INFO:root:[Customer]:***(Bette Brown,6)bought the new product:[iphone11_case]
+INFO:root:[Customer]:***(Bette Brown,6)bought the new product:[iphoneX_case]
+INFO:root:[Customer]:(Bette Brown,6) Ad Space cleared 
+INFO:root:[Customer]:(Helen Weal,6): Next Quarter Begins 
+INFO:root:[Customer]:(Helen Weal,6) currently seeing ads for the Products:[iphoneX_case, iphone11_case, galaxy, iphoneX_screen, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:(Helen Weal,6) Ad Space cleared 
+INFO:root:[Seller]:(SAMSUNG MOBILES,6): Next Quarter Begins 
+INFO:root:[Seller]:(SONY INC,6): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,6) CEO selected advert_type as BASIC for galaxy
+INFO:root:[Seller]: (SONY INC,6) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (SAMSUNG MOBILES,6) CEO selected advert scale 37
+INFO:root:[Seller]: (SONY INC,6) CEO selected advert scale 37
+INFO:root:[Seller]: (SAMSUNG MOBILES,6) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,6) Expenses in previous quarter:25
+INFO:root:[Seller]: (SONY INC,6) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,6) Profit in previous quarter:-25
+INFO:root:[Seller]: (SONY INC,6) Expenses in previous quarter:25
+INFO:root:[Seller]: (SAMSUNG MOBILES,6) Sentiment for galaxy in previous quarter:1
+INFO:root:[Seller]: (SONY INC,6) Profit in previous quarter:-25
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product galaxy to users James Sutter, James Sutter, James Sutter, James Sutter, Bette Brown 
+INFO:root:[Seller]: (SONY INC,6) Sentiment for Xperia in previous quarter:1
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Ann Pacheco, Kay Medina, Bette Brown, James Sutter, Bette Brown 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Seller]:(APPLE INC,6): Next Quarter Begins 
+INFO:root:[Seller]: (APPLE INC,6) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (APPLE INC,6) CEO selected advert_type as BASIC for iphoneX_screen
+INFO:root:[Seller]: (APPLE INC,6) CEO selected advert_type as BASIC for iphoneX_case
+INFO:root:[Seller]: (APPLE INC,6) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (APPLE INC,6) CEO selected advert_type as BASIC for iphone11_screen
+INFO:root:[Seller]: (APPLE INC,6) CEO selected advert_type as BASIC for iphone11_case
+INFO:root:[Seller]: (APPLE INC,6) CEO selected advert scale 4
+INFO:root:[Seller]: (APPLE INC,6) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,6) Expenses in previous quarter:150
+INFO:root:[Seller]: (APPLE INC,6) Profit in previous quarter:-150
+INFO:root:[Seller]: (APPLE INC,6) Sentiment for iphoneX in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,6) Sentiment for iphoneX_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,6) Sentiment for iphoneX_case in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,6) Sentiment for iphone11 in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,6) Sentiment for iphone11_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,6) Sentiment for iphone11_case in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users James Sutter, Helen Weal, Helen Weal, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_screen to users James Sutter, Bette Brown, Ann Pacheco, Bette Brown 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_case to users James Sutter, Kay Medina, Kay Medina, Bette Brown 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users Kay Medina, Helen Weal, Kay Medina, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_screen to users Ann Pacheco, Helen Weal, James Sutter, James Sutter 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_case to users Helen Weal, James Sutter, Kay Medina, James Sutter 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20]}  
+INFO:root:[Customer]:(Kay Medina,7): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,7) currently seeing ads for the Products:[iphoneX_case, iphone11_case, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:***(Kay Medina,7)bought the new product:[Xperia]
+INFO:root:[Customer]:(Kay Medina,7) Ad Space cleared 
+INFO:root:[Customer]:(Ann Pacheco,7): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,7) currently seeing ads for the Products:[iphoneX_screen, Xperia, iphone11_screen]
+INFO:root:[Customer]:(Ann Pacheco,7) Ad Space cleared 
+INFO:root:[Customer]:(James Sutter,7): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,7) currently seeing ads for the Products:[iphone11_screen, iphoneX_case, iphone11_case, galaxy, iphoneX_screen, Xperia, iphoneX]
+INFO:root:[Customer]:***(James Sutter,7)bought the new product:[galaxy]
+INFO:root:[Customer]:(James Sutter,7) Ad Space cleared 
+INFO:root:[Customer]:(Bette Brown,7): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,7) currently seeing ads for the Products:[iphoneX_screen, Xperia, galaxy, iphoneX_case]
+INFO:root:[Customer]:***(Bette Brown,7)bought the new product:[iphoneX_case]
+INFO:root:[Customer]:(Bette Brown,7) Ad Space cleared 
+INFO:root:[Customer]:(Helen Weal,7): Next Quarter Begins 
+INFO:root:[Customer]:(Helen Weal,7) currently seeing ads for the Products:[iphone11_case, iphone11_screen, iphoneX, iphone11]
+INFO:root:[Customer]:(Helen Weal,7) Ad Space cleared 
+INFO:root:[Seller]:(SAMSUNG MOBILES,7): Next Quarter Begins 
+INFO:root:[Seller]:(SONY INC,7): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,7) CEO selected advert_type as BASIC for galaxy
+INFO:root:[Seller]: (SONY INC,7) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (SAMSUNG MOBILES,7) CEO selected advert scale 35
+INFO:root:[Seller]: (SONY INC,7) CEO selected advert scale 35
+INFO:root:[Seller]: (SAMSUNG MOBILES,7) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,7) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,7) Expenses in previous quarter:25
+INFO:root:[Seller]: (SONY INC,7) Expenses in previous quarter:25
+INFO:root:[Seller]: (SAMSUNG MOBILES,7) Profit in previous quarter:-25
+INFO:root:[Seller]: (SONY INC,7) Profit in previous quarter:-25
+INFO:root:[Seller]: (SAMSUNG MOBILES,7) Sentiment for galaxy in previous quarter:1
+INFO:root:[Seller]: (SONY INC,7) Sentiment for Xperia in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product galaxy to users Ann Pacheco, Ann Pacheco, Helen Weal, Ann Pacheco, Bette Brown 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Helen Weal, Helen Weal, Kay Medina, Helen Weal, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20]}  
+INFO:root:[Seller]:(APPLE INC,7): Next Quarter Begins 
+INFO:root:[Seller]: (APPLE INC,7) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (APPLE INC,7) CEO selected advert_type as BASIC for iphoneX_screen
+INFO:root:[Seller]: (APPLE INC,7) CEO selected advert_type as BASIC for iphoneX_case
+INFO:root:[Seller]: (APPLE INC,7) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (APPLE INC,7) CEO selected advert_type as BASIC for iphone11_screen
+INFO:root:[Seller]: (APPLE INC,7) CEO selected advert_type as BASIC for iphone11_case
+INFO:root:[Seller]: (APPLE INC,7) CEO selected advert scale 2
+INFO:root:[Seller]: (APPLE INC,7) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,7) Expenses in previous quarter:120
+INFO:root:[Seller]: (APPLE INC,7) Profit in previous quarter:-120
+INFO:root:[Seller]: (APPLE INC,7) Sentiment for iphoneX in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,7) Sentiment for iphoneX_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,7) Sentiment for iphoneX_case in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,7) Sentiment for iphone11 in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,7) Sentiment for iphone11_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,7) Sentiment for iphone11_case in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users Helen Weal, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_screen to users Kay Medina, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_case to users Ann Pacheco, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users Bette Brown, James Sutter 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_screen to users Bette Brown, Bette Brown 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_case to users Helen Weal, Ann Pacheco 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10]}  
+INFO:root:[Customer]:(Kay Medina,8): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,8) currently seeing ads for the Products:[iphoneX_screen, Xperia, iphoneX_case, iphoneX]
+INFO:root:[Customer]:(Kay Medina,8) Ad Space cleared 
+INFO:root:[Customer]:(Ann Pacheco,8): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,8) currently seeing ads for the Products:[iphone11_case, iphoneX_case, galaxy]
+INFO:root:[Customer]:(Ann Pacheco,8) Ad Space cleared 
+INFO:root:[Customer]:(James Sutter,8): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,8) currently seeing ads for the Products:[iphone11]
+INFO:root:[Customer]:(James Sutter,8) Ad Space cleared 
+INFO:root:[Customer]:(Bette Brown,8): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,8) currently seeing ads for the Products:[iphone11_screen, galaxy, iphone11]
+INFO:root:[Customer]:***(Bette Brown,8)bought the new product:[galaxy]
+INFO:root:[Customer]:(Bette Brown,8) Ad Space cleared 
+INFO:root:[Customer]:(Helen Weal,8): Next Quarter Begins 
+INFO:root:[Customer]:(Helen Weal,8) currently seeing ads for the Products:[iphone11_case, Xperia, galaxy, iphoneX]
+INFO:root:[Customer]:(Helen Weal,8) Ad Space cleared 
+INFO:root:[Seller]:(SAMSUNG MOBILES,8): Next Quarter Begins 
+INFO:root:[Seller]:(SONY INC,8): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,8) CEO selected advert_type as BASIC for galaxy
+INFO:root:[Seller]: (SONY INC,8) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (SAMSUNG MOBILES,8) CEO selected advert scale 32
+INFO:root:[Seller]: (SONY INC,8) CEO selected advert scale 32
+INFO:root:[Seller]: (SAMSUNG MOBILES,8) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,8) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,8) Expenses in previous quarter:25
+INFO:root:[Seller]: (SONY INC,8) Expenses in previous quarter:25
+INFO:root:[Seller]: (SAMSUNG MOBILES,8) Profit in previous quarter:-25
+INFO:root:[Seller]: (SONY INC,8) Profit in previous quarter:-25
+INFO:root:[Seller]: (SAMSUNG MOBILES,8) Sentiment for galaxy in previous quarter:1
+INFO:root:[Seller]: (SONY INC,8) Sentiment for Xperia in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product galaxy to users Ann Pacheco, Helen Weal, Ann Pacheco, Kay Medina, Helen Weal 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users James Sutter, Bette Brown, Bette Brown, James Sutter, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10]}  
+INFO:root:[Seller]:(APPLE INC,8): Next Quarter Begins 
+INFO:root:[Seller]: (APPLE INC,8) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (APPLE INC,8) CEO selected advert_type as BASIC for iphoneX_screen
+INFO:root:[Seller]: (APPLE INC,8) CEO selected advert_type as BASIC for iphoneX_case
+INFO:root:[Seller]: (APPLE INC,8) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (APPLE INC,8) CEO selected advert_type as BASIC for iphone11_screen
+INFO:root:[Seller]: (APPLE INC,8) CEO selected advert_type as BASIC for iphone11_case
+INFO:root:[Seller]: (APPLE INC,8) CEO selected advert scale 1
+INFO:root:[Seller]: (APPLE INC,8) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,8) Expenses in previous quarter:60
+INFO:root:[Seller]: (APPLE INC,8) Profit in previous quarter:-60
+INFO:root:[Seller]: (APPLE INC,8) Sentiment for iphoneX in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,8) Sentiment for iphoneX_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,8) Sentiment for iphoneX_case in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,8) Sentiment for iphone11 in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,8) Sentiment for iphone11_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,8) Sentiment for iphone11_case in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_screen to users Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_case to users Helen Weal 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users James Sutter 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_screen to users Helen Weal 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_case to users Ann Pacheco 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5]}  
+INFO:root:[Customer]:(Kay Medina,9): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,9) currently seeing ads for the Products:[iphoneX_screen, Xperia, galaxy, iphoneX]
+INFO:root:[Customer]:***(Kay Medina,9)bought the new product:[iphoneX]
+INFO:root:[Customer]:(Kay Medina,9) Ad Space cleared 
+INFO:root:[Customer]:(Ann Pacheco,9): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,9) currently seeing ads for the Products:[iphone11_case, galaxy]
+INFO:root:[Customer]:(Ann Pacheco,9) Ad Space cleared 
+INFO:root:[Customer]:(James Sutter,9): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,9) currently seeing ads for the Products:[Xperia, iphone11]
+INFO:root:[Customer]:(James Sutter,9) Ad Space cleared 
+INFO:root:[Customer]:(Bette Brown,9): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,9) currently seeing ads for the Products:[Xperia]
+INFO:root:[Customer]:(Bette Brown,9) Ad Space cleared 
+INFO:root:[Customer]:(Helen Weal,9): Next Quarter Begins 
+INFO:root:[Customer]:(Helen Weal,9) currently seeing ads for the Products:[iphone11_screen, iphoneX_case, galaxy]
+INFO:root:[Customer]:(Helen Weal,9) Ad Space cleared 
+INFO:root:[Seller]:(SAMSUNG MOBILES,9): Next Quarter Begins 
+INFO:root:[Seller]:(SONY INC,9): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,9) CEO selected advert_type as BASIC for galaxy
+INFO:root:[Seller]: (SONY INC,9) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (SAMSUNG MOBILES,9) CEO selected advert scale 30
+INFO:root:[Seller]: (SONY INC,9) CEO selected advert scale 30
+INFO:root:[Seller]: (SAMSUNG MOBILES,9) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,9) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,9) Expenses in previous quarter:25
+INFO:root:[Seller]: (SONY INC,9) Expenses in previous quarter:25
+INFO:root:[Seller]: (SAMSUNG MOBILES,9) Profit in previous quarter:-25
+INFO:root:[Seller]: (SONY INC,9) Profit in previous quarter:-25
+INFO:root:[Seller]: (SAMSUNG MOBILES,9) Sentiment for galaxy in previous quarter:1
+INFO:root:[Seller]: (SONY INC,9) Sentiment for Xperia in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product galaxy to users James Sutter, Helen Weal, Helen Weal, Ann Pacheco, Bette Brown 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Kay Medina, Helen Weal, James Sutter, James Sutter, Ann Pacheco 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5]}  
+INFO:root:[Seller]:(APPLE INC,9): Next Quarter Begins 
+INFO:root:[Seller]: (APPLE INC,9) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (APPLE INC,9) CEO selected advert_type as BASIC for iphoneX_screen
+INFO:root:[Seller]: (APPLE INC,9) CEO selected advert_type as BASIC for iphoneX_case
+INFO:root:[Seller]: (APPLE INC,9) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (APPLE INC,9) CEO selected advert_type as BASIC for iphone11_screen
+INFO:root:[Seller]: (APPLE INC,9) CEO selected advert_type as BASIC for iphone11_case
+INFO:root:[Seller]: (APPLE INC,9) CEO selected advert scale 0
+INFO:root:[Seller]: (APPLE INC,9) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,9) Expenses in previous quarter:30
+INFO:root:[Seller]: (APPLE INC,9) Profit in previous quarter:-30
+INFO:root:[Seller]: (APPLE INC,9) Sentiment for iphoneX in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,9) Sentiment for iphoneX_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,9) Sentiment for iphoneX_case in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,9) Sentiment for iphone11 in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,9) Sentiment for iphone11_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,9) Sentiment for iphone11_case in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_screen to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_case to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_screen to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_case to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Customer]:(Kay Medina,10): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,10) currently seeing ads for the Products:[Xperia]
+INFO:root:[Customer]:(Kay Medina,10) Ad Space cleared 
+INFO:root:[Customer]:(Ann Pacheco,10): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,10) currently seeing ads for the Products:[Xperia, galaxy]
+INFO:root:[Customer]:(Ann Pacheco,10) Ad Space cleared 
+INFO:root:[Customer]:(James Sutter,10): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,10) currently seeing ads for the Products:[Xperia, galaxy]
+INFO:root:[Customer]:(James Sutter,10) Ad Space cleared 
+INFO:root:[Customer]:(Bette Brown,10): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,10) currently seeing ads for the Products:[galaxy]
+INFO:root:[Customer]:(Bette Brown,10) Ad Space cleared 
+INFO:root:[Customer]:(Helen Weal,10): Next Quarter Begins 
+INFO:root:[Customer]:(Helen Weal,10) currently seeing ads for the Products:[Xperia, galaxy]
+INFO:root:[Customer]:(Helen Weal,10) Ad Space cleared 
+INFO:root:[Seller]:(SAMSUNG MOBILES,10): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,10) CEO selected advert_type as BASIC for galaxy
+INFO:root:[Seller]: (SAMSUNG MOBILES,10) CEO selected advert scale 27
+INFO:root:[Seller]: (SAMSUNG MOBILES,10) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,10) Expenses in previous quarter:25
+INFO:root:[Seller]: (SAMSUNG MOBILES,10) Profit in previous quarter:-25
+INFO:root:[Seller]: (SAMSUNG MOBILES,10) Sentiment for galaxy in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product galaxy to users Kay Medina, Ann Pacheco, Helen Weal, Helen Weal, Bette Brown 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Seller]:(SONY INC,10): Next Quarter Begins 
+INFO:root:[Seller]: (SONY INC,10) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (SONY INC,10) CEO selected advert scale 27
+INFO:root:[Seller]: (SONY INC,10) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,10) Expenses in previous quarter:25
+INFO:root:[Seller]: (SONY INC,10) Profit in previous quarter:-25
+INFO:root:[Seller]: (SONY INC,10) Sentiment for Xperia in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Helen Weal, James Sutter, Helen Weal, James Sutter, James Sutter 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Seller]:(APPLE INC,10): Next Quarter Begins 
+INFO:root:[Seller]: (APPLE INC,10) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (APPLE INC,10) CEO selected advert_type as BASIC for iphoneX_screen
+INFO:root:[Seller]: (APPLE INC,10) CEO selected advert_type as BASIC for iphoneX_case
+INFO:root:[Seller]: (APPLE INC,10) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (APPLE INC,10) CEO selected advert_type as BASIC for iphone11_screen
+INFO:root:[Seller]: (APPLE INC,10) CEO selected advert_type as BASIC for iphone11_case
+INFO:root:[Seller]: (APPLE INC,10) CEO selected advert scale 0
+INFO:root:[Seller]: (APPLE INC,10) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,10) Expenses in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,10) Profit in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,10) Sentiment for iphoneX in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,10) Sentiment for iphoneX_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,10) Sentiment for iphoneX_case in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,10) Sentiment for iphone11 in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,10) Sentiment for iphone11_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,10) Sentiment for iphone11_case in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_screen to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_case to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_screen to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_case to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Customer]:(Kay Medina,11): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,11) currently seeing ads for the Products:[galaxy]
+INFO:root:[Customer]:(Kay Medina,11) Ad Space cleared 
+INFO:root:[Customer]:(Ann Pacheco,11): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,11) currently seeing ads for the Products:[galaxy]
+INFO:root:[Customer]:(Ann Pacheco,11) Ad Space cleared 
+INFO:root:[Customer]:(James Sutter,11): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,11) currently seeing ads for the Products:[Xperia]
+INFO:root:[Customer]:(James Sutter,11) Ad Space cleared 
+INFO:root:[Customer]:(Bette Brown,11): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,11) currently seeing ads for the Products:[galaxy]
+INFO:root:[Customer]:(Bette Brown,11) Ad Space cleared 
+INFO:root:[Customer]:(Helen Weal,11): Next Quarter Begins 
+INFO:root:[Customer]:(Helen Weal,11) currently seeing ads for the Products:[Xperia, galaxy]
+INFO:root:[Customer]:(Helen Weal,11) Ad Space cleared 
+INFO:root:[Seller]:(SAMSUNG MOBILES,11): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,11) CEO selected advert_type as BASIC for galaxy
+INFO:root:[Seller]: (SAMSUNG MOBILES,11) CEO selected advert scale 25
+INFO:root:[Seller]: (SAMSUNG MOBILES,11) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,11) Expenses in previous quarter:25
+INFO:root:[Seller]: (SAMSUNG MOBILES,11) Profit in previous quarter:-25
+INFO:root:[Seller]: (SAMSUNG MOBILES,11) Sentiment for galaxy in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product galaxy to users Helen Weal, Bette Brown, James Sutter, Ann Pacheco, Bette Brown 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Seller]:(SONY INC,11): Next Quarter Begins 
+INFO:root:[Seller]: (SONY INC,11) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (SONY INC,11) CEO selected advert scale 25
+INFO:root:[Seller]: (SONY INC,11) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,11) Expenses in previous quarter:25
+INFO:root:[Seller]: (SONY INC,11) Profit in previous quarter:-25
+INFO:root:[Seller]: (SONY INC,11) Sentiment for Xperia in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Ann Pacheco, James Sutter, Ann Pacheco, James Sutter, James Sutter 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Seller]:(APPLE INC,11): Next Quarter Begins 
+INFO:root:[Seller]: (APPLE INC,11) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (APPLE INC,11) CEO selected advert_type as BASIC for iphoneX_screen
+INFO:root:[Seller]: (APPLE INC,11) CEO selected advert_type as BASIC for iphoneX_case
+INFO:root:[Seller]: (APPLE INC,11) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (APPLE INC,11) CEO selected advert_type as BASIC for iphone11_screen
+INFO:root:[Seller]: (APPLE INC,11) CEO selected advert_type as BASIC for iphone11_case
+INFO:root:[Seller]: (APPLE INC,11) CEO selected advert scale 0
+INFO:root:[Seller]: (APPLE INC,11) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,11) Expenses in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,11) Profit in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,11) Sentiment for iphoneX in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,11) Sentiment for iphoneX_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,11) Sentiment for iphoneX_case in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,11) Sentiment for iphone11 in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,11) Sentiment for iphone11_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,11) Sentiment for iphone11_case in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_screen to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_case to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_screen to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_case to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Customer]:(Kay Medina,12): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,12): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,12) currently seeing ads for the Products:[]
+INFO:root:[Customer]:(Ann Pacheco,12) currently seeing ads for the Products:[Xperia, galaxy]
+INFO:root:[Customer]:(Kay Medina,12) Ad Space cleared 
+INFO:root:[Customer]:***(Ann Pacheco,12)bought the new product:[Xperia]
+INFO:root:[Customer]:(Ann Pacheco,12) Ad Space cleared 
+INFO:root:[Customer]:(James Sutter,12): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,12) currently seeing ads for the Products:[Xperia, galaxy]
+INFO:root:[Customer]:(James Sutter,12) Ad Space cleared 
+INFO:root:[Customer]:(Bette Brown,12): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,12) currently seeing ads for the Products:[galaxy]
+INFO:root:[Customer]:(Bette Brown,12) Ad Space cleared 
+INFO:root:[Customer]:(Helen Weal,12): Next Quarter Begins 
+INFO:root:[Customer]:(Helen Weal,12) currently seeing ads for the Products:[galaxy]
+INFO:root:[Customer]:(Helen Weal,12) Ad Space cleared 
+INFO:root:[Seller]:(SAMSUNG MOBILES,12): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,12) CEO selected advert_type as BASIC for galaxy
+INFO:root:[Seller]: (SAMSUNG MOBILES,12) CEO selected advert scale 22
+INFO:root:[Seller]: (SAMSUNG MOBILES,12) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,12) Expenses in previous quarter:25
+INFO:root:[Seller]: (SAMSUNG MOBILES,12) Profit in previous quarter:-25
+INFO:root:[Seller]: (SAMSUNG MOBILES,12) Sentiment for galaxy in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product galaxy to users Kay Medina, Helen Weal, Helen Weal, Bette Brown, Bette Brown 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Seller]:(SONY INC,12): Next Quarter Begins 
+INFO:root:[Seller]: (SONY INC,12) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (SONY INC,12) CEO selected advert scale 22
+INFO:root:[Seller]: (SONY INC,12) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,12) Expenses in previous quarter:25
+INFO:root:[Seller]: (SONY INC,12) Profit in previous quarter:-25
+INFO:root:[Seller]: (SONY INC,12) Sentiment for Xperia in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Kay Medina, Bette Brown, Kay Medina, Ann Pacheco, Helen Weal 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Seller]:(APPLE INC,12): Next Quarter Begins 
+INFO:root:[Seller]: (APPLE INC,12) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (APPLE INC,12) CEO selected advert_type as BASIC for iphoneX_screen
+INFO:root:[Seller]: (APPLE INC,12) CEO selected advert_type as BASIC for iphoneX_case
+INFO:root:[Seller]: (APPLE INC,12) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (APPLE INC,12) CEO selected advert_type as BASIC for iphone11_screen
+INFO:root:[Seller]: (APPLE INC,12) CEO selected advert_type as BASIC for iphone11_case
+INFO:root:[Seller]: (APPLE INC,12) CEO selected advert scale 0
+INFO:root:[Seller]: (APPLE INC,12) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,12) Expenses in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,12) Profit in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,12) Sentiment for iphoneX in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,12) Sentiment for iphoneX_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,12) Sentiment for iphoneX_case in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,12) Sentiment for iphone11 in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,12) Sentiment for iphone11_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,12) Sentiment for iphone11_case in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_screen to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_case to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_screen to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_case to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Customer]:(Kay Medina,13): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,13): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,13) currently seeing ads for the Products:[Xperia, galaxy]
+INFO:root:[Customer]:(Ann Pacheco,13) currently seeing ads for the Products:[Xperia]
+INFO:root:[Customer]:(Kay Medina,13) Ad Space cleared 
+INFO:root:[Customer]:(Ann Pacheco,13) Ad Space cleared 
+INFO:root:[Customer]:(James Sutter,13): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,13) currently seeing ads for the Products:[]
+INFO:root:[Customer]:(James Sutter,13) Ad Space cleared 
+INFO:root:[Customer]:(Bette Brown,13): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,13) currently seeing ads for the Products:[Xperia, galaxy]
+INFO:root:[Customer]:(Bette Brown,13) Ad Space cleared 
+INFO:root:[Customer]:(Helen Weal,13): Next Quarter Begins 
+INFO:root:[Customer]:(Helen Weal,13) currently seeing ads for the Products:[Xperia, galaxy]
+INFO:root:[Customer]:(Helen Weal,13) Ad Space cleared 
+INFO:root:[Seller]:(SAMSUNG MOBILES,13): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,13) CEO selected advert_type as BASIC for galaxy
+INFO:root:[Seller]: (SAMSUNG MOBILES,13) CEO selected advert scale 20
+INFO:root:[Seller]: (SAMSUNG MOBILES,13) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,13) Expenses in previous quarter:25
+INFO:root:[Seller]: (SAMSUNG MOBILES,13) Profit in previous quarter:-25
+INFO:root:[Seller]: (SAMSUNG MOBILES,13) Sentiment for galaxy in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product galaxy to users Kay Medina, Kay Medina, Bette Brown, James Sutter, Ann Pacheco 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Seller]:(SONY INC,13): Next Quarter Begins 
+INFO:root:[Seller]: (SONY INC,13) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (SONY INC,13) CEO selected advert scale 20
+INFO:root:[Seller]: (SONY INC,13) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,13) Expenses in previous quarter:25
+INFO:root:[Seller]: (SONY INC,13) Profit in previous quarter:-25
+INFO:root:[Seller]: (SONY INC,13) Sentiment for Xperia in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Kay Medina, Ann Pacheco, James Sutter, Helen Weal, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Seller]:(APPLE INC,13): Next Quarter Begins 
+INFO:root:[Seller]: (APPLE INC,13) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (APPLE INC,13) CEO selected advert_type as BASIC for iphoneX_screen
+INFO:root:[Seller]: (APPLE INC,13) CEO selected advert_type as BASIC for iphoneX_case
+INFO:root:[Seller]: (APPLE INC,13) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (APPLE INC,13) CEO selected advert_type as BASIC for iphone11_screen
+INFO:root:[Seller]: (APPLE INC,13) CEO selected advert_type as BASIC for iphone11_case
+INFO:root:[Seller]: (APPLE INC,13) CEO selected advert scale 0
+INFO:root:[Seller]: (APPLE INC,13) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,13) Expenses in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,13) Profit in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,13) Sentiment for iphoneX in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,13) Sentiment for iphoneX_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,13) Sentiment for iphoneX_case in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,13) Sentiment for iphone11 in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,13) Sentiment for iphone11_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,13) Sentiment for iphone11_case in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_screen to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_case to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_screen to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_case to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Customer]:(Ann Pacheco,14): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,14): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,14) currently seeing ads for the Products:[Xperia, galaxy]
+INFO:root:[Customer]:(Kay Medina,14) currently seeing ads for the Products:[Xperia, galaxy]
+INFO:root:[Customer]:***(Ann Pacheco,14)bought the new product:[Xperia]
+INFO:root:[Customer]:(Kay Medina,14) Ad Space cleared 
+INFO:root:[Customer]:(Ann Pacheco,14) Ad Space cleared 
+INFO:root:[Customer]:(James Sutter,14): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,14) currently seeing ads for the Products:[Xperia, galaxy]
+INFO:root:[Customer]:(James Sutter,14) Ad Space cleared 
+INFO:root:[Customer]:(Bette Brown,14): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,14) currently seeing ads for the Products:[galaxy]
+INFO:root:[Customer]:***(Bette Brown,14)bought the new product:[galaxy]
+INFO:root:[Customer]:(Bette Brown,14) Ad Space cleared 
+INFO:root:[Customer]:(Helen Weal,14): Next Quarter Begins 
+INFO:root:[Customer]:(Helen Weal,14) currently seeing ads for the Products:[Xperia]
+INFO:root:[Customer]:(Helen Weal,14) Ad Space cleared 
+INFO:root:[Seller]:(SAMSUNG MOBILES,14): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,14) CEO selected advert_type as BASIC for galaxy
+INFO:root:[Seller]: (SAMSUNG MOBILES,14) CEO selected advert scale 17
+INFO:root:[Seller]: (SAMSUNG MOBILES,14) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,14) Expenses in previous quarter:25
+INFO:root:[Seller]: (SAMSUNG MOBILES,14) Profit in previous quarter:-25
+INFO:root:[Seller]: (SAMSUNG MOBILES,14) Sentiment for galaxy in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product galaxy to users Helen Weal, Ann Pacheco, Helen Weal, Helen Weal, James Sutter 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Seller]:(SONY INC,14): Next Quarter Begins 
+INFO:root:[Seller]: (SONY INC,14) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (SONY INC,14) CEO selected advert scale 17
+INFO:root:[Seller]: (SONY INC,14) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,14) Expenses in previous quarter:25
+INFO:root:[Seller]: (SONY INC,14) Profit in previous quarter:-25
+INFO:root:[Seller]: (SONY INC,14) Sentiment for Xperia in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Ann Pacheco, Bette Brown, Helen Weal, Ann Pacheco, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Seller]:(APPLE INC,14): Next Quarter Begins 
+INFO:root:[Seller]: (APPLE INC,14) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (APPLE INC,14) CEO selected advert_type as BASIC for iphoneX_screen
+INFO:root:[Seller]: (APPLE INC,14) CEO selected advert_type as BASIC for iphoneX_case
+INFO:root:[Seller]: (APPLE INC,14) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (APPLE INC,14) CEO selected advert_type as BASIC for iphone11_screen
+INFO:root:[Seller]: (APPLE INC,14) CEO selected advert_type as BASIC for iphone11_case
+INFO:root:[Seller]: (APPLE INC,14) CEO selected advert scale 0
+INFO:root:[Seller]: (APPLE INC,14) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,14) Expenses in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,14) Profit in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,14) Sentiment for iphoneX in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,14) Sentiment for iphoneX_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,14) Sentiment for iphoneX_case in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,14) Sentiment for iphone11 in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,14) Sentiment for iphone11_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,14) Sentiment for iphone11_case in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_screen to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_case to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_screen to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_case to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Customer]:(Kay Medina,15): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,15): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,15) currently seeing ads for the Products:[Xperia]
+INFO:root:[Customer]:(Ann Pacheco,15) currently seeing ads for the Products:[Xperia, galaxy]
+INFO:root:[Customer]:(Kay Medina,15) Ad Space cleared 
+INFO:root:[Customer]:***(Ann Pacheco,15)bought the new product:[galaxy]
+INFO:root:[Customer]:(Ann Pacheco,15) Ad Space cleared 
+INFO:root:[Customer]:(James Sutter,15): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,15) currently seeing ads for the Products:[galaxy]
+INFO:root:[Customer]:(James Sutter,15) Ad Space cleared 
+INFO:root:[Customer]:(Bette Brown,15): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,15) currently seeing ads for the Products:[Xperia]
+INFO:root:[Customer]:(Bette Brown,15) Ad Space cleared 
+INFO:root:[Customer]:(Helen Weal,15): Next Quarter Begins 
+INFO:root:[Customer]:(Helen Weal,15) currently seeing ads for the Products:[Xperia, galaxy]
+INFO:root:[Customer]:(Helen Weal,15) Ad Space cleared 
+INFO:root:[Seller]:(SAMSUNG MOBILES,15): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,15) CEO selected advert_type as BASIC for galaxy
+INFO:root:[Seller]: (SAMSUNG MOBILES,15) CEO selected advert scale 15
+INFO:root:[Seller]: (SAMSUNG MOBILES,15) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,15) Expenses in previous quarter:25
+INFO:root:[Seller]: (SAMSUNG MOBILES,15) Profit in previous quarter:-25
+INFO:root:[Seller]: (SAMSUNG MOBILES,15) Sentiment for galaxy in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product galaxy to users James Sutter, Helen Weal, Helen Weal, James Sutter, Bette Brown 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Seller]:(SONY INC,15): Next Quarter Begins 
+INFO:root:[Seller]: (SONY INC,15) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (SONY INC,15) CEO selected advert scale 15
+INFO:root:[Seller]: (SONY INC,15) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,15) Expenses in previous quarter:25
+INFO:root:[Seller]: (SONY INC,15) Profit in previous quarter:-25
+INFO:root:[Seller]: (SONY INC,15) Sentiment for Xperia in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users James Sutter, Ann Pacheco, Bette Brown, Ann Pacheco, Helen Weal 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Seller]:(APPLE INC,15): Next Quarter Begins 
+INFO:root:[Seller]: (APPLE INC,15) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (APPLE INC,15) CEO selected advert_type as BASIC for iphoneX_screen
+INFO:root:[Seller]: (APPLE INC,15) CEO selected advert_type as BASIC for iphoneX_case
+INFO:root:[Seller]: (APPLE INC,15) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (APPLE INC,15) CEO selected advert_type as BASIC for iphone11_screen
+INFO:root:[Seller]: (APPLE INC,15) CEO selected advert_type as BASIC for iphone11_case
+INFO:root:[Seller]: (APPLE INC,15) CEO selected advert scale 0
+INFO:root:[Seller]: (APPLE INC,15) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,15) Expenses in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,15) Profit in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,15) Sentiment for iphoneX in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,15) Sentiment for iphoneX_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,15) Sentiment for iphoneX_case in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,15) Sentiment for iphone11 in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,15) Sentiment for iphone11_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,15) Sentiment for iphone11_case in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_screen to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_case to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_screen to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_case to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Customer]:(Kay Medina,16): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,16): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,16) currently seeing ads for the Products:[]
+INFO:root:[Customer]:(Ann Pacheco,16) currently seeing ads for the Products:[Xperia]
+INFO:root:[Customer]:(Kay Medina,16) Ad Space cleared 
+INFO:root:[Customer]:(Ann Pacheco,16) Ad Space cleared 
+INFO:root:[Customer]:(James Sutter,16): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,16) currently seeing ads for the Products:[Xperia, galaxy]
+INFO:root:[Customer]:(James Sutter,16) Ad Space cleared 
+INFO:root:[Customer]:(Bette Brown,16): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,16) currently seeing ads for the Products:[Xperia, galaxy]
+INFO:root:[Customer]:(Bette Brown,16) Ad Space cleared 
+INFO:root:[Customer]:(Helen Weal,16): Next Quarter Begins 
+INFO:root:[Customer]:(Helen Weal,16) currently seeing ads for the Products:[Xperia, galaxy]
+INFO:root:[Customer]:***(Helen Weal,16)bought the new product:[Xperia]
+INFO:root:[Customer]:(Helen Weal,16) Ad Space cleared 
+INFO:root:[Seller]:(SAMSUNG MOBILES,16): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,16) CEO selected advert_type as BASIC for galaxy
+INFO:root:[Seller]: (SAMSUNG MOBILES,16) CEO selected advert scale 12
+INFO:root:[Seller]: (SAMSUNG MOBILES,16) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,16) Expenses in previous quarter:25
+INFO:root:[Seller]: (SAMSUNG MOBILES,16) Profit in previous quarter:-25
+INFO:root:[Seller]: (SAMSUNG MOBILES,16) Sentiment for galaxy in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product galaxy to users Ann Pacheco, James Sutter, Bette Brown, Ann Pacheco, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Seller]:(SONY INC,16): Next Quarter Begins 
+INFO:root:[Seller]: (SONY INC,16) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (SONY INC,16) CEO selected advert scale 12
+INFO:root:[Seller]: (SONY INC,16) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,16) Expenses in previous quarter:25
+INFO:root:[Seller]: (SONY INC,16) Profit in previous quarter:-25
+INFO:root:[Seller]: (SONY INC,16) Sentiment for Xperia in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Helen Weal, Kay Medina, Helen Weal, Helen Weal, Helen Weal 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Seller]:(APPLE INC,16): Next Quarter Begins 
+INFO:root:[Seller]: (APPLE INC,16) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (APPLE INC,16) CEO selected advert_type as BASIC for iphoneX_screen
+INFO:root:[Seller]: (APPLE INC,16) CEO selected advert_type as BASIC for iphoneX_case
+INFO:root:[Seller]: (APPLE INC,16) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (APPLE INC,16) CEO selected advert_type as BASIC for iphone11_screen
+INFO:root:[Seller]: (APPLE INC,16) CEO selected advert_type as BASIC for iphone11_case
+INFO:root:[Seller]: (APPLE INC,16) CEO selected advert scale 0
+INFO:root:[Seller]: (APPLE INC,16) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,16) Expenses in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,16) Profit in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,16) Sentiment for iphoneX in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,16) Sentiment for iphoneX_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,16) Sentiment for iphoneX_case in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,16) Sentiment for iphone11 in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,16) Sentiment for iphone11_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,16) Sentiment for iphone11_case in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_screen to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_case to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_screen to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_case to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Customer]:(Kay Medina,17): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,17): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,17) currently seeing ads for the Products:[Xperia, galaxy]
+INFO:root:[Customer]:(Ann Pacheco,17) currently seeing ads for the Products:[galaxy]
+INFO:root:[Customer]:(Kay Medina,17) Ad Space cleared 
+INFO:root:[Customer]:(Ann Pacheco,17) Ad Space cleared 
+INFO:root:[Customer]:(James Sutter,17): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,17) currently seeing ads for the Products:[galaxy]
+INFO:root:[Customer]:(James Sutter,17) Ad Space cleared 
+INFO:root:[Customer]:(Bette Brown,17): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,17) currently seeing ads for the Products:[galaxy]
+INFO:root:[Customer]:(Bette Brown,17) Ad Space cleared 
+INFO:root:[Customer]:(Helen Weal,17): Next Quarter Begins 
+INFO:root:[Customer]:(Helen Weal,17) currently seeing ads for the Products:[Xperia]
+INFO:root:[Customer]:***(Helen Weal,17)bought the new product:[Xperia]
+INFO:root:[Customer]:(Helen Weal,17) Ad Space cleared 
+INFO:root:[Seller]:(SAMSUNG MOBILES,17): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,17) CEO selected advert_type as BASIC for galaxy
+INFO:root:[Seller]: (SAMSUNG MOBILES,17) CEO selected advert scale 10
+INFO:root:[Seller]: (SAMSUNG MOBILES,17) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,17) Expenses in previous quarter:25
+INFO:root:[Seller]: (SAMSUNG MOBILES,17) Profit in previous quarter:-25
+INFO:root:[Seller]: (SAMSUNG MOBILES,17) Sentiment for galaxy in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product galaxy to users Kay Medina, Kay Medina, Helen Weal, Helen Weal, Bette Brown 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Seller]:(SONY INC,17): Next Quarter Begins 
+INFO:root:[Seller]: (SONY INC,17) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (SONY INC,17) CEO selected advert scale 10
+INFO:root:[Seller]: (SONY INC,17) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,17) Expenses in previous quarter:25
+INFO:root:[Seller]: (SONY INC,17) Profit in previous quarter:-25
+INFO:root:[Seller]: (SONY INC,17) Sentiment for Xperia in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Kay Medina, James Sutter, Helen Weal, Helen Weal, Bette Brown 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Seller]:(APPLE INC,17): Next Quarter Begins 
+INFO:root:[Seller]: (APPLE INC,17) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (APPLE INC,17) CEO selected advert_type as BASIC for iphoneX_screen
+INFO:root:[Seller]: (APPLE INC,17) CEO selected advert_type as BASIC for iphoneX_case
+INFO:root:[Seller]: (APPLE INC,17) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (APPLE INC,17) CEO selected advert_type as BASIC for iphone11_screen
+INFO:root:[Seller]: (APPLE INC,17) CEO selected advert_type as BASIC for iphone11_case
+INFO:root:[Seller]: (APPLE INC,17) CEO selected advert scale 0
+INFO:root:[Seller]: (APPLE INC,17) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,17) Expenses in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,17) Profit in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,17) Sentiment for iphoneX in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,17) Sentiment for iphoneX_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,17) Sentiment for iphoneX_case in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,17) Sentiment for iphone11 in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,17) Sentiment for iphone11_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,17) Sentiment for iphone11_case in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_screen to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_case to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_screen to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_case to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Customer]:(Kay Medina,18): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,18): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,18) currently seeing ads for the Products:[Xperia, galaxy]
+INFO:root:[Customer]:(Ann Pacheco,18) currently seeing ads for the Products:[]
+INFO:root:[Customer]:(Kay Medina,18) Ad Space cleared 
+INFO:root:[Customer]:(Ann Pacheco,18) Ad Space cleared 
+INFO:root:[Customer]:(James Sutter,18): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,18) currently seeing ads for the Products:[Xperia]
+INFO:root:[Customer]:(James Sutter,18) Ad Space cleared 
+INFO:root:[Customer]:(Bette Brown,18): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,18) currently seeing ads for the Products:[Xperia, galaxy]
+INFO:root:[Customer]:(Bette Brown,18) Ad Space cleared 
+INFO:root:[Customer]:(Helen Weal,18): Next Quarter Begins 
+INFO:root:[Customer]:(Helen Weal,18) currently seeing ads for the Products:[Xperia, galaxy]
+INFO:root:[Customer]:(Helen Weal,18) Ad Space cleared 
+INFO:root:[Seller]:(SAMSUNG MOBILES,18): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,18) CEO selected advert_type as BASIC for galaxy
+INFO:root:[Seller]: (SAMSUNG MOBILES,18) CEO selected advert scale 7
+INFO:root:[Seller]: (SAMSUNG MOBILES,18) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,18) Expenses in previous quarter:25
+INFO:root:[Seller]: (SAMSUNG MOBILES,18) Profit in previous quarter:-25
+INFO:root:[Seller]: (SAMSUNG MOBILES,18) Sentiment for galaxy in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product galaxy to users Ann Pacheco, Ann Pacheco, Helen Weal, Ann Pacheco, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Seller]:(SONY INC,18): Next Quarter Begins 
+INFO:root:[Seller]: (SONY INC,18) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (SONY INC,18) CEO selected advert scale 7
+INFO:root:[Seller]: (SONY INC,18) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,18) Expenses in previous quarter:25
+INFO:root:[Seller]: (SONY INC,18) Profit in previous quarter:-25
+INFO:root:[Seller]: (SONY INC,18) Sentiment for Xperia in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Ann Pacheco, Helen Weal, Kay Medina, Kay Medina, Bette Brown 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Seller]:(APPLE INC,18): Next Quarter Begins 
+INFO:root:[Seller]: (APPLE INC,18) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (APPLE INC,18) CEO selected advert_type as BASIC for iphoneX_screen
+INFO:root:[Seller]: (APPLE INC,18) CEO selected advert_type as BASIC for iphoneX_case
+INFO:root:[Seller]: (APPLE INC,18) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (APPLE INC,18) CEO selected advert_type as BASIC for iphone11_screen
+INFO:root:[Seller]: (APPLE INC,18) CEO selected advert_type as BASIC for iphone11_case
+INFO:root:[Seller]: (APPLE INC,18) CEO selected advert scale 0
+INFO:root:[Seller]: (APPLE INC,18) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,18) Expenses in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,18) Profit in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,18) Sentiment for iphoneX in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,18) Sentiment for iphoneX_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,18) Sentiment for iphoneX_case in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,18) Sentiment for iphone11 in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,18) Sentiment for iphone11_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,18) Sentiment for iphone11_case in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_screen to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_case to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_screen to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_case to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Customer]:(Kay Medina,19): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,19): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,19) currently seeing ads for the Products:[Xperia, galaxy]
+INFO:root:[Customer]:(Ann Pacheco,19) currently seeing ads for the Products:[Xperia, galaxy]
+INFO:root:[Customer]:(Kay Medina,19) Ad Space cleared 
+INFO:root:[Customer]:(Ann Pacheco,19) Ad Space cleared 
+INFO:root:[Customer]:(James Sutter,19): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,19) currently seeing ads for the Products:[]
+INFO:root:[Customer]:(James Sutter,19) Ad Space cleared 
+INFO:root:[Customer]:(Bette Brown,19): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,19) currently seeing ads for the Products:[Xperia]
+INFO:root:[Customer]:(Bette Brown,19) Ad Space cleared 
+INFO:root:[Customer]:(Helen Weal,19): Next Quarter Begins 
+INFO:root:[Customer]:(Helen Weal,19) currently seeing ads for the Products:[Xperia, galaxy]
+INFO:root:[Customer]:(Helen Weal,19) Ad Space cleared 
+INFO:root:[Seller]:(SAMSUNG MOBILES,19): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,19) CEO selected advert_type as BASIC for galaxy
+INFO:root:[Seller]: (SAMSUNG MOBILES,19) CEO selected advert scale 5
+INFO:root:[Seller]: (SAMSUNG MOBILES,19) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,19) Expenses in previous quarter:25
+INFO:root:[Seller]: (SAMSUNG MOBILES,19) Profit in previous quarter:-25
+INFO:root:[Seller]: (SAMSUNG MOBILES,19) Sentiment for galaxy in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product galaxy to users Helen Weal, James Sutter, Ann Pacheco, James Sutter, Ann Pacheco 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Seller]:(SONY INC,19): Next Quarter Begins 
+INFO:root:[Seller]: (SONY INC,19) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (SONY INC,19) CEO selected advert scale 5
+INFO:root:[Seller]: (SONY INC,19) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,19) Expenses in previous quarter:25
+INFO:root:[Seller]: (SONY INC,19) Profit in previous quarter:-25
+INFO:root:[Seller]: (SONY INC,19) Sentiment for Xperia in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Bette Brown, James Sutter, Helen Weal, Ann Pacheco, Helen Weal 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Seller]:(APPLE INC,19): Next Quarter Begins 
+INFO:root:[Seller]: (APPLE INC,19) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (APPLE INC,19) CEO selected advert_type as BASIC for iphoneX_screen
+INFO:root:[Seller]: (APPLE INC,19) CEO selected advert_type as BASIC for iphoneX_case
+INFO:root:[Seller]: (APPLE INC,19) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (APPLE INC,19) CEO selected advert_type as BASIC for iphone11_screen
+INFO:root:[Seller]: (APPLE INC,19) CEO selected advert_type as BASIC for iphone11_case
+INFO:root:[Seller]: (APPLE INC,19) CEO selected advert scale 0
+INFO:root:[Seller]: (APPLE INC,19) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,19) Expenses in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,19) Profit in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,19) Sentiment for iphoneX in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,19) Sentiment for iphoneX_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,19) Sentiment for iphoneX_case in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,19) Sentiment for iphone11 in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,19) Sentiment for iphone11_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,19) Sentiment for iphone11_case in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_screen to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_case to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_screen to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_case to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Customer]:(Kay Medina,20): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,20): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,20): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,20) currently seeing ads for the Products:[]
+INFO:root:[Customer]:(Ann Pacheco,20) currently seeing ads for the Products:[Xperia, galaxy]
+INFO:root:[Customer]:(James Sutter,20) currently seeing ads for the Products:[Xperia, galaxy]
+INFO:root:[Customer]:(Kay Medina,20) Ad Space cleared 
+INFO:root:[Customer]:(Ann Pacheco,20) Ad Space cleared 
+INFO:root:[Customer]:***(James Sutter,20)bought the new product:[galaxy]
+INFO:root:[Customer]:(James Sutter,20) Ad Space cleared 
+INFO:root:[Customer]:(Bette Brown,20): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,20) currently seeing ads for the Products:[Xperia]
+INFO:root:[Customer]:(Bette Brown,20) Ad Space cleared 
+INFO:root:[Customer]:(Helen Weal,20): Next Quarter Begins 
+INFO:root:[Customer]:(Helen Weal,20) currently seeing ads for the Products:[Xperia, galaxy]
+INFO:root:[Customer]:(Helen Weal,20) Ad Space cleared 
+INFO:root:[Seller]:(SAMSUNG MOBILES,20): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,20) CEO selected advert_type as BASIC for galaxy
+INFO:root:[Seller]: (SAMSUNG MOBILES,20) CEO selected advert scale 2
+INFO:root:[Seller]: (SAMSUNG MOBILES,20) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,20) Expenses in previous quarter:25
+INFO:root:[Seller]: (SAMSUNG MOBILES,20) Profit in previous quarter:-25
+INFO:root:[Seller]: (SAMSUNG MOBILES,20) Sentiment for galaxy in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product galaxy to users Kay Medina, Ann Pacheco 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 10], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Seller]:(SONY INC,20): Next Quarter Begins 
+INFO:root:[Seller]: (SONY INC,20) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (SONY INC,20) CEO selected advert scale 2
+INFO:root:[Seller]: (SONY INC,20) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,20) Expenses in previous quarter:25
+INFO:root:[Seller]: (SONY INC,20) Profit in previous quarter:-25
+INFO:root:[Seller]: (SONY INC,20) Sentiment for Xperia in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users James Sutter, Bette Brown 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 10], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 10], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Seller]:(APPLE INC,20): Next Quarter Begins 
+INFO:root:[Seller]: (APPLE INC,20) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (APPLE INC,20) CEO selected advert_type as BASIC for iphoneX_screen
+INFO:root:[Seller]: (APPLE INC,20) CEO selected advert_type as BASIC for iphoneX_case
+INFO:root:[Seller]: (APPLE INC,20) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (APPLE INC,20) CEO selected advert_type as BASIC for iphone11_screen
+INFO:root:[Seller]: (APPLE INC,20) CEO selected advert_type as BASIC for iphone11_case
+INFO:root:[Seller]: (APPLE INC,20) CEO selected advert scale 0
+INFO:root:[Seller]: (APPLE INC,20) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,20) Expenses in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,20) Profit in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,20) Sentiment for iphoneX in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,20) Sentiment for iphoneX_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,20) Sentiment for iphoneX_case in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,20) Sentiment for iphone11 in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,20) Sentiment for iphone11_screen in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,20) Sentiment for iphone11_case in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 10], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 10], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_screen to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 10], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 10], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX_case to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 10], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 10], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 10], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 10], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_screen to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 10], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 10], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11_case to users  
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 10], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 10], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Customer]:(Kay Medina,21): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,21): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,21) currently seeing ads for the Products:[galaxy]
+INFO:root:[Customer]:(Ann Pacheco,21) currently seeing ads for the Products:[galaxy]
+INFO:root:[Customer]:(Ann Pacheco,21) Ad Space cleared 
+INFO:root:[Customer]:***(Kay Medina,21)bought the new product:[galaxy]
+INFO:root:[Customer]:(James Sutter,21): Next Quarter Begins 
+INFO:root:[main]: start killing thread
+INFO:root:[Customer]:(Kay Medina,21) Ad Space cleared 
+INFO:root:[Customer]:(James Sutter,21) currently seeing ads for the Products:[Xperia]
+INFO:root:[Seller]: (APPLE INC,20) thread killed
+INFO:root:[Customer]:(James Sutter,21) Ad Space cleared 
+INFO:root:[Customer]:(Bette Brown,21): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,21) currently seeing ads for the Products:[Xperia]
+INFO:root:[Customer]:(Bette Brown,21) Ad Space cleared 
+INFO:root:[Customer]:(Helen Weal,21): Next Quarter Begins 
+INFO:root:[Customer]:(Helen Weal,21) currently seeing ads for the Products:[]
+INFO:root:[Customer]:(Helen Weal,21) Ad Space cleared 
+INFO:root:[Seller]:(SAMSUNG MOBILES,21): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,21) CEO selected advert_type as BASIC for galaxy
+INFO:root:[Seller]: (SAMSUNG MOBILES,21) CEO selected advert scale 1
+INFO:root:[Seller]: (SAMSUNG MOBILES,21) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,21) Expenses in previous quarter:10
+INFO:root:[Seller]: (SAMSUNG MOBILES,21) Profit in previous quarter:-10
+INFO:root:[Seller]: (SAMSUNG MOBILES,21) Sentiment for galaxy in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product galaxy to users James Sutter 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 10, 5], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 10], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Seller]:(SONY INC,21): Next Quarter Begins 
+INFO:root:[Seller]: (SONY INC,21) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (SONY INC,21) CEO selected advert scale 1
+INFO:root:[Seller]: (SONY INC,21) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,21) Expenses in previous quarter:10
+INFO:root:[Seller]: (SONY INC,21) Profit in previous quarter:-10
+INFO:root:[Seller]: (SONY INC,21) Sentiment for Xperia in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 10, 5], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 10, 5], 'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}  
+INFO:root:[Seller]: (APPLE INC,20) sold  0 units of iphoneX
+INFO:root:[Seller]: (APPLE INC,20) sold  0 units of iphoneX_screen
+INFO:root:[Seller]: (APPLE INC,20) sold  0 units of iphoneX_case
+INFO:root:[Seller]: (APPLE INC,20) sold  0 units of iphone11
+INFO:root:[Seller]: (APPLE INC,20) sold  0 units of iphone11_screen
+INFO:root:[Seller]: (APPLE INC,20) sold  0 units of iphone11_case
+INFO:root:[Seller]: (APPLE INC,20) Exit
+INFO:root:[Seller]: (SAMSUNG MOBILES,21) thread killed
+INFO:root:[Customer]:(Ann Pacheco,22): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,22): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,22): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,22) currently seeing ads for the Products:[]
+INFO:root:[Customer]:(Kay Medina,22) currently seeing ads for the Products:[Xperia]
+INFO:root:[Customer]:(James Sutter,22) currently seeing ads for the Products:[galaxy]
+INFO:root:[Customer]:(Ann Pacheco,22) Ad Space cleared 
+INFO:root:[Customer]:(Kay Medina,22) Ad Space cleared 
+INFO:root:[Customer]:(James Sutter,22) Ad Space cleared 
+INFO:root:[Customer]:(Bette Brown,22): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,22) currently seeing ads for the Products:[]
+INFO:root:[Customer]:(Bette Brown,22) Ad Space cleared 
+INFO:root:[Customer]:(Helen Weal,22): Next Quarter Begins 
+INFO:root:[Customer]:(Helen Weal,22) currently seeing ads for the Products:[]
+INFO:root:[Customer]:(Helen Weal,22) Ad Space cleared 
+INFO:root:[Seller]: (SAMSUNG MOBILES,21) sold  0 units of galaxy
+INFO:root:[Seller]: (SAMSUNG MOBILES,21) Exit
+INFO:root:[Seller]: (SONY INC,21) thread killed
+INFO:root:[Seller]: (SONY INC,21) sold  0 units of Xperia
+INFO:root:[Seller]: (SONY INC,21) Exit
+INFO:root:[Customer]: (Ann Pacheco,22) thread killed
+INFO:root:[Customer]: (Kay Medina,22) thread killed
+INFO:root:[Customer]: (James Sutter,22) thread killed
+INFO:root:[Customer]: (Bette Brown,22) thread killed
+INFO:root:[Customer]: (Helen Weal,22) thread killed
+INFO:root:[Customer]: (Ann Pacheco,22) own the Products:[] with balance of $ 500
+INFO:root:[Customer]: (Kay Medina,22) own the Products:[] with balance of $ 500
+INFO:root:[Customer]: (James Sutter,22) own the Products:[] with balance of $ 500
+INFO:root:[Customer]: (Ann Pacheco,22) Exit
+INFO:root:[Customer]: (Kay Medina,22) Exit
+INFO:root:[Customer]: (James Sutter,22) Exit
+INFO:root:[Customer]: (Bette Brown,22) own the Products:[] with balance of $ 500
+INFO:root:[Customer]: (Bette Brown,22) Exit
+INFO:root:[Customer]: (Helen Weal,22) own the Products:[] with balance of $ 500
+INFO:root:[Customer]: (Helen Weal,22) Exit
+INFO:oauth2client.client:Refreshing access_token
+INFO:oauth2client.client:Refreshing access_token
+INFO:oauth2client.client:Refreshing access_token

@@ -1,0 +1,1413 @@
+INFO:root:[Customer]:Customer Ann Pacheco Created
+INFO:root:[GoogleAds]:Customer Ann Pacheco added to Google list of user with Tolerance:0.5252697700520002
+INFO:root:[Customer]:Customer Ann Pacheco entered Trading
+INFO:root:[Customer]:(Ann Pacheco,1): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,1) currently seeing ads for the Products:[]
+INFO:root:[Customer]:(Ann Pacheco,1) Ad Space cleared 
+INFO:root:[Customer]:Customer Kay Medina Created
+INFO:root:[GoogleAds]:Customer Kay Medina added to Google list of user with Tolerance:0.6521726145786113
+INFO:root:[Customer]:Customer Kay Medina entered Trading
+INFO:root:[Customer]:(Kay Medina,1): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,1) currently seeing ads for the Products:[]
+INFO:root:[Customer]:(Kay Medina,1) Ad Space cleared 
+INFO:root:[Customer]:Customer James Sutter Created
+INFO:root:[GoogleAds]:Customer James Sutter added to Google list of user with Tolerance:0.6036905829026105
+INFO:root:[Customer]:Customer James Sutter entered Trading
+INFO:root:[Customer]:(James Sutter,1): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,1) currently seeing ads for the Products:[]
+INFO:root:[Customer]:(James Sutter,1) Ad Space cleared 
+INFO:root:[Customer]:Customer Bette Brown Created
+INFO:root:[GoogleAds]:Customer Bette Brown added to Google list of user with Tolerance:0.8277928411463173
+INFO:root:[Customer]:Customer Bette Brown entered Trading
+INFO:root:[Customer]:(Bette Brown,1): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,1) currently seeing ads for the Products:[]
+INFO:root:[Customer]:(Bette Brown,1) Ad Space cleared 
+INFO:root:[Customer]:Customer Kyle Johnson Created
+INFO:root:[GoogleAds]:Customer Kyle Johnson added to Google list of user with Tolerance:0.8946572583230259
+INFO:root:[Customer]:Customer Kyle Johnson entered Trading
+INFO:root:[Product]:Product created::iphoneX 
+INFO:root:[Customer]:(Kyle Johnson,1): Next Quarter Begins 
+INFO:root:[Product]:Product created::iphone11 
+INFO:root:[Customer]:(Kyle Johnson,1) currently seeing ads for the Products:[]
+INFO:root:[Product]:Product created::Note 
+INFO:root:[Customer]:(Kyle Johnson,1) Ad Space cleared 
+INFO:root:[Product]:Product created::Xperia 
+INFO:root:[Seller]:Seller APPLE INC Created
+INFO:root:[Market]:Seller APPLE INC is registered in the market with the product iphoneX 
+INFO:root:[Market]:Seller APPLE INC is registered in the market with the product iphone11 
+INFO:root:[Seller]:Seller APPLE INC started Trading
+INFO:root:[Seller]:(APPLE INC,1): Next Quarter Begins 
+INFO:root:[Seller]: (APPLE INC,1) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (APPLE INC,1) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (APPLE INC,1) CEO selected advert scale 50
+INFO:root:[Seller]: (APPLE INC,1) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,1) Expenses in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,1) Profit in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,1) Sentiment for iphoneX in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,1) Sentiment for iphone11 in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users James Sutter, James Sutter, James Sutter, Kay Medina, James Sutter 
+INFO:root:[Seller]:Seller SAMSUNG MOBILES Created
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25]}  
+INFO:root:[Market]:Seller SAMSUNG MOBILES is registered in the market with the product Note 
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users Ann Pacheco, Kyle Johnson, Ann Pacheco, Kyle Johnson, James Sutter 
+INFO:root:[Seller]:Seller SAMSUNG MOBILES started Trading
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25]}  
+INFO:root:[Seller]:Seller SONY INC Created
+INFO:root:[Seller]:(SAMSUNG MOBILES,1): Next Quarter Begins 
+INFO:root:[Market]:Seller SONY INC is registered in the market with the product Xperia 
+INFO:root:[Seller]: (SAMSUNG MOBILES,1) CEO selected advert_type as BASIC for Note
+INFO:root:[Seller]:Seller SONY INC started Trading
+INFO:root:[Seller]: (SAMSUNG MOBILES,1) CEO selected advert scale 50
+INFO:root:[Seller]:(SONY INC,1): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,1) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,1) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (SAMSUNG MOBILES,1) Expenses in previous quarter:0
+INFO:root:[Seller]: (SONY INC,1) CEO selected advert scale 50
+INFO:root:[Seller]: (SAMSUNG MOBILES,1) Profit in previous quarter:0
+INFO:root:[Seller]: (SONY INC,1) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,1) Sentiment for Note in previous quarter:1
+INFO:root:[Seller]: (SONY INC,1) Expenses in previous quarter:0
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Note to users Bette Brown, Kyle Johnson, Bette Brown, Kay Medina, Ann Pacheco 
+INFO:root:[Seller]: (SONY INC,1) Profit in previous quarter:0
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25], 'SAMSUNG MOBILES': [25]}  
+INFO:root:[Seller]: (SONY INC,1) Sentiment for Xperia in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Ann Pacheco, James Sutter, Ann Pacheco, James Sutter, Ann Pacheco 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25], 'SAMSUNG MOBILES': [25], 'SONY INC': [25]}  
+INFO:root:[Customer]:(Ann Pacheco,2): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,2): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,2) currently seeing ads for the Products:[Note, Xperia, iphone11]
+INFO:root:[Customer]:(Kay Medina,2) currently seeing ads for the Products:[iphoneX, Note]
+INFO:root:[Customer]:(Ann Pacheco,2) Ad Space cleared 
+INFO:root:[Customer]:(Kay Medina,2) Ad Space cleared 
+INFO:root:[Customer]:(James Sutter,2): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,2) currently seeing ads for the Products:[iphoneX, Xperia, iphone11]
+INFO:root:[Customer]:(James Sutter,2) Ad Space cleared 
+INFO:root:[Customer]:(Bette Brown,2): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,2) currently seeing ads for the Products:[Note]
+INFO:root:[Customer]:(Bette Brown,2) Ad Space cleared 
+INFO:root:[Customer]:(Kyle Johnson,2): Next Quarter Begins 
+INFO:root:[Seller]:(SAMSUNG MOBILES,2): Next Quarter Begins 
+INFO:root:[Seller]:(SONY INC,2): Next Quarter Begins 
+INFO:root:[Seller]:(APPLE INC,2): Next Quarter Begins 
+INFO:root:[Customer]:(Kyle Johnson,2) currently seeing ads for the Products:[Note, iphone11]
+INFO:root:[Seller]: (SAMSUNG MOBILES,2) CEO selected advert_type as BASIC for Note
+INFO:root:[Seller]: (SONY INC,2) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (APPLE INC,2) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Customer]:***(Kyle Johnson,2)bought the new product:[iphone11]
+INFO:root:[Seller]: (SAMSUNG MOBILES,2) CEO selected advert scale 47
+INFO:root:[Seller]: (SONY INC,2) CEO selected advert scale 47
+INFO:root:[Seller]: (APPLE INC,2) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Market]:Notify Seller APPLE INC about the sale of product iphone11 
+INFO:root:[Seller]: (SAMSUNG MOBILES,2) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,2) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,2) CEO selected advert scale 47
+INFO:root:[Market]:Get the amount $ 350 from buyer Kyle Johnson for product iphone11 
+INFO:root:[Seller]: (SAMSUNG MOBILES,2) Expenses in previous quarter:25
+INFO:root:[Seller]: (SONY INC,2) Expenses in previous quarter:25
+INFO:root:[Seller]: (APPLE INC,2) Revenue in previous quarter:0
+INFO:root:[GoogleAds]: Google purchase history ('iphoneX', []) 
+INFO:root:[Seller]: (SAMSUNG MOBILES,2) Profit in previous quarter:-25
+INFO:root:[Seller]: (SONY INC,2) Profit in previous quarter:-25
+INFO:root:[Seller]: (APPLE INC,2) Expenses in previous quarter:50
+INFO:root:[GoogleAds]: Google purchase history ('iphone11', ['Kyle Johnson']) 
+INFO:root:[Seller]: (SAMSUNG MOBILES,2) Sentiment for Note in previous quarter:1
+INFO:root:[Seller]: (SONY INC,2) Sentiment for Xperia in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,2) Profit in previous quarter:-50
+INFO:root:[GoogleAds]: Google purchase history ('Note', []) 
+INFO:root:[Seller]: (APPLE INC,2) Sentiment for iphoneX in previous quarter:1
+INFO:root:[GoogleAds]: Google purchase history ('Xperia', []) 
+INFO:root:[Seller]: (APPLE INC,2) Sentiment for iphone11 in previous quarter:1
+INFO:root:[Market]:Add buyer Kyle Johnson purchased the product iphone11 to google Add track history
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Note to users Ann Pacheco, Bette Brown, Kyle Johnson, Ann Pacheco, Ann Pacheco 
+INFO:root:[Customer]:(Kyle Johnson,2) Ad Space cleared 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', []) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', []) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', []) 
+INFO:root:[Customer]:(Kyle Johnson,2) Posted POSITIVE tweet for the product iphone11
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25], 'SAMSUNG MOBILES': [25, 25], 'SONY INC': [25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Kay Medina, Kyle Johnson, James Sutter, James Sutter, Ann Pacheco 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25], 'SAMSUNG MOBILES': [25, 25], 'SONY INC': [25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users Ann Pacheco, Kay Medina, Kyle Johnson, James Sutter, Bette Brown 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25], 'SAMSUNG MOBILES': [25, 25], 'SONY INC': [25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users Ann Pacheco, Kay Medina, Kyle Johnson, Ann Pacheco, Bette Brown 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25], 'SONY INC': [25, 25]}  
+INFO:root:[Customer]:(Ann Pacheco,3): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,3): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,3) currently seeing ads for the Products:[Note, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:(Kay Medina,3) currently seeing ads for the Products:[iphoneX, Xperia, iphone11]
+INFO:root:[Customer]:(Ann Pacheco,3) Ad Space cleared 
+INFO:root:[Customer]:***(Kay Medina,3)bought the new product:[Xperia]
+INFO:root:[Market]:Notify Seller SONY INC about the sale of product Xperia 
+INFO:root:[Market]:Get the amount $ 100 from buyer Kay Medina for product Xperia 
+INFO:root:[GoogleAds]: Google purchase history ('iphoneX', []) 
+INFO:root:[GoogleAds]: Google purchase history ('iphone11', ['Kyle Johnson']) 
+INFO:root:[GoogleAds]: Google purchase history ('Note', []) 
+INFO:root:[GoogleAds]: Google purchase history ('Xperia', ['Kay Medina']) 
+INFO:root:[Market]:Add buyer Kay Medina purchased the product Xperia to google Add track history
+INFO:root:[Customer]:(Kay Medina,3) Ad Space cleared 
+INFO:root:[Customer]:(James Sutter,3): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,3): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,3) currently seeing ads for the Products:[iphoneX, Xperia]
+INFO:root:[Customer]:(Bette Brown,3) currently seeing ads for the Products:[Note, iphoneX, iphone11]
+INFO:root:[Customer]:***(James Sutter,3)bought the new product:[Xperia]
+INFO:root:[Customer]:***(Bette Brown,3)bought the new product:[iphoneX]
+INFO:root:[Market]:Notify Seller SONY INC about the sale of product Xperia 
+INFO:root:[Market]:Notify Seller APPLE INC about the sale of product iphoneX 
+INFO:root:[Market]:Get the amount $ 100 from buyer James Sutter for product Xperia 
+INFO:root:[Market]:Get the amount $ 300 from buyer Bette Brown for product iphoneX 
+INFO:root:[GoogleAds]: Google purchase history ('iphoneX', []) 
+INFO:root:[GoogleAds]: Google purchase history ('iphone11', ['Kyle Johnson']) 
+INFO:root:[GoogleAds]: Google purchase history ('Note', []) 
+INFO:root:[GoogleAds]: Google purchase history ('Xperia', ['Kay Medina', 'James Sutter']) 
+INFO:root:[Market]:Add buyer James Sutter purchased the product Xperia to google Add track history
+INFO:root:[GoogleAds]: Google purchase history ('iphoneX', ['Bette Brown']) 
+INFO:root:[Customer]:(James Sutter,3) Ad Space cleared 
+INFO:root:[GoogleAds]: Google purchase history ('iphone11', ['Kyle Johnson']) 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', []) 
+INFO:root:[GoogleAds]: Google purchase history ('Note', []) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[GoogleAds]: Google purchase history ('Xperia', ['Kay Medina', 'James Sutter']) 
+INFO:root:[Twitter]:History of Twitter post ('Note', []) 
+INFO:root:[Market]:Add buyer Bette Brown purchased the product iphoneX to google Add track history
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE')]) 
+INFO:root:[Customer]:(Bette Brown,3) Ad Space cleared 
+INFO:root:[Customer]:(James Sutter,3) Posted NEGATIVE tweet for the product Xperia
+INFO:root:[Customer]:(Kyle Johnson,3): Next Quarter Begins 
+INFO:root:[Customer]:(Kyle Johnson,3) currently seeing ads for the Products:[Note, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:###(Kyle Johnson,3)doesn't buy any products 
+INFO:root:[Customer]:(Kyle Johnson,3) Ad Space cleared 
+INFO:root:[Seller]:(SONY INC,3): Next Quarter Begins 
+INFO:root:[Seller]:(SAMSUNG MOBILES,3): Next Quarter Begins 
+INFO:root:[Seller]:(APPLE INC,3): Next Quarter Begins 
+INFO:root:[Seller]: (SONY INC,3) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (SAMSUNG MOBILES,3) CEO selected advert_type as BASIC for Note
+INFO:root:[Seller]: (APPLE INC,3) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (SONY INC,3) CEO selected advert scale 65
+INFO:root:[Seller]: (SAMSUNG MOBILES,3) CEO selected advert scale 45
+INFO:root:[Seller]: (APPLE INC,3) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (SONY INC,3) Revenue in previous quarter:200
+INFO:root:[Seller]: (SAMSUNG MOBILES,3) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,3) CEO selected advert scale 77
+INFO:root:[Seller]: (SONY INC,3) Expenses in previous quarter:25
+INFO:root:[Seller]: (SAMSUNG MOBILES,3) Expenses in previous quarter:25
+INFO:root:[Seller]: (APPLE INC,3) Revenue in previous quarter:650
+INFO:root:[Seller]: (SONY INC,3) Profit in previous quarter:175
+INFO:root:[Seller]: (SAMSUNG MOBILES,3) Profit in previous quarter:-25
+INFO:root:[Seller]: (APPLE INC,3) Expenses in previous quarter:50
+INFO:root:[Seller]: (SONY INC,3) Sentiment for Xperia in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,3) Sentiment for Note in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,3) Profit in previous quarter:600
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Bette Brown, James Sutter, Kyle Johnson, Kay Medina, James Sutter 
+INFO:root:[Seller]: (APPLE INC,3) Sentiment for iphoneX in previous quarter:1
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25], 'SONY INC': [25, 25, 25]}  
+INFO:root:[Seller]: (APPLE INC,3) Sentiment for iphone11 in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Note to users Ann Pacheco, Kyle Johnson, James Sutter, Kay Medina, James Sutter 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25], 'SONY INC': [25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users James Sutter, Kay Medina, Ann Pacheco, Kyle Johnson, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25], 'SONY INC': [25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users Kyle Johnson, Ann Pacheco, Ann Pacheco, Ann Pacheco, Ann Pacheco 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25], 'SONY INC': [25, 25, 25]}  
+INFO:root:[Customer]:(Ann Pacheco,4): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,4): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,4) currently seeing ads for the Products:[Note, iphoneX, iphone11]
+INFO:root:[Customer]:(Kay Medina,4) currently seeing ads for the Products:[Note, Xperia, iphoneX]
+INFO:root:[Customer]:(Ann Pacheco,4) Ad Space cleared 
+INFO:root:[Customer]:###(Kay Medina,4)doesn't buy any products 
+INFO:root:[Customer]:(Kay Medina,4) Ad Space cleared 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', []) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', []) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE')]) 
+INFO:root:[Customer]:(Kay Medina,4) Posted NEGATIVE tweet for the product Xperia
+INFO:root:[Customer]:(Bette Brown,4): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,4): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,4) currently seeing ads for the Products:[Xperia]
+INFO:root:[Customer]:(James Sutter,4) currently seeing ads for the Products:[Note, Xperia, iphoneX]
+INFO:root:[Customer]:###(Bette Brown,4)doesn't buy any products 
+INFO:root:[Customer]:***(James Sutter,4)bought the new product:[Note]
+INFO:root:[Customer]:(Bette Brown,4) Ad Space cleared 
+INFO:root:[Market]:Notify Seller SAMSUNG MOBILES about the sale of product Note 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Market]:Get the amount $ 200 from buyer James Sutter for product Note 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[GoogleAds]: Google purchase history ('iphoneX', ['Bette Brown']) 
+INFO:root:[Twitter]:History of Twitter post ('Note', []) 
+INFO:root:[GoogleAds]: Google purchase history ('iphone11', ['Kyle Johnson']) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE')]) 
+INFO:root:[GoogleAds]: Google purchase history ('Note', ['James Sutter']) 
+INFO:root:[Customer]:(Bette Brown,4) Posted POSITIVE tweet for the product iphoneX
+INFO:root:[Customer]:(Kyle Johnson,4): Next Quarter Begins 
+INFO:root:[GoogleAds]: Google purchase history ('Xperia', ['Kay Medina', 'James Sutter']) 
+INFO:root:[Customer]:(Kyle Johnson,4) currently seeing ads for the Products:[Note, Xperia, iphoneX, iphone11]
+INFO:root:[Market]:Add buyer James Sutter purchased the product Note to google Add track history
+INFO:root:[Customer]:###(Kyle Johnson,4)doesn't buy any products 
+INFO:root:[Customer]:###(James Sutter,4)doesn't buy any products 
+INFO:root:[Customer]:(Kyle Johnson,4) Ad Space cleared 
+INFO:root:[Customer]:(James Sutter,4) Ad Space cleared 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', []) 
+INFO:root:[Twitter]:History of Twitter post ('Note', []) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE')]) 
+INFO:root:[Customer]:(Kyle Johnson,4) Posted POSITIVE tweet for the product iphone11
+INFO:root:[Customer]:(James Sutter,4) Posted NEGATIVE tweet for the product Xperia
+INFO:root:[Seller]:(SONY INC,4): Next Quarter Begins 
+INFO:root:[Seller]: (SONY INC,4) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (SONY INC,4) CEO selected advert scale 62
+INFO:root:[Seller]: (SONY INC,4) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,4) Expenses in previous quarter:25
+INFO:root:[Seller]: (SONY INC,4) Profit in previous quarter:-25
+INFO:root:[Seller]: (SONY INC,4) Sentiment for Xperia in previous quarter:0
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Ann Pacheco, Kay Medina, James Sutter, Kay Medina, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25], 'SONY INC': [25, 25, 25, 25]}  
+INFO:root:[Seller]:(APPLE INC,4): Next Quarter Begins 
+INFO:root:[Seller]:(SAMSUNG MOBILES,4): Next Quarter Begins 
+INFO:root:[Seller]: (APPLE INC,4) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (SAMSUNG MOBILES,4) CEO selected advert_type as BASIC for Note
+INFO:root:[Seller]: (APPLE INC,4) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (SAMSUNG MOBILES,4) CEO selected advert scale 62
+INFO:root:[Seller]: (APPLE INC,4) CEO selected advert scale 75
+INFO:root:[Seller]: (SAMSUNG MOBILES,4) Revenue in previous quarter:200
+INFO:root:[Seller]: (APPLE INC,4) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,4) Expenses in previous quarter:25
+INFO:root:[Seller]: (APPLE INC,4) Expenses in previous quarter:50
+INFO:root:[Seller]: (SAMSUNG MOBILES,4) Profit in previous quarter:175
+INFO:root:[Seller]: (APPLE INC,4) Profit in previous quarter:-50
+INFO:root:[Seller]: (SAMSUNG MOBILES,4) Sentiment for Note in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,4) Sentiment for iphoneX in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Note to users Ann Pacheco, Kay Medina, Ann Pacheco, Ann Pacheco, James Sutter 
+INFO:root:[Seller]: (APPLE INC,4) Sentiment for iphone11 in previous quarter:1
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users James Sutter, James Sutter, Kyle Johnson, Kay Medina, Kyle Johnson 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users Kay Medina, Kyle Johnson, Kyle Johnson, Kyle Johnson, James Sutter 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25]}  
+INFO:root:[Customer]:(Ann Pacheco,5): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,5): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,5) currently seeing ads for the Products:[Note, Xperia]
+INFO:root:[Customer]:(Kay Medina,5) currently seeing ads for the Products:[Note, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:###(Ann Pacheco,5)doesn't buy any products 
+INFO:root:[Customer]:###(Kay Medina,5)doesn't buy any products 
+INFO:root:[Customer]:(Ann Pacheco,5) Ad Space cleared 
+INFO:root:[Customer]:***(Kay Medina,5)bought the new product:[iphone11]
+INFO:root:[Market]:Notify Seller APPLE INC about the sale of product iphone11 
+INFO:root:[Market]:Get the amount $ 350 from buyer Kay Medina for product iphone11 
+INFO:root:[GoogleAds]: Google purchase history ('iphoneX', ['Bette Brown']) 
+INFO:root:[GoogleAds]: Google purchase history ('iphone11', ['Kyle Johnson', 'Kay Medina']) 
+INFO:root:[GoogleAds]: Google purchase history ('Note', ['James Sutter']) 
+INFO:root:[GoogleAds]: Google purchase history ('Xperia', ['Kay Medina', 'James Sutter']) 
+INFO:root:[Market]:Add buyer Kay Medina purchased the product iphone11 to google Add track history
+INFO:root:[Customer]:(Kay Medina,5) Ad Space cleared 
+INFO:root:[Customer]:(Bette Brown,5): Next Quarter Begins 
+INFO:root:[Customer]:(Kyle Johnson,5): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,5): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,5) currently seeing ads for the Products:[]
+INFO:root:[Seller]:(SONY INC,5): Next Quarter Begins 
+INFO:root:[Customer]:(Kyle Johnson,5) currently seeing ads for the Products:[iphoneX, iphone11]
+INFO:root:[Customer]:(James Sutter,5) currently seeing ads for the Products:[Note, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:(Bette Brown,5) Ad Space cleared 
+INFO:root:[Seller]: (SONY INC,5) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Customer]:(Kyle Johnson,5) Ad Space cleared 
+INFO:root:[Customer]:###(James Sutter,5)doesn't buy any products 
+INFO:root:[Seller]: (SONY INC,5) CEO selected advert scale 60
+INFO:root:[Customer]:(James Sutter,5) Ad Space cleared 
+INFO:root:[Seller]: (SONY INC,5) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,5) Expenses in previous quarter:25
+INFO:root:[Seller]: (SONY INC,5) Profit in previous quarter:-25
+INFO:root:[Seller]: (SONY INC,5) Sentiment for Xperia in previous quarter:0
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users James Sutter, Bette Brown, Bette Brown, James Sutter, James Sutter 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25]}  
+INFO:root:[Seller]:(SAMSUNG MOBILES,5): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,5) CEO selected advert_type as BASIC for Note
+INFO:root:[Seller]:(APPLE INC,5): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,5) CEO selected advert scale 60
+INFO:root:[Seller]: (APPLE INC,5) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (SAMSUNG MOBILES,5) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,5) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (SAMSUNG MOBILES,5) Expenses in previous quarter:25
+INFO:root:[Seller]: (APPLE INC,5) CEO selected advert scale 90
+INFO:root:[Seller]: (SAMSUNG MOBILES,5) Profit in previous quarter:-25
+INFO:root:[Seller]: (APPLE INC,5) Revenue in previous quarter:350
+INFO:root:[Seller]: (SAMSUNG MOBILES,5) Sentiment for Note in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,5) Expenses in previous quarter:50
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Note to users Ann Pacheco, Kay Medina, James Sutter, James Sutter, Kay Medina 
+INFO:root:[Seller]: (APPLE INC,5) Profit in previous quarter:300
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25]}  
+INFO:root:[Seller]: (APPLE INC,5) Sentiment for iphoneX in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,5) Sentiment for iphone11 in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users James Sutter, Bette Brown, Ann Pacheco, Kay Medina, Kyle Johnson 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users James Sutter, Bette Brown, Kay Medina, Kyle Johnson, Ann Pacheco 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25]}  
+INFO:root:[Customer]:(Ann Pacheco,6): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,6): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,6) currently seeing ads for the Products:[Note, iphoneX, iphone11]
+INFO:root:[Customer]:(Kay Medina,6) currently seeing ads for the Products:[Note, iphoneX, iphone11]
+INFO:root:[Customer]:***(Ann Pacheco,6)bought the new product:[Note]
+INFO:root:[Customer]:***(Kay Medina,6)bought the new product:[Note]
+INFO:root:[Market]:Notify Seller SAMSUNG MOBILES about the sale of product Note 
+INFO:root:[Customer]:(Kay Medina,6) Ad Space cleared 
+INFO:root:[Market]:Get the amount $ 200 from buyer Ann Pacheco for product Note 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE')]) 
+INFO:root:[GoogleAds]: Google purchase history ('iphoneX', ['Bette Brown']) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[GoogleAds]: Google purchase history ('iphone11', ['Kyle Johnson', 'Kay Medina']) 
+INFO:root:[Twitter]:History of Twitter post ('Note', []) 
+INFO:root:[GoogleAds]: Google purchase history ('Note', ['James Sutter', 'Ann Pacheco']) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE')]) 
+INFO:root:[GoogleAds]: Google purchase history ('Xperia', ['Kay Medina', 'James Sutter']) 
+INFO:root:[Customer]:(Kay Medina,6) Posted NEGATIVE tweet for the product Xperia
+INFO:root:[Market]:Add buyer Ann Pacheco purchased the product Note to google Add track history
+INFO:root:[Customer]:***(Ann Pacheco,6)bought the new product:[iphone11]
+INFO:root:[Customer]:(Ann Pacheco,6) Ad Space cleared 
+INFO:root:[Customer]:(Bette Brown,6): Next Quarter Begins 
+INFO:root:[Customer]:(Kyle Johnson,6): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,6): Next Quarter Begins 
+INFO:root:[Seller]:(SONY INC,6): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,6) currently seeing ads for the Products:[iphoneX, Xperia, iphone11]
+INFO:root:[Customer]:(Kyle Johnson,6) currently seeing ads for the Products:[iphoneX, iphone11]
+INFO:root:[Customer]:(James Sutter,6) currently seeing ads for the Products:[Note, Xperia, iphoneX, iphone11]
+INFO:root:[Seller]: (SONY INC,6) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Customer]:###(Bette Brown,6)doesn't buy any products 
+INFO:root:[Customer]:(Kyle Johnson,6) Ad Space cleared 
+INFO:root:[Customer]:###(James Sutter,6)doesn't buy any products 
+INFO:root:[Seller]: (SONY INC,6) CEO selected advert scale 57
+INFO:root:[Customer]:(Bette Brown,6) Ad Space cleared 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Customer]:(James Sutter,6) Ad Space cleared 
+INFO:root:[Seller]: (SONY INC,6) Revenue in previous quarter:0
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[Seller]: (SONY INC,6) Expenses in previous quarter:25
+INFO:root:[Twitter]:History of Twitter post ('Note', []) 
+INFO:root:[Seller]: (SONY INC,6) Profit in previous quarter:-25
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE')]) 
+INFO:root:[Seller]: (SONY INC,6) Sentiment for Xperia in previous quarter:0
+INFO:root:[Customer]:(Kyle Johnson,6) Posted POSITIVE tweet for the product iphone11
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users James Sutter, Kyle Johnson, Kay Medina, James Sutter, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25]}  
+INFO:root:[Seller]:(SAMSUNG MOBILES,6): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,6) CEO selected advert_type as BASIC for Note
+INFO:root:[Seller]: (SAMSUNG MOBILES,6) CEO selected advert scale 77
+INFO:root:[Seller]: (SAMSUNG MOBILES,6) Revenue in previous quarter:200
+INFO:root:[Seller]: (SAMSUNG MOBILES,6) Expenses in previous quarter:25
+INFO:root:[Seller]: (SAMSUNG MOBILES,6) Profit in previous quarter:175
+INFO:root:[Seller]: (SAMSUNG MOBILES,6) Sentiment for Note in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Note to users James Sutter, Kay Medina, Kay Medina, Bette Brown, James Sutter 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25]}  
+INFO:root:[Seller]:(APPLE INC,6): Next Quarter Begins 
+INFO:root:[Seller]: (APPLE INC,6) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (APPLE INC,6) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (APPLE INC,6) CEO selected advert scale 87
+INFO:root:[Seller]: (APPLE INC,6) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,6) Expenses in previous quarter:50
+INFO:root:[Seller]: (APPLE INC,6) Profit in previous quarter:-50
+INFO:root:[Seller]: (APPLE INC,6) Sentiment for iphoneX in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,6) Sentiment for iphone11 in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users Kay Medina, Kay Medina, Kyle Johnson, Ann Pacheco, James Sutter 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users Bette Brown, Bette Brown, Kay Medina, Kay Medina, Bette Brown 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25]}  
+INFO:root:[Customer]:(Kay Medina,7): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,7): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,7) currently seeing ads for the Products:[Note, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:(Ann Pacheco,7) currently seeing ads for the Products:[iphoneX]
+INFO:root:[Customer]:###(Kay Medina,7)doesn't buy any products 
+INFO:root:[Customer]:(Ann Pacheco,7) Ad Space cleared 
+INFO:root:[Customer]:(Kay Medina,7) Ad Space cleared 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE')]) 
+INFO:root:[Customer]:(Ann Pacheco,7) Posted POSITIVE tweet for the product Note
+INFO:root:[Customer]:(Kay Medina,7) Posted NEGATIVE tweet for the product Xperia
+INFO:root:[Customer]:(Bette Brown,7): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,7): Next Quarter Begins 
+INFO:root:[Customer]:(Kyle Johnson,7): Next Quarter Begins 
+INFO:root:[Seller]:(SONY INC,7): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,7) currently seeing ads for the Products:[Note, iphone11]
+INFO:root:[Customer]:(James Sutter,7) currently seeing ads for the Products:[Note, Xperia, iphoneX]
+INFO:root:[Customer]:(Kyle Johnson,7) currently seeing ads for the Products:[iphoneX, Xperia]
+INFO:root:[Seller]: (SONY INC,7) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Customer]:(Bette Brown,7) Ad Space cleared 
+INFO:root:[Customer]:###(James Sutter,7)doesn't buy any products 
+INFO:root:[Customer]:###(Kyle Johnson,7)doesn't buy any products 
+INFO:root:[Seller]: (SONY INC,7) CEO selected advert scale 55
+INFO:root:[Seller]:(SAMSUNG MOBILES,7): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,7) Ad Space cleared 
+INFO:root:[Customer]:(Kyle Johnson,7) Ad Space cleared 
+INFO:root:[Seller]: (SONY INC,7) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,7) CEO selected advert_type as BASIC for Note
+INFO:root:[Seller]: (SONY INC,7) Expenses in previous quarter:25
+INFO:root:[Seller]: (SAMSUNG MOBILES,7) CEO selected advert scale 75
+INFO:root:[Seller]: (SONY INC,7) Profit in previous quarter:-25
+INFO:root:[Seller]: (SAMSUNG MOBILES,7) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,7) Sentiment for Xperia in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,7) Expenses in previous quarter:25
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Kay Medina, Ann Pacheco, Kay Medina, Kay Medina, Kyle Johnson 
+INFO:root:[Seller]: (SAMSUNG MOBILES,7) Profit in previous quarter:-25
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Seller]: (SAMSUNG MOBILES,7) Sentiment for Note in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Note to users James Sutter, James Sutter, Bette Brown, Kyle Johnson, Bette Brown 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Seller]:(APPLE INC,7): Next Quarter Begins 
+INFO:root:[Seller]: (APPLE INC,7) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (APPLE INC,7) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (APPLE INC,7) CEO selected advert scale 85
+INFO:root:[Seller]: (APPLE INC,7) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,7) Expenses in previous quarter:50
+INFO:root:[Seller]: (APPLE INC,7) Profit in previous quarter:-50
+INFO:root:[Seller]: (APPLE INC,7) Sentiment for iphoneX in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,7) Sentiment for iphone11 in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users Ann Pacheco, Ann Pacheco, James Sutter, James Sutter, Bette Brown 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users Kyle Johnson, James Sutter, Bette Brown, James Sutter, Bette Brown 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Customer]:(Ann Pacheco,8): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,8): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,8) currently seeing ads for the Products:[iphoneX, Xperia]
+INFO:root:[Customer]:(Kay Medina,8) currently seeing ads for the Products:[Xperia]
+INFO:root:[Customer]:###(Ann Pacheco,8)doesn't buy any products 
+INFO:root:[Customer]:###(Kay Medina,8)doesn't buy any products 
+INFO:root:[Customer]:(Ann Pacheco,8) Ad Space cleared 
+INFO:root:[Customer]:(Kay Medina,8) Ad Space cleared 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE')]) 
+INFO:root:[Customer]:(Ann Pacheco,8) Posted POSITIVE tweet for the product Note
+INFO:root:[Customer]:(Kay Medina,8) Posted POSITIVE tweet for the product iphone11
+INFO:root:[Customer]:(Bette Brown,8): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,8): Next Quarter Begins 
+INFO:root:[Customer]:(Kyle Johnson,8): Next Quarter Begins 
+INFO:root:[Seller]:(SONY INC,8): Next Quarter Begins 
+INFO:root:[Seller]:(SAMSUNG MOBILES,8): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,8) currently seeing ads for the Products:[Note, iphoneX, iphone11]
+INFO:root:[Customer]:(James Sutter,8) currently seeing ads for the Products:[Note, iphoneX, iphone11]
+INFO:root:[Customer]:(Kyle Johnson,8) currently seeing ads for the Products:[Note, Xperia, iphone11]
+INFO:root:[Seller]: (SONY INC,8) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (SAMSUNG MOBILES,8) CEO selected advert_type as BASIC for Note
+INFO:root:[Customer]:***(Bette Brown,8)bought the new product:[iphone11]
+INFO:root:[Customer]:(James Sutter,8) Ad Space cleared 
+INFO:root:[Customer]:###(Kyle Johnson,8)doesn't buy any products 
+INFO:root:[Seller]: (SONY INC,8) CEO selected advert scale 52
+INFO:root:[Seller]: (SAMSUNG MOBILES,8) CEO selected advert scale 72
+INFO:root:[Customer]:(Bette Brown,8) Ad Space cleared 
+INFO:root:[Customer]:(Kyle Johnson,8) Ad Space cleared 
+INFO:root:[Seller]: (SONY INC,8) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,8) Revenue in previous quarter:0
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Seller]: (SONY INC,8) Expenses in previous quarter:25
+INFO:root:[Seller]: (SAMSUNG MOBILES,8) Expenses in previous quarter:25
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[Seller]: (SONY INC,8) Profit in previous quarter:-25
+INFO:root:[Seller]: (SAMSUNG MOBILES,8) Profit in previous quarter:-25
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE')]) 
+INFO:root:[Seller]: (SONY INC,8) Sentiment for Xperia in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,8) Sentiment for Note in previous quarter:1
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE')]) 
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Ann Pacheco, Ann Pacheco, Kay Medina, Ann Pacheco, James Sutter 
+INFO:root:[Customer]:(Kyle Johnson,8) Posted POSITIVE tweet for the product iphone11
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Note to users Bette Brown, Kyle Johnson, Bette Brown, Kay Medina, Ann Pacheco 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Seller]:(APPLE INC,8): Next Quarter Begins 
+INFO:root:[Seller]: (APPLE INC,8) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (APPLE INC,8) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (APPLE INC,8) CEO selected advert scale 82
+INFO:root:[Seller]: (APPLE INC,8) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,8) Expenses in previous quarter:50
+INFO:root:[Seller]: (APPLE INC,8) Profit in previous quarter:-50
+INFO:root:[Seller]: (APPLE INC,8) Sentiment for iphoneX in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,8) Sentiment for iphone11 in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users Bette Brown, Kyle Johnson, Kyle Johnson, James Sutter, Kyle Johnson 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users Ann Pacheco, James Sutter, Kyle Johnson, Kyle Johnson, Ann Pacheco 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Customer]:(Kay Medina,9): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,9): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,9) currently seeing ads for the Products:[Note, Xperia]
+INFO:root:[Customer]:(Ann Pacheco,9) currently seeing ads for the Products:[Note, Xperia, iphone11]
+INFO:root:[Customer]:###(Kay Medina,9)doesn't buy any products 
+INFO:root:[Customer]:###(Ann Pacheco,9)doesn't buy any products 
+INFO:root:[Customer]:(Kay Medina,9) Ad Space cleared 
+INFO:root:[Customer]:(Ann Pacheco,9) Ad Space cleared 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE')]) 
+INFO:root:[Customer]:(Kay Medina,9) Posted POSITIVE tweet for the product iphone11
+INFO:root:[Customer]:(Ann Pacheco,9) Posted POSITIVE tweet for the product Note
+INFO:root:[Customer]:(James Sutter,9): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,9): Next Quarter Begins 
+INFO:root:[Customer]:(Kyle Johnson,9): Next Quarter Begins 
+INFO:root:[Seller]:(SONY INC,9): Next Quarter Begins 
+INFO:root:[Seller]:(SAMSUNG MOBILES,9): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,9) currently seeing ads for the Products:[iphoneX, Xperia, iphone11]
+INFO:root:[Customer]:(Bette Brown,9) currently seeing ads for the Products:[Note, iphoneX]
+INFO:root:[Customer]:(Kyle Johnson,9) currently seeing ads for the Products:[Note, iphoneX, iphone11]
+INFO:root:[Seller]: (SONY INC,9) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (SAMSUNG MOBILES,9) CEO selected advert_type as BASIC for Note
+INFO:root:[Customer]:###(James Sutter,9)doesn't buy any products 
+INFO:root:[Customer]:***(Bette Brown,9)bought the new product:[Note]
+INFO:root:[Customer]:(Kyle Johnson,9) Ad Space cleared 
+INFO:root:[Seller]: (SONY INC,9) CEO selected advert scale 50
+INFO:root:[Seller]: (SAMSUNG MOBILES,9) CEO selected advert scale 70
+INFO:root:[Customer]:(James Sutter,9) Ad Space cleared 
+INFO:root:[Market]:Notify Seller SAMSUNG MOBILES about the sale of product Note 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Seller]: (SONY INC,9) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,9) Revenue in previous quarter:0
+INFO:root:[Market]:Get the amount $ 200 from buyer Bette Brown for product Note 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[Seller]: (SONY INC,9) Expenses in previous quarter:25
+INFO:root:[Seller]: (SAMSUNG MOBILES,9) Expenses in previous quarter:25
+INFO:root:[GoogleAds]: Google purchase history ('iphoneX', ['Bette Brown']) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE')]) 
+INFO:root:[Seller]: (SONY INC,9) Profit in previous quarter:-25
+INFO:root:[Seller]: (SAMSUNG MOBILES,9) Profit in previous quarter:-25
+INFO:root:[GoogleAds]: Google purchase history ('iphone11', ['Kyle Johnson', 'Kay Medina']) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE')]) 
+INFO:root:[Seller]: (SONY INC,9) Sentiment for Xperia in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,9) Sentiment for Note in previous quarter:1
+INFO:root:[GoogleAds]: Google purchase history ('Note', ['James Sutter', 'Ann Pacheco', 'Bette Brown']) 
+INFO:root:[Customer]:(Kyle Johnson,9) Posted POSITIVE tweet for the product iphone11
+INFO:root:[GoogleAds]: Google purchase history ('Xperia', ['Kay Medina', 'James Sutter']) 
+INFO:root:[Market]:Add buyer Bette Brown purchased the product Note to google Add track history
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Kay Medina, Kay Medina, James Sutter, Kyle Johnson, Ann Pacheco 
+INFO:root:[Customer]:(Bette Brown,9) Ad Space cleared 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Note to users Ann Pacheco, Ann Pacheco, James Sutter, Kyle Johnson, Ann Pacheco 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE')]) 
+INFO:root:[Customer]:(Bette Brown,9) Posted POSITIVE tweet for the product iphoneX
+INFO:root:[Seller]:(APPLE INC,9): Next Quarter Begins 
+INFO:root:[Seller]: (APPLE INC,9) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (APPLE INC,9) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (APPLE INC,9) CEO selected advert scale 80
+INFO:root:[Seller]: (APPLE INC,9) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,9) Expenses in previous quarter:50
+INFO:root:[Seller]: (APPLE INC,9) Profit in previous quarter:-50
+INFO:root:[Seller]: (APPLE INC,9) Sentiment for iphoneX in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,9) Sentiment for iphone11 in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users Bette Brown, James Sutter, Kyle Johnson, Kay Medina, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users James Sutter, Kay Medina, Ann Pacheco, James Sutter, Kyle Johnson 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Customer]:(Kay Medina,10): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,10): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,10) currently seeing ads for the Products:[iphoneX, Xperia, iphone11]
+INFO:root:[Customer]:(Ann Pacheco,10) currently seeing ads for the Products:[Note, Xperia, iphone11]
+INFO:root:[Customer]:###(Kay Medina,10)doesn't buy any products 
+INFO:root:[Customer]:###(Ann Pacheco,10)doesn't buy any products 
+INFO:root:[Customer]:(Kay Medina,10) Ad Space cleared 
+INFO:root:[Customer]:(Ann Pacheco,10) Ad Space cleared 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE')]) 
+INFO:root:[Customer]:(Kay Medina,10) Posted NEGATIVE tweet for the product Xperia
+INFO:root:[Customer]:(Ann Pacheco,10) Posted POSITIVE tweet for the product Note
+INFO:root:[Customer]:(James Sutter,10): Next Quarter Begins 
+INFO:root:[Customer]:(Kyle Johnson,10): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,10) currently seeing ads for the Products:[Note, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:(Kyle Johnson,10) currently seeing ads for the Products:[Note, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:###(James Sutter,10)doesn't buy any products 
+INFO:root:[Customer]:###(Kyle Johnson,10)doesn't buy any products 
+INFO:root:[Customer]:(James Sutter,10) Ad Space cleared 
+INFO:root:[Customer]:(Kyle Johnson,10) Ad Space cleared 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE')]) 
+INFO:root:[Customer]:(Kyle Johnson,10) Posted POSITIVE tweet for the product iphone11
+INFO:root:[Seller]:(SONY INC,10): Next Quarter Begins 
+INFO:root:[Seller]:(SAMSUNG MOBILES,10): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,10): Next Quarter Begins 
+INFO:root:[Seller]:(APPLE INC,10): Next Quarter Begins 
+INFO:root:[Seller]: (SONY INC,10) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (SAMSUNG MOBILES,10) CEO selected advert_type as TARGETED for Note
+INFO:root:[Customer]:(Bette Brown,10) currently seeing ads for the Products:[iphoneX]
+INFO:root:[Seller]: (APPLE INC,10) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (SONY INC,10) CEO selected advert scale 47
+INFO:root:[Seller]: (SAMSUNG MOBILES,10) CEO selected advert scale 43
+INFO:root:[Customer]:(Bette Brown,10) Ad Space cleared 
+INFO:root:[Seller]: (APPLE INC,10) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (SONY INC,10) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,10) Revenue in previous quarter:200
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Seller]: (APPLE INC,10) CEO selected advert scale 77
+INFO:root:[Seller]: (SONY INC,10) Expenses in previous quarter:25
+INFO:root:[Seller]: (SAMSUNG MOBILES,10) Expenses in previous quarter:25
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[Seller]: (APPLE INC,10) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,10) Profit in previous quarter:-25
+INFO:root:[Seller]: (SAMSUNG MOBILES,10) Profit in previous quarter:175
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE')]) 
+INFO:root:[Seller]: (APPLE INC,10) Expenses in previous quarter:50
+INFO:root:[Seller]: (SONY INC,10) Sentiment for Xperia in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,10) Sentiment for Note in previous quarter:1
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE')]) 
+INFO:root:[Seller]: (APPLE INC,10) Profit in previous quarter:-50
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Kay Medina, Kyle Johnson, Kyle Johnson, Ann Pacheco, James Sutter 
+INFO:root:[Customer]:(Bette Brown,10) Posted POSITIVE tweet for the product iphoneX
+INFO:root:[Seller]: (APPLE INC,10) Sentiment for iphoneX in previous quarter:1
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Seller]: (APPLE INC,10) Sentiment for iphone11 in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the TARGETED Ad for product Note to user James Sutter, Bette Brown, Ann Pacheco, Ann Pacheco, Kyle Johnson 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users Ann Pacheco, James Sutter, Ann Pacheco, Ann Pacheco, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users Kay Medina, Ann Pacheco, Kay Medina, Kyle Johnson, Ann Pacheco 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Customer]:(Kay Medina,11): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,11): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,11) currently seeing ads for the Products:[iphoneX, Xperia, iphone11]
+INFO:root:[Customer]:(Ann Pacheco,11) currently seeing ads for the Products:[Note, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:###(Kay Medina,11)doesn't buy any products 
+INFO:root:[Customer]:###(Ann Pacheco,11)doesn't buy any products 
+INFO:root:[Customer]:(Kay Medina,11) Ad Space cleared 
+INFO:root:[Customer]:(Ann Pacheco,11) Ad Space cleared 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE')]) 
+INFO:root:[Customer]:(Kay Medina,11) Posted POSITIVE tweet for the product iphone11
+INFO:root:[Customer]:(James Sutter,11): Next Quarter Begins 
+INFO:root:[Customer]:(Kyle Johnson,11): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,11) currently seeing ads for the Products:[Note, Xperia, iphoneX]
+INFO:root:[Customer]:(Kyle Johnson,11) currently seeing ads for the Products:[Note, Xperia, iphone11]
+INFO:root:[Customer]:###(James Sutter,11)doesn't buy any products 
+INFO:root:[Customer]:***(Kyle Johnson,11)bought the new product:[Note]
+INFO:root:[Customer]:(James Sutter,11) Ad Space cleared 
+INFO:root:[Customer]:###(Kyle Johnson,11)doesn't buy any products 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Customer]:(Kyle Johnson,11) Ad Space cleared 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE')]) 
+INFO:root:[Customer]:(James Sutter,11) Posted NEGATIVE tweet for the product Xperia
+INFO:root:[Customer]:(Bette Brown,11): Next Quarter Begins 
+INFO:root:[Seller]:(SONY INC,11): Next Quarter Begins 
+INFO:root:[Seller]:(SAMSUNG MOBILES,11): Next Quarter Begins 
+INFO:root:[Seller]:(APPLE INC,11): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,11) currently seeing ads for the Products:[Note]
+INFO:root:[Seller]: (SONY INC,11) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (SAMSUNG MOBILES,11) CEO selected advert_type as TARGETED for Note
+INFO:root:[Seller]: (APPLE INC,11) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Customer]:(Bette Brown,11) Ad Space cleared 
+INFO:root:[Seller]: (SONY INC,11) CEO selected advert scale 45
+INFO:root:[Seller]: (SAMSUNG MOBILES,11) CEO selected advert scale 41
+INFO:root:[Seller]: (APPLE INC,11) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (SONY INC,11) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,11) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,11) CEO selected advert scale 75
+INFO:root:[Seller]: (SONY INC,11) Expenses in previous quarter:25
+INFO:root:[Seller]: (SAMSUNG MOBILES,11) Expenses in previous quarter:50
+INFO:root:[Seller]: (APPLE INC,11) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,11) Profit in previous quarter:-25
+INFO:root:[Seller]: (SAMSUNG MOBILES,11) Profit in previous quarter:-50
+INFO:root:[Seller]: (APPLE INC,11) Expenses in previous quarter:50
+INFO:root:[Seller]: (SONY INC,11) Sentiment for Xperia in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,11) Sentiment for Note in previous quarter:1
+INFO:root:[Seller]: (APPLE INC,11) Profit in previous quarter:-50
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Bette Brown, James Sutter, Kay Medina, Ann Pacheco, Bette Brown 
+INFO:root:[Seller]: (APPLE INC,11) Sentiment for iphoneX in previous quarter:1
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Seller]: (APPLE INC,11) Sentiment for iphone11 in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the TARGETED Ad for product Note to user Bette Brown, Kay Medina, James Sutter, Kay Medina, Ann Pacheco 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users Ann Pacheco, James Sutter, Ann Pacheco, Kay Medina, Ann Pacheco 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users James Sutter, Ann Pacheco, James Sutter, Ann Pacheco, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Customer]:(Kay Medina,12): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,12): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,12) currently seeing ads for the Products:[Note, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:(Ann Pacheco,12) currently seeing ads for the Products:[Note, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:###(Kay Medina,12)doesn't buy any products 
+INFO:root:[Customer]:###(Ann Pacheco,12)doesn't buy any products 
+INFO:root:[Customer]:***(Kay Medina,12)bought the new product:[iphoneX]
+INFO:root:[Customer]:(Ann Pacheco,12) Ad Space cleared 
+INFO:root:[Customer]:(Kay Medina,12) Ad Space cleared 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE')]) 
+INFO:root:[Customer]:(Ann Pacheco,12) Posted POSITIVE tweet for the product Note
+INFO:root:[Customer]:(Kay Medina,12) Posted NEGATIVE tweet for the product Xperia
+INFO:root:[Customer]:(Kyle Johnson,12): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,12): Next Quarter Begins 
+INFO:root:[Customer]:(Kyle Johnson,12) currently seeing ads for the Products:[]
+INFO:root:[Customer]:(James Sutter,12) currently seeing ads for the Products:[Note, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:(Kyle Johnson,12) Ad Space cleared 
+INFO:root:[Customer]:###(James Sutter,12)doesn't buy any products 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Customer]:***(James Sutter,12)bought the new product:[iphoneX]
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[Customer]:(James Sutter,12) Ad Space cleared 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE')]) 
+INFO:root:[Customer]:(Kyle Johnson,12) Posted POSITIVE tweet for the product iphone11
+INFO:root:[Customer]:(Bette Brown,12): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,12) currently seeing ads for the Products:[Note, Xperia]
+INFO:root:[Customer]:###(Bette Brown,12)doesn't buy any products 
+INFO:root:[Customer]:(Bette Brown,12) Ad Space cleared 
+INFO:root:[Seller]:(SAMSUNG MOBILES,12): Next Quarter Begins 
+INFO:root:[Seller]:(SONY INC,12): Next Quarter Begins 
+INFO:root:[Seller]:(APPLE INC,12): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,12) CEO selected advert_type as TARGETED for Note
+INFO:root:[Seller]: (SONY INC,12) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (APPLE INC,12) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (SAMSUNG MOBILES,12) CEO selected advert scale 38
+INFO:root:[Seller]: (SONY INC,12) CEO selected advert scale 42
+INFO:root:[Seller]: (APPLE INC,12) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (SAMSUNG MOBILES,12) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,12) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,12) CEO selected advert scale 72
+INFO:root:[Seller]: (SAMSUNG MOBILES,12) Expenses in previous quarter:50
+INFO:root:[Seller]: (SONY INC,12) Expenses in previous quarter:25
+INFO:root:[Seller]: (APPLE INC,12) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,12) Profit in previous quarter:-50
+INFO:root:[Seller]: (SONY INC,12) Profit in previous quarter:-25
+INFO:root:[Seller]: (APPLE INC,12) Expenses in previous quarter:50
+INFO:root:[Seller]: (SAMSUNG MOBILES,12) Sentiment for Note in previous quarter:1
+INFO:root:[Seller]: (SONY INC,12) Sentiment for Xperia in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,12) Profit in previous quarter:-50
+INFO:root:[Seller]: (APPLE INC,12) Sentiment for iphoneX in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the TARGETED Ad for product Note to user Kyle Johnson, Kyle Johnson, Bette Brown, Bette Brown, James Sutter 
+INFO:root:[Seller]: (APPLE INC,12) Sentiment for iphone11 in previous quarter:1
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Bette Brown, Kay Medina, Bette Brown, Kay Medina, Bette Brown 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users James Sutter, James Sutter, James Sutter, Ann Pacheco, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users James Sutter, Bette Brown, James Sutter, Ann Pacheco, James Sutter 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Customer]:(Ann Pacheco,13): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,13): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,13) currently seeing ads for the Products:[iphoneX, iphone11]
+INFO:root:[Customer]:(Kay Medina,13) currently seeing ads for the Products:[iphoneX, Xperia]
+INFO:root:[Customer]:(Ann Pacheco,13) Ad Space cleared 
+INFO:root:[Customer]:###(Kay Medina,13)doesn't buy any products 
+INFO:root:[Customer]:(Kay Medina,13) Ad Space cleared 
+INFO:root:[Customer]:(James Sutter,13): Next Quarter Begins 
+INFO:root:[Customer]:(Kyle Johnson,13): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,13) currently seeing ads for the Products:[Note, iphoneX, iphone11]
+INFO:root:[Customer]:(Kyle Johnson,13) currently seeing ads for the Products:[Note]
+INFO:root:[Customer]:(James Sutter,13) Ad Space cleared 
+INFO:root:[Customer]:(Kyle Johnson,13) Ad Space cleared 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE')]) 
+INFO:root:[Customer]:(Bette Brown,13): Next Quarter Begins 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE')]) 
+INFO:root:[Customer]:(Bette Brown,13) currently seeing ads for the Products:[Note, Xperia, iphone11]
+INFO:root:[Customer]:(James Sutter,13) Posted NEGATIVE tweet for the product Xperia
+INFO:root:[Customer]:(Kyle Johnson,13) Posted POSITIVE tweet for the product iphone11
+INFO:root:[Customer]:###(Bette Brown,13)doesn't buy any products 
+INFO:root:[Customer]:(Bette Brown,13) Ad Space cleared 
+INFO:root:[Seller]:(SAMSUNG MOBILES,13): Next Quarter Begins 
+INFO:root:[Seller]:(SONY INC,13): Next Quarter Begins 
+INFO:root:[Seller]:(APPLE INC,13): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,13) CEO selected advert_type as TARGETED for Note
+INFO:root:[Seller]: (SONY INC,13) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (APPLE INC,13) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (SAMSUNG MOBILES,13) CEO selected advert scale 36
+INFO:root:[Seller]: (SONY INC,13) CEO selected advert scale 40
+INFO:root:[Seller]: (APPLE INC,13) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (SAMSUNG MOBILES,13) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,13) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,13) CEO selected advert scale 70
+INFO:root:[Seller]: (SAMSUNG MOBILES,13) Expenses in previous quarter:50
+INFO:root:[Seller]: (SONY INC,13) Expenses in previous quarter:25
+INFO:root:[Seller]: (APPLE INC,13) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,13) Profit in previous quarter:-50
+INFO:root:[Seller]: (SONY INC,13) Profit in previous quarter:-25
+INFO:root:[Seller]: (APPLE INC,13) Expenses in previous quarter:50
+INFO:root:[Seller]: (SAMSUNG MOBILES,13) Sentiment for Note in previous quarter:1
+INFO:root:[Seller]: (SONY INC,13) Sentiment for Xperia in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,13) Profit in previous quarter:-50
+INFO:root:[GoogleAds]: Google pushed the TARGETED Ad for product Note to user Bette Brown, Kyle Johnson, Bette Brown, James Sutter, Bette Brown 
+INFO:root:[Seller]: (APPLE INC,13) Sentiment for iphoneX in previous quarter:1
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Seller]: (APPLE INC,13) Sentiment for iphone11 in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Ann Pacheco, James Sutter, Ann Pacheco, Bette Brown, Bette Brown 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users James Sutter, Kyle Johnson, Kyle Johnson, Kyle Johnson, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users Bette Brown, Kyle Johnson, Bette Brown, Ann Pacheco, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Customer]:(Ann Pacheco,14): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,14): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,14) currently seeing ads for the Products:[Xperia, iphone11]
+INFO:root:[Customer]:(Kay Medina,14) currently seeing ads for the Products:[iphoneX, iphone11]
+INFO:root:[Customer]:###(Ann Pacheco,14)doesn't buy any products 
+INFO:root:[Customer]:(Kay Medina,14) Ad Space cleared 
+INFO:root:[Customer]:(Ann Pacheco,14) Ad Space cleared 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE')]) 
+INFO:root:[Customer]:(Kay Medina,14) Posted POSITIVE tweet for the product iphone11
+INFO:root:[Customer]:(James Sutter,14): Next Quarter Begins 
+INFO:root:[Customer]:(Kyle Johnson,14): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,14): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,14) currently seeing ads for the Products:[Note, Xperia, iphoneX]
+INFO:root:[Customer]:(Kyle Johnson,14) currently seeing ads for the Products:[Note, iphoneX, iphone11]
+INFO:root:[Customer]:(Bette Brown,14) currently seeing ads for the Products:[Note, Xperia, iphone11]
+INFO:root:[Customer]:###(James Sutter,14)doesn't buy any products 
+INFO:root:[Customer]:(Kyle Johnson,14) Ad Space cleared 
+INFO:root:[Customer]:###(Bette Brown,14)doesn't buy any products 
+INFO:root:[Customer]:(James Sutter,14) Ad Space cleared 
+INFO:root:[Customer]:(Bette Brown,14) Ad Space cleared 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE')]) 
+INFO:root:[Customer]:(Bette Brown,14) Posted NEGATIVE tweet for the product Note
+INFO:root:[Seller]:(SAMSUNG MOBILES,14): Next Quarter Begins 
+INFO:root:[Seller]:(SONY INC,14): Next Quarter Begins 
+INFO:root:[Seller]:(APPLE INC,14): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,14) CEO selected advert_type as TARGETED for Note
+INFO:root:[Seller]: (SONY INC,14) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (APPLE INC,14) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (SAMSUNG MOBILES,14) CEO selected advert scale 33
+INFO:root:[Seller]: (SONY INC,14) CEO selected advert scale 37
+INFO:root:[Seller]: (APPLE INC,14) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (SAMSUNG MOBILES,14) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,14) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,14) CEO selected advert scale 67
+INFO:root:[Seller]: (SAMSUNG MOBILES,14) Expenses in previous quarter:50
+INFO:root:[Seller]: (SONY INC,14) Expenses in previous quarter:25
+INFO:root:[Seller]: (APPLE INC,14) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,14) Profit in previous quarter:-50
+INFO:root:[Seller]: (SONY INC,14) Profit in previous quarter:-25
+INFO:root:[Seller]: (APPLE INC,14) Expenses in previous quarter:50
+INFO:root:[Seller]: (SAMSUNG MOBILES,14) Sentiment for Note in previous quarter:0
+INFO:root:[Seller]: (SONY INC,14) Sentiment for Xperia in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,14) Profit in previous quarter:-50
+INFO:root:[GoogleAds]: Google pushed the TARGETED Ad for product Note to user Kay Medina, Kyle Johnson, Kay Medina, Ann Pacheco, Kyle Johnson 
+INFO:root:[Seller]: (APPLE INC,14) Sentiment for iphoneX in previous quarter:1
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Seller]: (APPLE INC,14) Sentiment for iphone11 in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Kyle Johnson, Kay Medina, Kyle Johnson, Kay Medina, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users Kay Medina, James Sutter, Kyle Johnson, Kyle Johnson, Kyle Johnson 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users Kyle Johnson, Kay Medina, Kay Medina, Kay Medina, Ann Pacheco 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Customer]:(Ann Pacheco,15): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,15) currently seeing ads for the Products:[Note, iphone11]
+INFO:root:[Customer]:(Ann Pacheco,15) Ad Space cleared 
+INFO:root:[Customer]:(Kay Medina,15): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,15) currently seeing ads for the Products:[Note, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:###(Kay Medina,15)doesn't buy any products 
+INFO:root:[Customer]:(Kay Medina,15) Ad Space cleared 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kay Medina', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE')]) 
+INFO:root:[Customer]:(Kay Medina,15) Posted POSITIVE tweet for the product iphone11
+INFO:root:[Customer]:(Kyle Johnson,15): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,15): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,15): Next Quarter Begins 
+INFO:root:[Customer]:(Kyle Johnson,15) currently seeing ads for the Products:[Note, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:(James Sutter,15) currently seeing ads for the Products:[iphoneX]
+INFO:root:[Customer]:(Bette Brown,15) currently seeing ads for the Products:[]
+INFO:root:[Customer]:###(Kyle Johnson,15)doesn't buy any products 
+INFO:root:[Customer]:(James Sutter,15) Ad Space cleared 
+INFO:root:[Customer]:(Bette Brown,15) Ad Space cleared 
+INFO:root:[Customer]:###(Kyle Johnson,15)doesn't buy any products 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Customer]:(Kyle Johnson,15) Ad Space cleared 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kay Medina', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE')]) 
+INFO:root:[Customer]:(James Sutter,15) Posted NEGATIVE tweet for the product Xperia
+INFO:root:[Seller]:(SONY INC,15): Next Quarter Begins 
+INFO:root:[Seller]:(APPLE INC,15): Next Quarter Begins 
+INFO:root:[Seller]:(SAMSUNG MOBILES,15): Next Quarter Begins 
+INFO:root:[Seller]: (SONY INC,15) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (APPLE INC,15) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (SAMSUNG MOBILES,15) CEO selected advert_type as TARGETED for Note
+INFO:root:[Seller]: (SONY INC,15) CEO selected advert scale 35
+INFO:root:[Seller]: (APPLE INC,15) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (SAMSUNG MOBILES,15) CEO selected advert scale 31
+INFO:root:[Seller]: (SONY INC,15) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,15) CEO selected advert scale 65
+INFO:root:[Seller]: (SAMSUNG MOBILES,15) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,15) Expenses in previous quarter:25
+INFO:root:[Seller]: (APPLE INC,15) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,15) Expenses in previous quarter:50
+INFO:root:[Seller]: (SONY INC,15) Profit in previous quarter:-25
+INFO:root:[Seller]: (APPLE INC,15) Expenses in previous quarter:50
+INFO:root:[Seller]: (SAMSUNG MOBILES,15) Profit in previous quarter:-50
+INFO:root:[Seller]: (SONY INC,15) Sentiment for Xperia in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,15) Profit in previous quarter:-50
+INFO:root:[Seller]: (SAMSUNG MOBILES,15) Sentiment for Note in previous quarter:0
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Kay Medina, Kay Medina, Ann Pacheco, James Sutter, Bette Brown 
+INFO:root:[Seller]: (APPLE INC,15) Sentiment for iphoneX in previous quarter:1
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Seller]: (APPLE INC,15) Sentiment for iphone11 in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the TARGETED Ad for product Note to user Bette Brown, Bette Brown, Kyle Johnson, Ann Pacheco, James Sutter 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users Kyle Johnson, Kay Medina, Ann Pacheco, Kyle Johnson, Ann Pacheco 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users Kay Medina, Kyle Johnson, James Sutter, Bette Brown, Bette Brown 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Customer]:(Ann Pacheco,16): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,16) currently seeing ads for the Products:[Note, Xperia, iphoneX]
+INFO:root:[Customer]:###(Ann Pacheco,16)doesn't buy any products 
+INFO:root:[Customer]:(Ann Pacheco,16) Ad Space cleared 
+INFO:root:[Customer]:(Kay Medina,16): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,16) currently seeing ads for the Products:[iphoneX, Xperia, iphone11]
+INFO:root:[Customer]:###(Kay Medina,16)doesn't buy any products 
+INFO:root:[Customer]:(Kay Medina,16) Ad Space cleared 
+INFO:root:[Customer]:(Bette Brown,16): Next Quarter Begins 
+INFO:root:[Customer]:(Kyle Johnson,16): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,16): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,16) currently seeing ads for the Products:[Note, Xperia, iphone11]
+INFO:root:[Customer]:(Kyle Johnson,16) currently seeing ads for the Products:[Note, iphoneX, iphone11]
+INFO:root:[Customer]:(James Sutter,16) currently seeing ads for the Products:[Note, Xperia, iphone11]
+INFO:root:[Customer]:###(Bette Brown,16)doesn't buy any products 
+INFO:root:[Customer]:###(Kyle Johnson,16)doesn't buy any products 
+INFO:root:[Customer]:###(James Sutter,16)doesn't buy any products 
+INFO:root:[Customer]:(Bette Brown,16) Ad Space cleared 
+INFO:root:[Customer]:(Kyle Johnson,16) Ad Space cleared 
+INFO:root:[Customer]:(James Sutter,16) Ad Space cleared 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE'), ('James Sutter', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE'), ('James Sutter', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE')]) 
+INFO:root:[Customer]:(Kyle Johnson,16) Posted POSITIVE tweet for the product iphone11
+INFO:root:[Customer]:(James Sutter,16) Posted POSITIVE tweet for the product Note
+INFO:root:[Seller]:(SONY INC,16): Next Quarter Begins 
+INFO:root:[Seller]:(SAMSUNG MOBILES,16): Next Quarter Begins 
+INFO:root:[Seller]:(APPLE INC,16): Next Quarter Begins 
+INFO:root:[Seller]: (SONY INC,16) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (SAMSUNG MOBILES,16) CEO selected advert_type as TARGETED for Note
+INFO:root:[Seller]: (APPLE INC,16) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (SONY INC,16) CEO selected advert scale 32
+INFO:root:[Seller]: (SAMSUNG MOBILES,16) CEO selected advert scale 28
+INFO:root:[Seller]: (APPLE INC,16) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (SONY INC,16) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,16) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,16) CEO selected advert scale 62
+INFO:root:[Seller]: (SONY INC,16) Expenses in previous quarter:25
+INFO:root:[Seller]: (SAMSUNG MOBILES,16) Expenses in previous quarter:50
+INFO:root:[Seller]: (APPLE INC,16) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,16) Profit in previous quarter:-25
+INFO:root:[Seller]: (SAMSUNG MOBILES,16) Profit in previous quarter:-50
+INFO:root:[Seller]: (APPLE INC,16) Expenses in previous quarter:50
+INFO:root:[Seller]: (SONY INC,16) Sentiment for Xperia in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,16) Sentiment for Note in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,16) Profit in previous quarter:-50
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Kyle Johnson, Ann Pacheco, James Sutter, Kyle Johnson, Kay Medina 
+INFO:root:[Seller]: (APPLE INC,16) Sentiment for iphoneX in previous quarter:1
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Seller]: (APPLE INC,16) Sentiment for iphone11 in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the TARGETED Ad for product Note to user Ann Pacheco, Bette Brown, Ann Pacheco, Bette Brown, Kyle Johnson 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users Bette Brown, Bette Brown, Kay Medina, Kyle Johnson, Ann Pacheco 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users Kay Medina, Bette Brown, Bette Brown, Kay Medina, James Sutter 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Customer]:(Ann Pacheco,17): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,17) currently seeing ads for the Products:[Note, Xperia, iphoneX]
+INFO:root:[Customer]:###(Ann Pacheco,17)doesn't buy any products 
+INFO:root:[Customer]:(Ann Pacheco,17) Ad Space cleared 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE'), ('James Sutter', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE')]) 
+INFO:root:[Customer]:(Ann Pacheco,17) Posted POSITIVE tweet for the product Note
+INFO:root:[Customer]:(Kay Medina,17): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,17) currently seeing ads for the Products:[iphoneX, Xperia, iphone11]
+INFO:root:[Customer]:###(Kay Medina,17)doesn't buy any products 
+INFO:root:[Customer]:(Kay Medina,17) Ad Space cleared 
+INFO:root:[Customer]:(Bette Brown,17): Next Quarter Begins 
+INFO:root:[Customer]:(Kyle Johnson,17): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,17): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,17) currently seeing ads for the Products:[Note, iphoneX, iphone11]
+INFO:root:[Customer]:(Kyle Johnson,17) currently seeing ads for the Products:[Note, Xperia, iphoneX]
+INFO:root:[Customer]:(James Sutter,17) currently seeing ads for the Products:[Xperia, iphone11]
+INFO:root:[Customer]:***(Bette Brown,17)bought the new product:[iphone11]
+INFO:root:[Customer]:###(Kyle Johnson,17)doesn't buy any products 
+INFO:root:[Customer]:###(James Sutter,17)doesn't buy any products 
+INFO:root:[Customer]:(Bette Brown,17) Ad Space cleared 
+INFO:root:[Customer]:###(Kyle Johnson,17)doesn't buy any products 
+INFO:root:[Customer]:(James Sutter,17) Ad Space cleared 
+INFO:root:[Customer]:(Kyle Johnson,17) Ad Space cleared 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE'), ('James Sutter', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[Customer]:(James Sutter,17) Posted NEGATIVE tweet for the product Xperia
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE'), ('James Sutter', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE')]) 
+INFO:root:[Customer]:(Kyle Johnson,17) Posted POSITIVE tweet for the product iphone11
+INFO:root:[Seller]:(SAMSUNG MOBILES,17): Next Quarter Begins 
+INFO:root:[Seller]:(APPLE INC,17): Next Quarter Begins 
+INFO:root:[Seller]:(SONY INC,17): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,17) CEO selected advert_type as TARGETED for Note
+INFO:root:[Seller]: (APPLE INC,17) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (SONY INC,17) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (SAMSUNG MOBILES,17) CEO selected advert scale 26
+INFO:root:[Seller]: (APPLE INC,17) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (SONY INC,17) CEO selected advert scale 30
+INFO:root:[Seller]: (SAMSUNG MOBILES,17) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,17) CEO selected advert scale 60
+INFO:root:[Seller]: (SONY INC,17) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,17) Expenses in previous quarter:50
+INFO:root:[Seller]: (APPLE INC,17) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,17) Expenses in previous quarter:25
+INFO:root:[Seller]: (SAMSUNG MOBILES,17) Profit in previous quarter:-50
+INFO:root:[Seller]: (APPLE INC,17) Expenses in previous quarter:50
+INFO:root:[Seller]: (SONY INC,17) Profit in previous quarter:-25
+INFO:root:[Seller]: (SAMSUNG MOBILES,17) Sentiment for Note in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,17) Profit in previous quarter:-50
+INFO:root:[Seller]: (SONY INC,17) Sentiment for Xperia in previous quarter:0
+INFO:root:[GoogleAds]: Google pushed the TARGETED Ad for product Note to user Kyle Johnson, Kyle Johnson, James Sutter, Kyle Johnson, Bette Brown 
+INFO:root:[Seller]: (APPLE INC,17) Sentiment for iphoneX in previous quarter:1
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Seller]: (APPLE INC,17) Sentiment for iphone11 in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Kyle Johnson, Kyle Johnson, Ann Pacheco, James Sutter, Bette Brown 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users Kay Medina, James Sutter, Kay Medina, James Sutter, Bette Brown 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users Ann Pacheco, James Sutter, Ann Pacheco, Kay Medina, Bette Brown 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Customer]:(Ann Pacheco,18): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,18) currently seeing ads for the Products:[Xperia, iphone11]
+INFO:root:[Customer]:###(Ann Pacheco,18)doesn't buy any products 
+INFO:root:[Customer]:(Ann Pacheco,18) Ad Space cleared 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE'), ('James Sutter', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE')]) 
+INFO:root:[Customer]:(Ann Pacheco,18) Posted POSITIVE tweet for the product Note
+INFO:root:[Customer]:(Kay Medina,18): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,18) currently seeing ads for the Products:[iphoneX, iphone11]
+INFO:root:[Customer]:(Kay Medina,18) Ad Space cleared 
+INFO:root:[Customer]:(Bette Brown,18): Next Quarter Begins 
+INFO:root:[Customer]:(Kyle Johnson,18): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,18) currently seeing ads for the Products:[Note, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:(James Sutter,18): Next Quarter Begins 
+INFO:root:[Customer]:(Kyle Johnson,18) currently seeing ads for the Products:[Note, Xperia]
+INFO:root:[Customer]:###(Bette Brown,18)doesn't buy any products 
+INFO:root:[Customer]:(James Sutter,18) currently seeing ads for the Products:[Note, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:###(Kyle Johnson,18)doesn't buy any products 
+INFO:root:[Customer]:(Bette Brown,18) Ad Space cleared 
+INFO:root:[Customer]:###(James Sutter,18)doesn't buy any products 
+INFO:root:[Customer]:###(Kyle Johnson,18)doesn't buy any products 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Customer]:(James Sutter,18) Ad Space cleared 
+INFO:root:[Customer]:(Kyle Johnson,18) Ad Space cleared 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE'), ('James Sutter', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE')]) 
+INFO:root:[Customer]:(Bette Brown,18) Posted NEGATIVE tweet for the product Note
+INFO:root:[Seller]:(APPLE INC,18): Next Quarter Begins 
+INFO:root:[Seller]:(SAMSUNG MOBILES,18): Next Quarter Begins 
+INFO:root:[Seller]:(SONY INC,18): Next Quarter Begins 
+INFO:root:[Seller]: (APPLE INC,18) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (SAMSUNG MOBILES,18) CEO selected advert_type as TARGETED for Note
+INFO:root:[Seller]: (SONY INC,18) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (APPLE INC,18) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (SAMSUNG MOBILES,18) CEO selected advert scale 23
+INFO:root:[Seller]: (SONY INC,18) CEO selected advert scale 27
+INFO:root:[Seller]: (APPLE INC,18) CEO selected advert scale 57
+INFO:root:[Seller]: (SAMSUNG MOBILES,18) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,18) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,18) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,18) Expenses in previous quarter:50
+INFO:root:[Seller]: (SONY INC,18) Expenses in previous quarter:25
+INFO:root:[Seller]: (APPLE INC,18) Expenses in previous quarter:50
+INFO:root:[Seller]: (SAMSUNG MOBILES,18) Profit in previous quarter:-50
+INFO:root:[Seller]: (SONY INC,18) Profit in previous quarter:-25
+INFO:root:[Seller]: (APPLE INC,18) Profit in previous quarter:-50
+INFO:root:[Seller]: (SAMSUNG MOBILES,18) Sentiment for Note in previous quarter:0
+INFO:root:[Seller]: (SONY INC,18) Sentiment for Xperia in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,18) Sentiment for iphoneX in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the TARGETED Ad for product Note to user Bette Brown, Kay Medina, Kay Medina, Bette Brown, Kyle Johnson 
+INFO:root:[Seller]: (APPLE INC,18) Sentiment for iphone11 in previous quarter:1
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50, 50, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Ann Pacheco, Bette Brown, Kay Medina, James Sutter, Ann Pacheco 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50, 50, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users Kyle Johnson, Kyle Johnson, Ann Pacheco, Kay Medina, James Sutter 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50, 50, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users Bette Brown, Ann Pacheco, Kyle Johnson, Bette Brown, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50, 50, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Customer]:(Ann Pacheco,19): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,19) currently seeing ads for the Products:[iphoneX, Xperia, iphone11]
+INFO:root:[Customer]:###(Ann Pacheco,19)doesn't buy any products 
+INFO:root:[Customer]:(Ann Pacheco,19) Ad Space cleared 
+INFO:root:[Customer]:(Kay Medina,19): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,19) currently seeing ads for the Products:[Note, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:###(Kay Medina,19)doesn't buy any products 
+INFO:root:[Customer]:(Kay Medina,19) Ad Space cleared 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE'), ('James Sutter', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE')]) 
+INFO:root:[Customer]:(Kay Medina,19) Posted NEGATIVE tweet for the product Xperia
+INFO:root:[Customer]:(James Sutter,19): Next Quarter Begins 
+INFO:root:[Customer]:(Kyle Johnson,19): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,19) currently seeing ads for the Products:[iphoneX, Xperia]
+INFO:root:[Customer]:(Kyle Johnson,19) currently seeing ads for the Products:[Note, iphoneX, iphone11]
+INFO:root:[Customer]:###(James Sutter,19)doesn't buy any products 
+INFO:root:[Customer]:###(Kyle Johnson,19)doesn't buy any products 
+INFO:root:[Customer]:(James Sutter,19) Ad Space cleared 
+INFO:root:[Customer]:(Kyle Johnson,19) Ad Space cleared 
+INFO:root:[Customer]:(Bette Brown,19): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,19) currently seeing ads for the Products:[Note, Xperia, iphone11]
+INFO:root:[Customer]:###(Bette Brown,19)doesn't buy any products 
+INFO:root:[Customer]:###(Bette Brown,19)doesn't buy any products 
+INFO:root:[Customer]:(Bette Brown,19) Ad Space cleared 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE'), ('James Sutter', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE')]) 
+INFO:root:[Customer]:(Bette Brown,19) Posted POSITIVE tweet for the product iphoneX
+INFO:root:[Seller]:(SAMSUNG MOBILES,19): Next Quarter Begins 
+INFO:root:[Seller]:(SONY INC,19): Next Quarter Begins 
+INFO:root:[Seller]:(APPLE INC,19): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,19) CEO selected advert_type as TARGETED for Note
+INFO:root:[Seller]: (SONY INC,19) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (APPLE INC,19) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (SAMSUNG MOBILES,19) CEO selected advert scale 21
+INFO:root:[Seller]: (SONY INC,19) CEO selected advert scale 25
+INFO:root:[Seller]: (APPLE INC,19) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (SAMSUNG MOBILES,19) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,19) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,19) CEO selected advert scale 55
+INFO:root:[Seller]: (SAMSUNG MOBILES,19) Expenses in previous quarter:50
+INFO:root:[Seller]: (SONY INC,19) Expenses in previous quarter:25
+INFO:root:[Seller]: (APPLE INC,19) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,19) Profit in previous quarter:-50
+INFO:root:[Seller]: (SONY INC,19) Profit in previous quarter:-25
+INFO:root:[Seller]: (APPLE INC,19) Expenses in previous quarter:50
+INFO:root:[Seller]: (SAMSUNG MOBILES,19) Sentiment for Note in previous quarter:0
+INFO:root:[Seller]: (SONY INC,19) Sentiment for Xperia in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,19) Profit in previous quarter:-50
+INFO:root:[GoogleAds]: Google pushed the TARGETED Ad for product Note to user Kyle Johnson, Ann Pacheco, Ann Pacheco, James Sutter, James Sutter 
+INFO:root:[Seller]: (APPLE INC,19) Sentiment for iphoneX in previous quarter:1
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Seller]: (APPLE INC,19) Sentiment for iphone11 in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Bette Brown, Kay Medina, Ann Pacheco, Kyle Johnson, Ann Pacheco 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users Ann Pacheco, Ann Pacheco, Kay Medina, Bette Brown, James Sutter 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users Kay Medina, Bette Brown, Ann Pacheco, Kyle Johnson, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Customer]:(Ann Pacheco,20): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,20): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,20) currently seeing ads for the Products:[Note, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:(Kay Medina,20) currently seeing ads for the Products:[iphoneX, Xperia, iphone11]
+INFO:root:[Customer]:###(Ann Pacheco,20)doesn't buy any products 
+INFO:root:[Customer]:###(Kay Medina,20)doesn't buy any products 
+INFO:root:[Customer]:(Ann Pacheco,20) Ad Space cleared 
+INFO:root:[Customer]:(Kay Medina,20) Ad Space cleared 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE'), ('James Sutter', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE')]) 
+INFO:root:[Customer]:(Kay Medina,20) Posted POSITIVE tweet for the product iphone11
+INFO:root:[Customer]:(James Sutter,20): Next Quarter Begins 
+INFO:root:[Customer]:(Kyle Johnson,20): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,20): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,20) currently seeing ads for the Products:[Note, iphoneX]
+INFO:root:[Customer]:(Kyle Johnson,20) currently seeing ads for the Products:[Note, Xperia, iphone11]
+INFO:root:[Customer]:(Bette Brown,20) currently seeing ads for the Products:[iphoneX, Xperia, iphone11]
+INFO:root:[Customer]:(James Sutter,20) Ad Space cleared 
+INFO:root:[Customer]:###(Kyle Johnson,20)doesn't buy any products 
+INFO:root:[Customer]:###(Bette Brown,20)doesn't buy any products 
+INFO:root:[Customer]:###(Kyle Johnson,20)doesn't buy any products 
+INFO:root:[Customer]:(Bette Brown,20) Ad Space cleared 
+INFO:root:[Customer]:(Kyle Johnson,20) Ad Space cleared 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE'), ('James Sutter', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE')]) 
+INFO:root:[Customer]:(Kyle Johnson,20) Posted POSITIVE tweet for the product iphone11
+INFO:root:[Seller]:(SAMSUNG MOBILES,20): Next Quarter Begins 
+INFO:root:[Seller]:(SONY INC,20): Next Quarter Begins 
+INFO:root:[Seller]:(APPLE INC,20): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,20) CEO selected advert_type as TARGETED for Note
+INFO:root:[Seller]: (SONY INC,20) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (APPLE INC,20) CEO selected advert_type as BASIC for iphoneX
+INFO:root:[Seller]: (SAMSUNG MOBILES,20) CEO selected advert scale 18
+INFO:root:[Seller]: (SONY INC,20) CEO selected advert scale 22
+INFO:root:[Seller]: (APPLE INC,20) CEO selected advert_type as BASIC for iphone11
+INFO:root:[Seller]: (SAMSUNG MOBILES,20) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,20) Revenue in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,20) CEO selected advert scale 52
+INFO:root:[Seller]: (SAMSUNG MOBILES,20) Expenses in previous quarter:50
+INFO:root:[Seller]: (SONY INC,20) Expenses in previous quarter:25
+INFO:root:[Seller]: (APPLE INC,20) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,20) Profit in previous quarter:-50
+INFO:root:[Seller]: (SONY INC,20) Profit in previous quarter:-25
+INFO:root:[Seller]: (APPLE INC,20) Expenses in previous quarter:50
+INFO:root:[Seller]: (SAMSUNG MOBILES,20) Sentiment for Note in previous quarter:0
+INFO:root:[Seller]: (SONY INC,20) Sentiment for Xperia in previous quarter:0
+INFO:root:[Seller]: (APPLE INC,20) Profit in previous quarter:-50
+INFO:root:[GoogleAds]: Google pushed the TARGETED Ad for product Note to user Bette Brown, Ann Pacheco, Bette Brown, James Sutter, Kay Medina 
+INFO:root:[Seller]: (APPLE INC,20) Sentiment for iphoneX in previous quarter:1
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Seller]: (APPLE INC,20) Sentiment for iphone11 in previous quarter:1
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users James Sutter, Kyle Johnson, James Sutter, Ann Pacheco, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphoneX to users Kay Medina, James Sutter, Bette Brown, Ann Pacheco, Ann Pacheco 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product iphone11 to users Kyle Johnson, James Sutter, Ann Pacheco, Ann Pacheco, James Sutter 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Customer]:(Ann Pacheco,21): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,21): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,21) currently seeing ads for the Products:[Note, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:(Kay Medina,21) currently seeing ads for the Products:[Note, Xperia, iphoneX]
+INFO:root:[Customer]:###(Ann Pacheco,21)doesn't buy any products 
+INFO:root:[Customer]:###(Kay Medina,21)doesn't buy any products 
+INFO:root:[Customer]:(Ann Pacheco,21) Ad Space cleared 
+INFO:root:[Customer]:(Kay Medina,21) Ad Space cleared 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE'), ('James Sutter', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE'), ('Ann Pacheco', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE'), ('James Sutter', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE'), ('Ann Pacheco', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE')]) 
+INFO:root:[Customer]:(Ann Pacheco,21) Posted POSITIVE tweet for the product Note
+INFO:root:[Customer]:(Kay Medina,21) Posted POSITIVE tweet for the product iphone11
+INFO:root:[Customer]:(James Sutter,21): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,21): Next Quarter Begins 
+INFO:root:[Customer]:(Kyle Johnson,21): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,21) currently seeing ads for the Products:[Note, Xperia, iphoneX, iphone11]
+INFO:root:[Customer]:(Bette Brown,21) currently seeing ads for the Products:[Note, iphoneX]
+INFO:root:[Customer]:(Kyle Johnson,21) currently seeing ads for the Products:[Xperia, iphone11]
+INFO:root:[Customer]:###(James Sutter,21)doesn't buy any products 
+INFO:root:[Customer]:###(Bette Brown,21)doesn't buy any products 
+INFO:root:[Customer]:###(Kyle Johnson,21)doesn't buy any products 
+INFO:root:[Customer]:(James Sutter,21) Ad Space cleared 
+INFO:root:[Customer]:(Bette Brown,21) Ad Space cleared 
+INFO:root:[Customer]:(Kyle Johnson,21) Ad Space cleared 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE'), ('James Sutter', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE'), ('James Sutter', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE'), ('James Sutter', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE')]) 
+INFO:root:[Customer]:(James Sutter,21) Posted NEGATIVE tweet for the product Xperia
+INFO:root:[Customer]:(Bette Brown,21) Posted NEGATIVE tweet for the product Note
+INFO:root:[Customer]:(Kyle Johnson,21) Posted POSITIVE tweet for the product iphone11
+INFO:root:[Seller]:(SAMSUNG MOBILES,21): Next Quarter Begins 
+INFO:root:[Seller]: (SAMSUNG MOBILES,21) CEO selected advert_type as TARGETED for Note
+INFO:root:[Seller]: (SAMSUNG MOBILES,21) CEO selected advert scale 16
+INFO:root:[Seller]: (SAMSUNG MOBILES,21) Revenue in previous quarter:0
+INFO:root:[Seller]: (SAMSUNG MOBILES,21) Expenses in previous quarter:50
+INFO:root:[Seller]: (SAMSUNG MOBILES,21) Profit in previous quarter:-50
+INFO:root:[Seller]: (SAMSUNG MOBILES,21) Sentiment for Note in previous quarter:0
+INFO:root:[GoogleAds]: Google pushed the TARGETED Ad for product Note to user Kay Medina, Kay Medina, Kay Medina, Kay Medina, Kay Medina 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Seller]:(SONY INC,21): Next Quarter Begins 
+INFO:root:[Seller]: (APPLE INC,20) sold  1 units of iphoneX
+INFO:root:[Seller]: (SONY INC,21) CEO selected advert_type as BASIC for Xperia
+INFO:root:[Seller]: (APPLE INC,20) sold  2 units of iphone11
+INFO:root:[Seller]: (SONY INC,21) CEO selected advert scale 20
+INFO:root:[Seller]: (APPLE INC,20) Exit
+INFO:root:[Seller]: (SONY INC,21) Revenue in previous quarter:0
+INFO:root:[Seller]: (SONY INC,21) Expenses in previous quarter:25
+INFO:root:[Seller]: (SONY INC,21) Profit in previous quarter:-25
+INFO:root:[Seller]: (SONY INC,21) Sentiment for Xperia in previous quarter:0
+INFO:root:[GoogleAds]: Google pushed the BASIC Ad for product Xperia to users Kay Medina, Kyle Johnson, Ann Pacheco, Bette Brown, James Sutter 
+INFO:root:[GoogleAds]: Google billed the Seller {'APPLE INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], 'SAMSUNG MOBILES': [25, 25, 25, 25, 25, 25, 25, 25, 25, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50], 'SONY INC': [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25]}  
+INFO:root:[Customer]:(Ann Pacheco,22): Next Quarter Begins 
+INFO:root:[Customer]:(Kay Medina,22): Next Quarter Begins 
+INFO:root:[Customer]:(Ann Pacheco,22) currently seeing ads for the Products:[Xperia]
+INFO:root:[Customer]:(Kay Medina,22) currently seeing ads for the Products:[Note, Xperia]
+INFO:root:[Customer]:###(Ann Pacheco,22)doesn't buy any products 
+INFO:root:[Customer]:###(Kay Medina,22)doesn't buy any products 
+INFO:root:[Customer]:(Ann Pacheco,22) Ad Space cleared 
+INFO:root:[Customer]:(Kay Medina,22) Ad Space cleared 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE'), ('James Sutter', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE')]) 
+INFO:root:[Customer]:(Kay Medina,22) Posted NEGATIVE tweet for the product Xperia
+INFO:root:[Customer]:(Bette Brown,22): Next Quarter Begins 
+INFO:root:[Customer]:(James Sutter,22): Next Quarter Begins 
+INFO:root:[Customer]:(Kyle Johnson,22): Next Quarter Begins 
+INFO:root:[Customer]:(Bette Brown,22) currently seeing ads for the Products:[Xperia]
+INFO:root:[Customer]:(James Sutter,22) currently seeing ads for the Products:[Xperia]
+INFO:root:[Customer]:(Kyle Johnson,22) currently seeing ads for the Products:[Xperia]
+INFO:root:[Customer]:###(Bette Brown,22)doesn't buy any products 
+INFO:root:[Customer]:###(James Sutter,22)doesn't buy any products 
+INFO:root:[Customer]:###(Kyle Johnson,22)doesn't buy any products 
+INFO:root:[Customer]:(Bette Brown,22) Ad Space cleared 
+INFO:root:[Customer]:(James Sutter,22) Ad Space cleared 
+INFO:root:[Customer]:(Kyle Johnson,22) Ad Space cleared 
+INFO:root:[Twitter]:History of Twitter post ('iphoneX', [('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE'), ('Bette Brown', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('iphone11', [('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kay Medina', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE'), ('Kyle Johnson', 'POSITIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Note', [('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE'), ('James Sutter', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE'), ('Ann Pacheco', 'POSITIVE'), ('Bette Brown', 'NEGATIVE')]) 
+INFO:root:[Twitter]:History of Twitter post ('Xperia', [('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE'), ('James Sutter', 'NEGATIVE'), ('Kay Medina', 'NEGATIVE')]) 
+INFO:root:[Customer]:(Kyle Johnson,22) Posted POSITIVE tweet for the product iphone11
+INFO:root:[Seller]: (SAMSUNG MOBILES,21) sold  3 units of Note
+INFO:root:[Seller]: (SAMSUNG MOBILES,21) Exit
+INFO:root:[Seller]: (SONY INC,21) sold  2 units of Xperia
+INFO:root:[Seller]: (SONY INC,21) Exit
+INFO:root:[Customer]: (Ann Pacheco,22) own the Products:[Note] with balance of $ 300
+INFO:root:[Customer]: (Kay Medina,22) own the Products:[Xperia, iphone11] with balance of $ 50
+INFO:root:[Customer]: (Ann Pacheco,22) Exit
+INFO:root:[Customer]: (Kay Medina,22) Exit
+INFO:root:[Customer]: (Bette Brown,22) own the Products:[iphoneX, Note] with balance of $ 0
+INFO:root:[Customer]: (James Sutter,22) own the Products:[Note, Xperia] with balance of $ 200
+INFO:root:[Customer]: (Kyle Johnson,22) own the Products:[iphone11] with balance of $ 150
+INFO:root:[Customer]: (Bette Brown,22) Exit
+INFO:root:[Customer]: (James Sutter,22) Exit
+INFO:root:[Customer]: (Kyle Johnson,22) Exit
+INFO:oauth2client.client:Refreshing access_token
+INFO:oauth2client.client:Refreshing access_token
+INFO:oauth2client.client:Refreshing access_token
