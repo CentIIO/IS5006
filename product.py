@@ -7,7 +7,7 @@ class Product(object):
 
         self.name = name
         self.price = price
-        self.quality = quality
+        self.quality = quality # the qulaity has to
         self.accessories = []
         self.release_date = release_date
         self.initial_amount = initial_amount
@@ -18,6 +18,7 @@ class Product(object):
     def update_price(self, new_price):
         self.price = new_price
 
+    #its more like existing as a seperate product and linking hwo two similar products are related
     def add_accessory(self, products):
         for product in products:
             if product not in self.accessories:
