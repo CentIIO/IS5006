@@ -1,3 +1,5 @@
+#fuzzy logic needs to be improved
+
 def fuzzy_get_customer_tolerance(type):
     if type > 0.9:
         quality_tolerance = 0.9

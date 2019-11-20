@@ -11,8 +11,8 @@ class Product(object):
         self.accessories = []
         self.release_date = release_date
         self.initial_amount = initial_amount
-        self.reproduce_period = reproduce_period
-        self.reproduce_amount = reproduce_amount
+        self.reproduce_period = reproduce_period #what is the purpose of this?
+        self.reproduce_amount = reproduce_amount  #what is the purpose of this?
         logging.info ("[Product]:Product created::%s ",self.name)
 
     def update_price(self, new_price):
