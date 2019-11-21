@@ -48,12 +48,15 @@ class Customer(object):
     def buy(self, product):
         # if not enough money in wallet, don't proceed
         if self.wallet < product.price:
+            logging.info("[Customer]:***(%s,%d)bought the new product:[%s] fail due to wallet", self.name, self.tickcount, product.name)
             return
 
         if Market.inventory[product] == 0:
+            logging.info("[Customer]:***(%s,%d)bought the new product:[%s] fail due to inventory", self.name, self.tickcount, product.name)
             return
 
         if self.price_tolerance < product.price:
+            logging.info("[Customer]:***(%s,%d)bought the new product:[%s] fail due to price_tolerance", self.name, self.tickcount, product.name)
             return
         # purchase the product from market
         
