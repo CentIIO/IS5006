@@ -82,5 +82,13 @@ update_google_sheet_csv(seller_apple)
 update_google_sheet_csv(seller_samsung)
 update_google_sheet_csv(seller_sony)
 
+from gmail import send_gmail
+receiver_address = 'a0197117y.receiver@gmail.com'
+mail_subject = 'A test mail sent by Python.'  # The subject line
+mail_content = ('Hello,\n'
+                'This is a simple mail. There is only text, no attachments are there The mail is sent using Python SMTP library.\n'
+                'Thank You\n')
+send_gmail(receiver_address, mail_subject, mail_content)
+
 print ("Done")
 sys.exit(0)
