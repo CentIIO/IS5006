@@ -81,7 +81,7 @@ from gsheet import update_google_sheet_csv
 update_google_sheet_csv(seller_apple)
 update_google_sheet_csv(seller_samsung)
 update_google_sheet_csv(seller_sony)
-
+'''
 from gmail import send_gmail
 receiver_address = 'a0197117y.receiver@gmail.com'
 mail_subject = 'A test mail sent by Python.'  # The subject line
@@ -91,4 +91,5 @@ mail_content = ('Hello,\n'
 send_gmail(receiver_address, mail_subject, mail_content)
 
 print ("Done")
+'''
 sys.exit(0)

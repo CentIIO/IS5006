@@ -16,7 +16,7 @@ random.seed(seed)
 class Customer(object):
     def __init__(self, name, wallet, type):
         self.name, self.wallet, self.type = name, wallet, type
-        self.quality_tolerance, self.price_tolerance, self.sentiment_tolerance = fuzzy_get_customer_tolerance(type)
+        self.quality_tolerance, self.price_tolerance, self.sentiment_tolerance = fuzzy_get_customer_tolerance(self.type)
         logging.info ("[Customer]:Customer %s Created",self.name)
         # Register the user with google ads
         GoogleAds.register_user(self)

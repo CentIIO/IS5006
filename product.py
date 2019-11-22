@@ -18,7 +18,7 @@ class Product(object):
     def update_price(self, new_price):
         self.price = new_price
 
-    #its more like existing as a seperate product and linking hwo two similar products are related
+    #its more like existing as a seperate product and linking how two similar products are related
     def add_accessory(self, products):
         for product in products:
             if product not in self.accessories:
