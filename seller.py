@@ -190,7 +190,7 @@ class Seller(object):
         for product in self.products:
             if self.sales_history[product][-1] == 0 and random.random() < 0.5:
                 product.update_price(product.price * 0.9)
-                logging.info('[Seller]: (%s,%d) CEO  the decreased the price for the product',self.name,
+                logging.info('[Seller]: (%s,%d) CEO decreased the price for the product',self.name,
             self.tickcount)
             if self.sales_history[product][-1] >= 2 and random.random() < 0.5:
                 product.update_price(product.price * 1.1)
