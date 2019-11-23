@@ -18,7 +18,7 @@ class Customer(object):
     def __init__(self, name, wallet, type):
         self.name, self.wallet, self.type = name, wallet, type
         self.quality_tolerance, self.price_tolerance, self.sentiment_tolerance, self.ratio = rbs_get_customer_attributes(type)
-        self.salary = np.random.normal(loc=3969, scale=3827, size=None)
+        self.salary = np.random.normal(loc=5596, scale=1865, size=None)
         logging.info ("[Customer]:Customer %s Created",self.name)
         # Register the user with google ads
         GoogleAds.register_user(self)
@@ -90,8 +90,11 @@ class Customer(object):
 
     # one timestep in the simulation world
     def tick(self):
+
+        #LOGGING PART
         test=', '.join(x.name for x in self.ad_space)
         logging.info("[Customer]:(%s,%d) currently seeing ads for the Products:[%s]",self.name,self.tickcount,test)
+
         self.lock.acquire()
         # user looks at all the adverts in his ad_space
         for product in self.ad_space:
@@ -104,14 +107,14 @@ class Customer(object):
             # ANSWER d.
             # if sentiment is more than user's sentiment tolerance and user does not have the product, then he/she may buy it with 20% chance. If it already has the product, then chance of buying again is 1%
             if user_sentiment >= self.sentiment_tolerance:
-                if(product not in self.owned_products and random.random() < 0.1):
+                if(product not in self.owned_products and random.random() < 0.8):
                     logging.info("[Customer]:***(%s,%d)bought the new product:[%s]",self.name,self.tickcount,product.name)
                     self.buy(product)
                     # buy accessory
                     for accessory in product.accessories :
                         if product in self.owned_products and random.random() < 0.9 and accessory not in self.owned_products:
                             self.buy(accessory)
-                elif (product in self.owned_products and random.random() < 0.01):
+                elif (product in self.owned_products and random.random() < 0.1):
                     logging.info("[Customer]:$$$(%s,%d)bought the same product again:[%s]",self.name,self.tickcount,product.name)
                     self.buy(product)
                     # buy accessory
@@ -126,7 +129,7 @@ class Customer(object):
         test=', '.join(x.name for x in self.ad_space)
         logging.info("[Customer]:(%s,%d) Ad Space cleared ",self.name,self.tickcount)
         # with some chance, the user may tweet about the product
-        if random.random() < 0.5 and len(self.owned_products) > 0:
+        if random.random() < 0.8 and len(self.owned_products) > 0:
             # he may choose any random product
             product = random.choice(list(self.owned_products))
             # sentiment in positive if the quality is higher than the quality tolerance

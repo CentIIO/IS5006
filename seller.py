@@ -31,8 +31,8 @@ class Seller(object):
             if product not in self.products:
                 self.products.append(product)
                 Market.register_seller(self, product)
-                if product.release_date == 0:
-                    Market.update_inventory(product, product.initial_amount)
+                if product.launchtick == 0:
+                    Market.update_inventory(product, product.quantity)
                 self.item_sold[product] = 0
                 self.total_item_sold[product] = 0
                 self.sales_history[product] = []
@@ -44,8 +44,8 @@ class Seller(object):
                     if accessory not in self.products:
                         self.products.append(accessory)
                         Market.register_seller(self, accessory)
-                        if product.release_date == 0:
-                            Market.update_inventory(accessory, accessory.initial_amount)
+                        if product.launchtick == 0:
+                            Market.update_inventory(accessory, accessory.quantity)
                         self.item_sold[accessory] = 0
                         self.total_item_sold[accessory] = 0
                         self.sales_history[accessory] = []
@@ -96,11 +96,11 @@ class Seller(object):
             self.item_sold[product] = 0
 
             # initial release of product
-            if self.tickcount == product.release_date and product.release_date != 0:
-                Market.update_inventory(product,product.initial_amount)
+            if self.tickcount == product.launchtick and product.launchtick != 0:
+                Market.update_inventory(product,product.quantity)
             # reproduce of product
-            if self.tickcount % product.reproduce_period == 0:
-                Market.update_inventory(product, product.reproduce_amount)
+            # if self.tickcount % product.reproduce_period == 0:
+            #     Market.update_inventory(product, product.reproduce_amount)
 
             try:
                 self.inventory_history[product].append(Market.get_inventory(product))

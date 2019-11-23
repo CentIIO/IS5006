@@ -2,17 +2,17 @@ import logging
 
 class Product(object):
     
-    def __init__(self, name, price, quality, release_date = 0, initial_amount= 100, reproduce_period = 999, reproduce_amount = 0):
+    def __init__(self, name, price, quality, launchtick = 0, quantity= 100):
         assert quality <= 1
 
         self.name = name
         self.price = price
         self.quality = quality # the qulaity has to
         self.accessories = []
-        self.release_date = release_date
-        self.initial_amount = initial_amount
-        self.reproduce_period = reproduce_period #what is the purpose of this?
-        self.reproduce_amount = reproduce_amount  #what is the purpose of this?
+        self.launchtick = launchtick
+        self.quantity = quantity
+        # self.reproduce_period = reproduce_period #what is the purpose of this?
+        # self.reproduce_amount = reproduce_amount  #what is the purpose of this?
         logging.info ("[Product]:Product created::%s ",self.name)
 
     def update_price(self, new_price):

@@ -21,3 +21,4 @@ def rbs_get_customer_attributes(type):
         sentiment_tolerance = 0.2
         ratio = 0.2
     return quality_tolerance, price_tolerance, sentiment_tolerance, ratio
+

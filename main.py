@@ -33,7 +33,7 @@ customers = [Customer(name=names.get_full_name(), wallet=np.random.random_intege
 
 
 # Construct a product object with following attributes
-iphoneX = Product(name='iphoneX', price=300, quality=0.9, release_date=5)
+iphoneX = Product(name='iphoneX', price=300, quality=0.9, launchtick=5)
 iphone11 = Product(name='iphone11', price=350, quality=0.92)
 galaxy = Product(name='galaxy', price=200, quality=0.8)
 xperia = Product(name='Xperia', price=100, quality=0.6)
