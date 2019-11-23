@@ -14,7 +14,7 @@ from datetime import datetime
 import sys
 import numpy as np
 
-
+print("[main] import done.")
 #Code to Save the log files in datetime format as per execution
 now = datetime.now()
 dt_string = now.strftime("%Y%m%d_%H%M%S")
@@ -60,12 +60,14 @@ seller_samsung = Seller(name='SAMSUNG MOBILES', products=[galaxy], wallet=500)
 seller_sony = Seller(name='SONY INC', products=[xperia], wallet=500)
 # Wait till the simulation ends
 try:
+    print("[main] start time.sleep.")
     time.sleep(20)
     logging.info('[main]: start killing thread')
 except KeyboardInterrupt:
     pass
 
 # kill seller thread
+print("[main] start killing sellers thread.")
 seller_apple.kill()
 seller_samsung.kill()
 seller_sony.kill()
@@ -83,10 +85,10 @@ for consumer in customers:
     consumer.kill()
 
 print("[main] start updating google sheet.")
-from gsheet import update_google_sheet_csv
-update_google_sheet_csv(seller_apple)
-update_google_sheet_csv(seller_samsung)
-update_google_sheet_csv(seller_sony)
+# from gsheet import update_google_sheet_csv
+# update_google_sheet_csv(seller_apple)
+# update_google_sheet_csv(seller_samsung)
+# update_google_sheet_csv(seller_sony)
 '''
 from gmail import send_gmail
 receiver_address = 'a0197117y.receiver@gmail.com'

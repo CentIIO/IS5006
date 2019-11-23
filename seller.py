@@ -79,6 +79,7 @@ class Seller(object):
         for product in self.products:
             logging.info("[Seller]: (%s,%d) sold  %d units of %s",self.name,self.tickcount,self.total_item_sold[product],product.name)
         logging.info("[Seller]: (%s,%d) Exit", self.name,self.tickcount)
+
     # if an item is sold, add it to the database
     def sold(self,product):
         self.lock.acquire()
@@ -166,7 +167,7 @@ class Seller(object):
     def kill(self):
         logging.info ('[Seller]: (%s,%d) thread killed', self.name,self.tickcount)
         self.STOP = True
-        self.thread.join()
+        self.thread.join(timeout=0)
 
     def __str__(self):
         return self.name

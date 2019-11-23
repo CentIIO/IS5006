@@ -47,25 +47,31 @@ class Customer(object):
         self.lock.release()
 
     # Consumer decided to buy a 'product'.
-    def buy(self, product):
+    def buy(self, product, user_sentiment):
         # if not enough money in wallet, don't proceed
         if self.wallet < product.price:
             logging.info("[Customer]:***(%s,%d)bought the new product:[%s] fail due to wallet", self.name, self.tickcount, product.name)
-            return
+            return False
 
         if Market.inventory[product] == 0:
             logging.info("[Customer]:***(%s,%d)bought the new product:[%s] fail due to inventory", self.name, self.tickcount, product.name)
-            return
+            return False
 
         if self.price_tolerance < product.price:
             logging.info("[Customer]:***(%s,%d)bought the new product:[%s] fail due to price_tolerance", self.name, self.tickcount, product.name)
-            return
+            return False
+
+        if user_sentiment < self.sentiment_tolerance:
+            logging.info("[Customer]:***(%s,%d)bought the new product:[%s] fail due to sentiment_tolerance", self.name,
+                         self.tickcount, product.name)
+            return False
         # purchase the product from market
         
         Market.buy(self, product)
 
         # add product to the owned products list
         self.owned_products.add(product)
+        return True
 
     # money is deducted from user's wallet when purchase is completed
     def deduct(self, money):
@@ -98,32 +104,49 @@ class Customer(object):
         self.lock.acquire()
         # user looks at all the adverts in his ad_space
         for product in self.ad_space:
+
             # user checks the reviews about the product on twitter
-            #print("Products",product.name)
+
             tweets = np.asarray(Twitter.get_latest_tweets(product.name, 100))
-            #sprint("[", self.name,"]:Products",product.name,"Tweets=",tweets)
+
             user_sentiment = 1 if len(tweets) == 0 else (tweets == 'POSITIVE').mean()
 
-            # ANSWER d.
-            # if sentiment is more than user's sentiment tolerance and user does not have the product, then he/she may buy it with 20% chance. If it already has the product, then chance of buying again is 1%
-            if user_sentiment >= self.sentiment_tolerance:
-                if(product not in self.owned_products and random.random() < 0.8):
-                    logging.info("[Customer]:***(%s,%d)bought the new product:[%s]",self.name,self.tickcount,product.name)
-                    self.buy(product)
-                    # buy accessory
-                    for accessory in product.accessories :
-                        if product in self.owned_products and random.random() < 0.9 and accessory not in self.owned_products:
-                            self.buy(accessory)
-                elif (product in self.owned_products and random.random() < 0.1):
-                    logging.info("[Customer]:$$$(%s,%d)bought the same product again:[%s]",self.name,self.tickcount,product.name)
-                    self.buy(product)
-                    # buy accessory
-                    for accessory in product.accessories:
-                        if product in self.owned_products and random.random() < 0.9 and accessory not in self.owned_products:
-                            self.buy(accessory)
 
+            if product not in self.owned_products:
+                buy_result = self.buy(product,user_sentiment)
+            elif (product in self.owned_products and random.random() < 0.1):
+                logging.info("[Customer]:$$$(%s,%d)bought the same product again:[%s]", self.name, self.tickcount,
+                             product.name)
+                buy_result = self.buy(product,user_sentiment)
             else:
-                logging.info("[Customer]:###(%s,%d)doesn't buy any products ",self.name,self.tickcount)
+                buy_result = False
+                logging.info("[Customer]:###(%s,%d)doesn't buy any products ", self.name, self.tickcount)
+
+            if buy_result == True:
+                for accessory in product.accessories:
+                    if product in self.owned_products and random.random() < 0.9 and accessory not in self.owned_products:
+                        #We set the user sentiment as 1 for accessory always in order to drive the bundling.
+                        self.buy(accessory,1)
+
+            # # if sentiment is more than user's sentiment tolerance and user does not have the product, then he/she may buy it with 20% chance. If it already has the product, then chance of buying again is 1%
+            # if user_sentiment >= self.sentiment_tolerance:
+            #     if product not in self.owned_products:
+            #         logging.info("[Customer]:***(%s,%d)bought the new product:[%s]",self.name,self.tickcount,product.name)
+            #         self.buy(product)
+            #         # buy accessory
+            #         for accessory in product.accessories :
+            #             if product in self.owned_products and random.random() < 0.9 and accessory not in self.owned_products:
+            #                 self.buy(accessory)
+            #     elif (product in self.owned_products and random.random() < 0.1):
+            #         logging.info("[Customer]:$$$(%s,%d)bought the same product again:[%s]",self.name,self.tickcount,product.name)
+            #         self.buy(product)
+            #         # buy accessory
+            #         for accessory in product.accessories:
+            #             if product in self.owned_products and random.random() < 0.9 and accessory not in self.owned_products:
+            #                 self.buy(accessory)
+            # else:
+            #     logging.info("[Customer]:###(%s,%d)doesn't buy any products ",self.name,self.tickcount)
+
         # remove the adverts from ad_space
         self.ad_space = set()
         test=', '.join(x.name for x in self.ad_space)
