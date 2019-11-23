@@ -183,12 +183,18 @@ class Seller(object):
         # You need to return the type of advert you want to publish and at what scale
         # GoogleAds.advert_price[advert_type] gives you the rate of an advert
 
+        # incorporate intelligent rule based systems here
+
         # adjust price based on latest sales
         for product in self.products:
             if self.sales_history[product][-1] == 0 and random.random() < 0.5:
                 product.update_price(product.price * 0.9)
+                logging.info('[Seller]: (%s,%d) CEO  the decreased the price for the product',self.name,
+            self.tickcount)
             if self.sales_history[product][-1] >= 2 and random.random() < 0.5:
                 product.update_price(product.price * 1.1)
+                logging.info('[Seller]: (%s,%d) CEO increased the price for the product',self.name,
+                     self.tickcount)
 
         adverts = {}
         for product in self.products:
@@ -200,6 +206,7 @@ class Seller(object):
             # print("[Seller]: CEO decide advert type for {} is {}.".format(product.name, advert_type))
             logging.info('[Seller]: (%s,%d) CEO selected advert_type as %s for %s', self.name,
                      self.tickcount, advert_type, product.name)
+        #HOW SCALE OPERATION IS CALCULATED?? CAN THIS BE INTELLIGENT
         scale = int(self.wallet // sum([GoogleAds.advert_price[v] for k,v in adverts.items()]) // 2) #not spending everything
         logging.info('[Seller]: (%s,%d) CEO selected advert scale %s', self.name, self.tickcount, scale)
         return adverts, scale

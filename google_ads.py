@@ -11,11 +11,13 @@ class GoogleAds(object):
     # Define the types of adverts available
     ADVERT_BASIC = 'BASIC'
     ADVERT_TARGETED = 'TARGETED'
+    ADVERT_BUNDLED='BUNDLED'
 
     # Define advert's price
     advert_price = {
         ADVERT_BASIC: 5,
-        ADVERT_TARGETED: 10
+        ADVERT_TARGETED: 10,
+        ADVERT_BUNDLED:7
     }
 
     # Google's internal database
