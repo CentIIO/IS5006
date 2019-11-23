@@ -2,13 +2,14 @@ import random
 import time
 from threading import Thread, Lock
 import logging
-import numpy
+import numpy as np
 
 from constants import tick_time, seed
 from google_ads import GoogleAds
 from market import Market
 from twitter import Twitter
-from fuzzy_logic import fuzzy_get_customer_tolerance
+# from fuzzy_logic import
+from rule_base_system import rbs_get_customer_attributes
 
 random.seed(seed)
 
@@ -16,7 +17,8 @@ random.seed(seed)
 class Customer(object):
     def __init__(self, name, wallet, type):
         self.name, self.wallet, self.type = name, wallet, type
-        self.quality_tolerance, self.price_tolerance, self.sentiment_tolerance = fuzzy_get_customer_tolerance(type)
+        self.quality_tolerance, self.price_tolerance, self.sentiment_tolerance, self.ratio = rbs_get_customer_attributes(type)
+        self.salary = np.random.normal(loc=3969, scale=3827, size=None)
         logging.info ("[Customer]:Customer %s Created",self.name)
         # Register the user with google ads
         GoogleAds.register_user(self)
@@ -95,7 +97,7 @@ class Customer(object):
         for product in self.ad_space:
             # user checks the reviews about the product on twitter
             #print("Products",product.name)
-            tweets = numpy.asarray(Twitter.get_latest_tweets(product.name, 100))
+            tweets = np.asarray(Twitter.get_latest_tweets(product.name, 100))
             #sprint("[", self.name,"]:Products",product.name,"Tweets=",tweets)
             user_sentiment = 1 if len(tweets) == 0 else (tweets == 'POSITIVE').mean()
 
@@ -135,6 +137,8 @@ class Customer(object):
             # tweet sent
             self.tweet(product, sentiment)
             logging.info("[Customer]:(%s,%d) Posted %s tweet for the product %s",self.name,self.tickcount,sentiment,product.name)
+        self.wallet += self.salary * self.ratio
+        logging.info("[Customer]:(%s,%d) wallet updated to %f from salary", self.name, self.tickcount, self.wallet)
         self.lock.release()
 
     # set the flag to True and wait for thread to join

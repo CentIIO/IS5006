@@ -1,13 +1,5 @@
-#task for assignment:
-'''draw the flowchart and export metrics to google sheets'''
-
-#author: Haroon Basheer,Jack Shen,Aman
+#Authors: Haroon Basheer,Jack Chen and Aman Singhania
 #Module:IS5006
-#task for project
-'''implement the cognitive engine/ceo'''
-
-
-#reference: lecture#08
 import logging
 import random
 import names
@@ -20,7 +12,10 @@ from utils import plot
 import os
 from datetime import datetime
 import sys
+import numpy as np
 
+
+#Code to Save the log files in datetime format as per execution
 now = datetime.now()
 dt_string = now.strftime("%H%M%S_%d_%m_%Y")
 #print("date and time =", dt_string)
@@ -30,9 +25,11 @@ if not os.path.exists("log"):
 
 logging.basicConfig(filename=os.path.join("log",dt_string+'.log'), level=logging.INFO)
 random.seed(para.seed)
-#'consumer_' + str(i)
-# Create 500  Consumers objects and assign initial with tolerance and wallet 
-customers = [Customer(name=names.get_full_name(), wallet=500,type=0.5 + 0.4 * random.random() ) for i in range(1,(para.numberofcustomer+1))]
+
+# Create Consumer objects based on the number of customers defined in constants file and assign namme, values of wallet and type
+
+noCustomers = para.numberofcustomer
+customers = [Customer(name=names.get_full_name(), wallet=np.random.random_integers(500,1000), type=0.3 + 0.7 * random.random()) for i in range(1, noCustomers+1)]
 
 
 # Construct a product object with following attributes
@@ -44,9 +41,18 @@ iphoneX_screen = Product(name='iphoneX_screen', price=30, quality=0.9)
 iphoneX_case = Product(name='iphoneX_case', price=30, quality=0.9)
 iphone11_screen = Product(name='iphone11_screen', price=35, quality=0.92)
 iphone11_case = Product(name='iphone11_case', price=35, quality=0.92)
+galaxy_screen = Product(name='galaxy_screen', price=50, quality=0.8)
+galaxy_case = Product(name='galaxy_case', price=30, quality=0.5)
+xperia_screen = Product(name='xperia_screen', price=20, quality=0.8)
+xperia_case = Product(name='xperia_case', price=10, quality=0.7)
 
 iphone11.add_accessory([iphone11_screen, iphone11_case])
 iphoneX.add_accessory([iphoneX_screen, iphoneX_case])
+
+galaxy.add_accessory([galaxy_screen, galaxy_case])
+
+xperia.add_accessory([xperia_screen, xperia_case])
+
 
 # Create a Seller object with product as one of the attributes
 seller_apple = Seller(name='APPLE INC', products=[iphoneX, iphone11], wallet=1000)

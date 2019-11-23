@@ -1,20 +1,25 @@
 #fuzzy logic needs to be improved
 
-def fuzzy_get_customer_tolerance(type):
-    if type > 0.9:
-        quality_tolerance = 0.9
-        price_tolerance = 360
-        sentiment_tolerance = 0.9
-    elif type > 0.7:
-        quality_tolerance = 0.7
-        price_tolerance = 310
-        sentiment_tolerance = 0.7
-    elif type > 0.5:
-        quality_tolerance = 0.5
-        price_tolerance = 210
-        sentiment_tolerance = 0.5
-    else:
-        quality_tolerance = 0.3
-        price_tolerance = 110
-        sentiment_tolerance = 0.3
-    return quality_tolerance, price_tolerance, sentiment_tolerance
+
+
+# membership functions
+def up(a, b, x):
+    a = float(a)
+    b = float(b)
+    x = float(x)
+    if x < a:
+        return 0.0
+    if x < b:
+        return (x - a) / (b - a)
+    return 1.0
+
+def down(a, b, x):
+    return 1. - up(a, b, x)
+
+def tri(a, b, x):
+    a = float(a)
+    b = float(b)
+    m = (a + b) / 2.
+    first = (x - a) / (m - a)
+    second = (b - x) / (b - m)
+    return max(min(first, second), 0.)
