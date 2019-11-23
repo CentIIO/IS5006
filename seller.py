@@ -42,7 +42,7 @@ class Seller(object):
                 # add accessory product
                 for accessory in product.accessories:
                     if accessory not in self.products:
-                        self.products.append(accessory)
+                        # self.products.append(accessory)
                         Market.register_seller(self, accessory)
                         if product.launchtick == 0:
                             Market.update_inventory(accessory, accessory.quantity)
