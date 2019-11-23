@@ -64,4 +64,3 @@ def read_from_csv():
                 line_count += 1
         print(f'Processed {line_count} lines.')
 
-read_from_csv()
