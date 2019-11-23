@@ -108,15 +108,15 @@ class Customer(object):
                     logging.info("[Customer]:***(%s,%d)bought the new product:[%s]",self.name,self.tickcount,product.name)
                     self.buy(product)
                     # buy accessory
-                    for accessory in product.accessories:
-                        if random.random() < 0.9 and accessory not in self.owned_products:
+                    for accessory in product.accessories :
+                        if product in self.owned_products and random.random() < 0.9 and accessory not in self.owned_products:
                             self.buy(accessory)
                 elif (product in self.owned_products and random.random() < 0.01):
                     logging.info("[Customer]:$$$(%s,%d)bought the same product again:[%s]",self.name,self.tickcount,product.name)
                     self.buy(product)
                     # buy accessory
                     for accessory in product.accessories:
-                        if random.random() < 0.9 and accessory not in self.owned_products:
+                        if product in self.owned_products and random.random() < 0.9 and accessory not in self.owned_products:
                             self.buy(accessory)
 
             else:
