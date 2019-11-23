@@ -101,9 +101,9 @@ class Customer(object):
         test=', '.join(x.name for x in self.ad_space)
         logging.info("[Customer]:(%s,%d) currently seeing ads for the Products:[%s]",self.name,self.tickcount,test)
 
-        self.lock.acquire()
         # user looks at all the adverts in his ad_space
-        for product in self.ad_space:
+        ad_space = self.ad_space.copy()
+        for product in ad_space:
 
             # user checks the reviews about the product on twitter
 
@@ -148,7 +148,9 @@ class Customer(object):
             #     logging.info("[Customer]:###(%s,%d)doesn't buy any products ",self.name,self.tickcount)
 
         # remove the adverts from ad_space
+        self.lock.acquire()
         self.ad_space = set()
+        self.lock.release()
         test=', '.join(x.name for x in self.ad_space)
         logging.info("[Customer]:(%s,%d) Ad Space cleared ",self.name,self.tickcount)
         # with some chance, the user may tweet about the product
@@ -163,9 +165,11 @@ class Customer(object):
             # tweet sent
             self.tweet(product, sentiment)
             logging.info("[Customer]:(%s,%d) Posted %s tweet for the product %s",self.name,self.tickcount,sentiment,product.name)
+        self.lock.acquire()
         self.wallet += self.salary * self.ratio
-        logging.info("[Customer]:(%s,%d) wallet updated to %f from salary", self.name, self.tickcount, self.wallet)
         self.lock.release()
+        logging.info("[Customer]:(%s,%d) wallet updated to %f from salary", self.name, self.tickcount, self.wallet)
+
 
     # set the flag to True and wait for thread to join
     def kill(self):
