@@ -17,7 +17,7 @@ import numpy as np
 
 #Code to Save the log files in datetime format as per execution
 now = datetime.now()
-dt_string = now.strftime("%H%M%S_%d_%m_%Y")
+dt_string = now.strftime("%Y%m%d_%H%M%S")
 #print("date and time =", dt_string)
 
 if not os.path.exists("log"):
