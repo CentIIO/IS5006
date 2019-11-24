@@ -13,7 +13,7 @@ import os
 from datetime import datetime
 import sys
 import numpy as np
-
+import tinydb as db
 print("[main] import done.")
 #Code to Save the log files in datetime format as per execution
 now = datetime.now()
@@ -61,7 +61,7 @@ seller_sony = Seller(name='SONY INC', products=[xperia], wallet=500)
 # Wait till the simulation ends
 try:
     print("[main] start time.sleep.")
-    time.sleep(20)
+    time.sleep(para.annum_count)
     logging.info('[main]: start killing thread')
 except KeyboardInterrupt:
     pass
