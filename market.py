@@ -2,6 +2,8 @@
 from threading import Lock
 from google_ads import GoogleAds
 import logging
+from tinydb import TinyDB as db
+from tinydb import TinyDB as dbquery
 
 class Market(object):
     catalogue = {}

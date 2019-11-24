@@ -13,7 +13,9 @@ import os
 from datetime import datetime
 import sys
 import numpy as np
-import tinydb as db
+from tinydb import TinyDB as db
+from tinydb import TinyDB as dbquery
+
 print("[main] import done.")
 #Code to Save the log files in datetime format as per execution
 now = datetime.now()
@@ -27,6 +29,11 @@ logging.basicConfig(filename=os.path.join("log",dt_string+'.log'), level=logging
 random.seed(para.seed)
 
 # Create Consumer objects based on the number of customers defined in constants file and assign namme, values of wallet and type
+
+
+
+
+
 
 noCustomers = para.numberofcustomer
 customers = [Customer(name=names.get_full_name(), wallet=np.random.random_integers(500,1000), type=0.3 + 0.7 * random.random()) for i in range(1, noCustomers+1)]
