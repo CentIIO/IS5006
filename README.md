@@ -6,6 +6,10 @@ Install Dependecies:
 ```python
 pip install names
 ```
+```python
+pip install tinydb
+```
+
 ### MAS system features:
 * multiple products
 * multiple sellers
