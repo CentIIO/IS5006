@@ -1,0 +1,15 @@
+Name,Price,Quantity,Quality,Launch ,Company,Related Items
+IphoneX,200,12,1,1,Apple,IphoneX_Cover
+Airpods,100,12,1,1,Apple,null
+MacBook,200,12,1,1,Apple,"Storage,Airpods"
+IphoneX_Cover,50,12,1,1,Spigen,null
+LightningCable,25,12,1,1,Spigen,null
+xperia,300,12,1,1,LG,"Cover,cable"
+Note,300,12,1,1,Samsung,"Cover, cable"
+Chromebook,300,12,1,1,Google,"Storage,Cover"
+Storage,50,12,1,1,Hitachi,null
+MT15,1200,12,1,1,Yamaha,BridgeStone
+BridgeStone,100,12,1,1,,
+Iphone11,,,,,,
+Xperia,,,,,,
+Sony,,,,,,
