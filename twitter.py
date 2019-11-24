@@ -1,5 +1,6 @@
 from collections import defaultdict
 import logging
+from copy import copy
 
 class Twitter(object):
     # dictionary to store tweets
@@ -10,7 +11,8 @@ class Twitter(object):
     def post(user, product, tweet):
         Twitter.feed[product.name].append((user.name, tweet))
         #Twitter.feed1[product.name].append((user.name, tweet))
-        for i in Twitter.feed.items():
+        twitter_feed_items = copy(Twitter.feed) # this is to avoid RuntimeError: dictionary changed size during iteration
+        for i in twitter_feed_items:
             s=str(i)
             if not (s.startswith("(<p")):
                 logging.info ('[Twitter]:History of Twitter post %s ',s)

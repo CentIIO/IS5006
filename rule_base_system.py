@@ -22,3 +22,14 @@ def rbs_get_customer_attributes(type):
         ratio = 0.02
     return quality_tolerance, price_tolerance, sentiment_tolerance, ratio
 
+def rbs_get_product_newamount(product,amtinInv):
+
+    if amtinInv <= product.quantity *0.2:
+        newamount = 1.2* product.quantity
+    elif amtinInv <= product.quantity *0.4:
+        newamount = 1.0 * product.quantity
+    elif amtinInv <= product.quantity *0.6:
+        newamount = 0.8 * product.quantity
+    else:
+        newamount = amtinInv
+    return newamount
