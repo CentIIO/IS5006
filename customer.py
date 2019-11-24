@@ -3,13 +3,16 @@ import time
 from threading import Thread, Lock
 import logging
 import numpy as np
-
+import sqlite3
+from sqlite3 import Error
 from constants import tick_time, seed
 from google_ads import GoogleAds
 from market import Market
 from twitter import Twitter
 # from fuzzy_logic import
 from rule_base_system import rbs_get_customer_attributes
+
+
 
 random.seed(seed)
 
@@ -22,6 +25,7 @@ class Customer(object):
         logging.info ("[Customer]:Customer %s Created",self.name)
         # Register the user with google ads
         GoogleAds.register_user(self)
+
 
         # ad space stores all the adverts consumed by this user
         self.ad_space = set()
@@ -37,8 +41,8 @@ class Customer(object):
         # start this user in separate thread
         self.thread = Thread(name=name, target=self.loop)
         self.thread.start()
-       
-        
+
+
         
     # View the advert to this consumer. The advert is appended to the ad_space
     def view_advert(self, product):
