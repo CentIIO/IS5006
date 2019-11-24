@@ -15,11 +15,13 @@ import sys
 import platform
 import numpy as np
 
+
 def InitCustomer():
     noCustomers = para.numberofcustomer
     customers = [Customer(name=names.get_full_name(), wallet=np.random.random_integers(500, 1000),
                           type=0.3 + 0.7 * random.random()) for i in range(1, noCustomers + 1)]
     return customers
+
 
 def main():
     print("[main] import done.")
@@ -35,8 +37,7 @@ def main():
     random.seed(para.seed)
 
     # Create Consumer objects based on the number of customers defined in constants file and assign namme, values of wallet and type
-    customers=InitCustomer()
-
+    customers = InitCustomer()
 
     # Construct a product object with following attributes
     iphoneX = Product(name='iphoneX', price=300, quality=0.9, launchtick=5)
@@ -106,20 +107,36 @@ def main():
     print ("Done")
     '''
     # sys.exit(0)
+
+
 def db_init(home_dir=None):
     tar_sys = platform.system()
     home_dir = os.path.expanduser("~")
-    if tar_sys=='Windows':
-        cust_db=home_dir+"\Desktop\Customer_SQLite.db"
-        sell_db=home_dir+"\Desktop\Seller_SQLite.db"
-    elif tar_sys=='Darwin':
-        print
-        cust_db=home_dir+"/Desktop/Customer_SQLite.db"
-        sell_db=home_dir+"/Desktop/Seller_SQLite.db"
-    else:
-        print ("Unsupported System")
-        sys.exit(0)
+    if tar_sys == 'Windows':
+        db_1 = home_dir + "\Desktop\Customer_SQLite.db"
+        db_2 = home_dir + "\Desktop\Seller_SQLite.db"
+    elif tar_sys == 'Darwin':
+        db_1 = home_dir + "/Desktop/Customer_SQLite.db"
+        db_2 = home_dir + "/Desktop/Seller_SQLite.db"
+    return db_1, db_2
+
+
+def customer_dbcreation():
+    pass
+
+
+def seller_dbcreation():
+    pass
+
 
 if __name__ == '__main__':
-    db_init()
-    main()
+    tar_sys = platform.system()
+    if tar_sys == 'Windows' or 'Darwin':
+        customer_db, seller_db = db_init()
+        customer_dbcreation()
+        seller_dbcreation()
+
+        main()
+    else:
+        print("Unsupported System")
+        sys.exit(0)
