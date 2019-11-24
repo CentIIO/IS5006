@@ -12,9 +12,8 @@ from utils import plot
 import os
 from datetime import datetime
 import sys
+import platform
 import numpy as np
-from tinydb import TinyDB as db
-from tinydb import TinyDB as dbquery
 
 def InitCustomer():
     noCustomers = para.numberofcustomer
@@ -107,7 +106,20 @@ def main():
     print ("Done")
     '''
     # sys.exit(0)
-
+def db_init(home_dir=None):
+    tar_sys = platform.system()
+    home_dir = os.path.expanduser("~")
+    if tar_sys=='Windows':
+        cust_db=home_dir+"\Desktop\Customer_SQLite.db"
+        sell_db=home_dir+"\Desktop\Seller_SQLite.db"
+    elif tar_sys=='Darwin':
+        print
+        cust_db=home_dir+"/Desktop/Customer_SQLite.db"
+        sell_db=home_dir+"/Desktop/Seller_SQLite.db"
+    else:
+        print ("Unsupported System")
+        sys.exit(0)
 
 if __name__ == '__main__':
+    db_init()
     main()
