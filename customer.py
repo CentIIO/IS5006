@@ -58,16 +58,16 @@ class Customer(object):
             return False
 
         if Market.inventory[product] == 0:
-            logging.info("[Customer]:(%s,%d)no sales for the product:[%s] fail due to inventory", self.name, self.tickcount, product.name)
+            logging.info("[Customer]:(%s,%d)no saleshistory for the product:[%s] fail due to inventory", self.name, self.tickcount, product.name)
 
             return False
 
         if self.price_tolerance < product.price:
-            logging.info("[Customer]:(%s,%d)no sales for the product:[%s] fail due to price_tolerance", self.name, self.tickcount, product.name)
+            logging.info("[Customer]:(%s,%d)no saleshistory for the product:[%s] fail due to price_tolerance", self.name, self.tickcount, product.name)
             return False
 
         if user_sentiment < self.sentiment_tolerance:
-            logging.info("[Customer]:(%s,%d)no sales for the product:[%s] fail due to sentiment_tolerance", self.name,
+            logging.info("[Customer]:(%s,%d)no saleshistory for the product:[%s] fail due to sentiment_tolerance", self.name,
                          self.tickcount, product.name)
             return False
         # purchase the product from market

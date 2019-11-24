@@ -20,7 +20,7 @@ class Market(object):
         Market.inventory[product] = 0
         Market.lock.release()
 
-    # when a user buys a product, increment the seller's sales
+    # when a user buys a product, increment the seller's saleshistory
     @staticmethod
     def buy(buyer, product):
         # get the seller for product from catalogue

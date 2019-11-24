@@ -33,3 +33,38 @@ def rbs_get_product_newamount(product,amtinInv):
     else:
         newamount = amtinInv
     return newamount
+
+def rbs_CEO_decide_new_price_budget(product, saleshistory, profithistory, adbudget):
+    sales1,sales2,sales3 = saleshistory[-3],saleshistory[-2],saleshistory[-1]
+    profit1, profit2, profit3 = profithistory[-3], profithistory[-2], profithistory[-1]
+    newadvbudget = adbudget
+    newprice = product.price
+
+    if sales3 > sales2 and sales2 > sales1 and profit3 > profit2 and profit2 > profit1:
+        # sales +, +. profile +, +.
+        newadvbudget = adbudget
+        newprice = product.price*1.4
+    elif sales3 < sales2 and sales2 < sales1 and profit3 < profit2 and profit2 < profit1:
+        # sales -, -. profile -, -.
+        newadvbudget = 1.5 * adbudget
+        newprice = product.price * 0.5
+    elif sales3 < sales2 and sales2 > sales1 and profit3 < profit2 and profit2 > profit1:
+        # sales +, -. profile +, -.
+        newadvbudget = 1.2*adbudget
+        newprice = product.price*0.8
+    elif sales3 > sales2 and sales2 > sales1 and profit3 < profit2 and profit2 < profit1:
+        # sales +, +. profile -, -.
+        newadvbudget = 0.8*adbudget
+        newprice = product.price*1.2
+    elif sales3 < sales2 and sales2 < sales1 and profit3 > profit2 and profit2 > profit1:
+        # sales -, -. profile +, +.
+        newadvbudget = 1.5*adbudget
+        newprice = product.price*1.4
+    elif sales3 > sales2 and sales2 < sales1 and profit3 > profit2 and profit2 < profit1:
+        # sales -, +. profile -, +.
+        newadvbudget = adbudget
+        newprice = product.price*1.2
+    else:
+        pass
+
+    return newprice, newadvbudget

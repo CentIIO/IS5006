@@ -47,6 +47,7 @@ class GoogleAds(object):
             logging.info ('[GoogleAds]: Google pushed the %s Ad for product %s to user %s ',advert_type,product.name,test)
         else:
             print('Not a valid Advert type')
+            GoogleAds.lock.release()
             return
 
         # publish the advert to selected user

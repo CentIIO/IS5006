@@ -11,7 +11,7 @@ from google_ads import GoogleAds
 from market import Market
 from twitter import Twitter
 import random
-from rule_base_system import rbs_get_product_newamount
+from rule_base_system import rbs_get_product_newamount, rbs_CEO_decide_new_price_budget
 
 
 class Seller(object):
@@ -93,9 +93,9 @@ class Seller(object):
     def tick(self):
         self.lock.acquire()
         for product in self.products:
-            # append the sales record to the history
+            # append the saleshistory record to the history
             self.sales_history[product].append(self.item_sold[product])
-            # reset the sales counter
+            # reset the saleshistory counter
             self.item_sold[product] = 0
 
             # initial release of product
@@ -122,7 +122,7 @@ class Seller(object):
         self.wallet += self.my_profit(True)
 
         # choose what to do for next timestep
-        adverts, scale = self.CEO()
+        adverts, scales = self.CEO()
 
         # ANSWER a. print data to show progress
         #test=', '.join(for x in self.sentiment_history)
@@ -138,7 +138,7 @@ class Seller(object):
         
         # perform the actions and view the expense
         for product in self.products:
-            self.expense_history[product].append(GoogleAds.post_advertisement(self, product, adverts[product], scale))
+            self.expense_history[product].append(GoogleAds.post_advertisement(self, product, adverts[product], scales[product]))
 
     # calculates the total revenue. Gives the revenue in last tick if latest_only = True
     def my_revenue(self, latest_only=False):
@@ -188,30 +188,43 @@ class Seller(object):
 
         # incorporate intelligent rule based systems here
 
-        # adjust price based on latest sales
-        for product in self.products:
-            if self.sales_history[product][-1] == 0 and random.random() < 0.5:
-                product.update_price(product.price * 0.9)
-                logging.info('[Seller]: (%s,%d) CEO decreased the price for the product',self.name,
-            self.tickcount)
-            if self.sales_history[product][-1] >= 2 and random.random() < 0.5:
-                product.update_price(product.price * 1.1)
-                logging.info('[Seller]: (%s,%d) CEO increased the price for the product',self.name,
-                     self.tickcount)
-
+        newbudget_total = 0
         adverts = {}
+        scales = {}
         for product in self.products:
-            if (GoogleAds.user_coverage(product.name) < 0.5):
-                advert_type = GoogleAds.ADVERT_BASIC
+            # get new price and new ad budget for each product
+            if(self.tickcount == 1 or self.tickcount == 2 ):
+                newprice = product.price
+                newbudget = self.wallet // 3
+            elif self.tickcount % 3 == 0:
+                newprice, newbudget = rbs_CEO_decide_new_price_budget(product, self.sales_history[product], self.profit_history, self.expense_history[product][-1])
             else:
-                advert_type=GoogleAds.ADVERT_TARGETED
-            adverts[product] = advert_type
+                newprice, newbudget =product.price, self.expense_history[product][-1]
+
+            product.update_price(newprice)
+            newbudget_total += newbudget
+
+            # get ad type for each product
+            if (GoogleAds.user_coverage(product.name) < 0.5):
+                adverts[product] = GoogleAds.ADVERT_BASIC
+            else:
+                adverts[product] = GoogleAds.ADVERT_TARGETED
+
+            scales[product] = int(newbudget // GoogleAds.advert_price[adverts[product]])
+
             # print("[Seller]: CEO decide advert type for {} is {}.".format(product.name, advert_type))
-            logging.info('[Seller]: (%s,%d) CEO selected advert_type as %s for %s', self.name,
-                     self.tickcount, advert_type, product.name)
+            logging.info('[Seller]: (%s,%d) CEO selected advert_type as %s for %s',
+                         self.name, self.tickcount, adverts[product], product.name)
+
+        # avoid spend more money than wallet
+        if newbudget_total > self.wallet * 0.4:
+            reduce_ratio = newbudget_total / (self.wallet * 0.4)
+            for product in self.products:
+                scales[product] = scales[product] / reduce_ratio
+
         #HOW SCALE OPERATION IS CALCULATED?? CAN THIS BE INTELLIGENT
-        scale = int(self.wallet // sum([GoogleAds.advert_price[v] for k,v in adverts.items()]) // 2) #not spending everything
-        logging.info('[Seller]: (%s,%d) CEO selected advert scale %s', self.name, self.tickcount, scale)
+        # scale = int(newbudget_total // sum([GoogleAds.advert_price[v] for k,v in adverts.items()])) #not spending everything
+        # logging.info('[Seller]: (%s,%d) CEO selected advert scale %s', self.name, self.tickcount, scale)
 
         # update inventory at the end of each tick
         for product in self.products:
@@ -219,4 +232,4 @@ class Seller(object):
             newamount = rbs_get_product_newamount(product, amtinInv)
             Market.update_inventory(product, newamount - amtinInv)
 
-        return adverts, scale
+        return adverts, scales
