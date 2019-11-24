@@ -1,5 +1,5 @@
-#Authors: Haroon Basheer,Jack Chen and Aman Singhania
-#Module:IS5006
+# Authors: Haroon Basheer,Jack Chen and Aman Singhania
+# Module:IS5006
 import logging
 import random
 import names
@@ -15,31 +15,31 @@ import sys
 import numpy as np
 from tinydb import TinyDB as db
 from tinydb import TinyDB as dbquery
+
+def InitCustomer():
+    noCustomers = para.numberofcustomer
+    customers = [Customer(name=names.get_full_name(), wallet=np.random.random_integers(500, 1000),
+                          type=0.3 + 0.7 * random.random()) for i in range(1, noCustomers + 1)]
+    return customers
+
 def main():
     print("[main] import done.")
-    #Code to Save the log files in datetime format as per execution
+    # Code to Save the log files in datetime format as per execution
     now = datetime.now()
     dt_string = now.strftime("%Y%m%d_%H%M%S")
-    #print("date and time =", dt_string)
+    # print("date and time =", dt_string)
 
     if not os.path.exists("log"):
         os.mkdir("log")
 
-    logging.basicConfig(filename=os.path.join("log",dt_string+'.log'), level=logging.INFO)
+    logging.basicConfig(filename=os.path.join("log", dt_string + '.log'), level=logging.INFO)
     random.seed(para.seed)
 
     # Create Consumer objects based on the number of customers defined in constants file and assign namme, values of wallet and type
+    customers=InitCustomer()
 
 
-
-
-
-
-    noCustomers = para.numberofcustomer
-    customers = [Customer(name=names.get_full_name(), wallet=np.random.random_integers(500,1000), type=0.3 + 0.7 * random.random()) for i in range(1, noCustomers+1)]
-
-
-# Construct a product object with following attributes
+    # Construct a product object with following attributes
     iphoneX = Product(name='iphoneX', price=300, quality=0.9, launchtick=5)
     iphone11 = Product(name='iphone11', price=350, quality=0.92)
     galaxy = Product(name='galaxy', price=200, quality=0.8)
@@ -60,12 +60,11 @@ def main():
 
     xperia.add_accessory([xperia_screen, xperia_case])
 
-
-# Create a Seller object with product as one of the attributes
+    # Create a Seller object with product as one of the attributes
     seller_apple = Seller(name='APPLE INC', products=[iphoneX, iphone11], wallet=1000)
     seller_samsung = Seller(name='SAMSUNG MOBILES', products=[galaxy], wallet=500)
     seller_sony = Seller(name='SONY INC', products=[xperia], wallet=500)
-# Wait till the simulation ends
+    # Wait till the simulation ends
     try:
         print("[main] start time.sleep.")
         time.sleep(para.annum_count)
@@ -73,7 +72,7 @@ def main():
     except KeyboardInterrupt:
         pass
 
-# kill seller thread
+    # kill seller thread
     print("[main] start killing sellers thread.")
     seller_apple.kill()
     seller_samsung.kill()
@@ -81,11 +80,11 @@ def main():
     print("[main] sellers thread killed.")
 
     # Plot the sales and expenditure trends
-    #plot(seller_apple)
-    #plot(seller_samsung)
+    # plot(seller_apple)
+    # plot(seller_samsung)
 
-    #print('Total Profit Apple:', seller_apple.my_profit())
-    #print('Total Profit Samsung:', seller_samsung.my_profit())
+    # print('Total Profit Apple:', seller_apple.my_profit())
+    # print('Total Profit Samsung:', seller_samsung.my_profit())
 
     # Kill consumer threads
     for consumer in customers:
@@ -107,7 +106,8 @@ def main():
     
     print ("Done")
     '''
-    #sys.exit(0)
+    # sys.exit(0)
+
 
 if __name__ == '__main__':
     main()
