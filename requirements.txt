@@ -1,0 +1,4 @@
+names==0.3.0
+numpy==1.17.4
+matplotlib==3.1.2
+tinydb==3.15.1
