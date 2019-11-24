@@ -14,7 +14,8 @@ from datetime import datetime
 import sys
 import platform
 import numpy as np
-
+import sqlite3
+from sqlite3 import Error
 
 def InitCustomer():
     noCustomers = para.numberofcustomer
@@ -121,8 +122,27 @@ def db_init(home_dir=None):
     return db_1, db_2
 
 
-def customer_dbcreation():
-    pass
+def customer_dbcreation(customer_db):
+    conn = None
+    try:
+        conn = sqlite3.connect(customer_db)
+        sql_create_customer_table = """ CREATE TABLE IF NOT EXISTS customer (
+                                            id integer PRIMARY KEY,
+                                            name text NOT NULL,
+                                            wallet text,
+                                            type text
+                                        ); """
+        # conn,sql_create_customer_table
+        try:
+            c = conn.cursor()
+            c.execute(sql_create_customer_table)
+        except Error as e:
+            print(e)
+    except Error as e:
+        print(e)
+
+    return conn
+
 
 
 def seller_dbcreation():
@@ -133,8 +153,8 @@ if __name__ == '__main__':
     tar_sys = platform.system()
     if tar_sys == 'Windows' or 'Darwin':
         customer_db, seller_db = db_init()
-        customer_dbcreation()
-        seller_dbcreation()
+        customer_dbcreation(customer_db)
+        #seller_dbcreation()
 
         main()
     else:
