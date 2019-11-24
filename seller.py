@@ -20,7 +20,7 @@ class Seller(object):
         self.name = name
         self.products = []
         self.wallet = wallet
-        logging.info ("[Seller]:Seller %s Created",self.name)
+        logging.info("[Seller]:Seller %s Created", self.name)
         self.item_sold = {}
         self.total_item_sold = {}
         self.sales_history = {}
@@ -58,7 +58,7 @@ class Seller(object):
         self.revenue_history = []
         self.profit_history = []
         self.quarter = []
-        self.tickcount=0
+        self.tickcount = 0
         # Flag for thread
         self.STOP = False
 
@@ -69,23 +69,24 @@ class Seller(object):
         self.thread.start()
 
     def loop(self):
-        logging.info ("[Seller]:Seller %s started Trading",self.name)
+        logging.info("[Seller]:Seller %s started Trading", self.name)
         while not self.STOP:
-            self.tickcount+=1
+            self.tickcount += 1
             self.quarter.append(self.tickcount)
-            logging.info ("[Seller]:(%s,%d): Next Quarter Begins ",self.name,self.tickcount)
+            logging.info("[Seller]:(%s,%d): Next Quarter Begins ", self.name, self.tickcount)
             self.tick()
             time.sleep(tick_time)
-        #test=', '.join(x.name for x in self.sales_history)
+        # test=', '.join(x.name for x in self.sales_history)
         for product in self.products:
-            logging.info("[Seller]: (%s,%d) sold  %d units of %s",self.name,self.tickcount,self.total_item_sold[product],product.name)
-        logging.info("[Seller]: (%s,%d) Exit", self.name,self.tickcount)
+            logging.info("[Seller]: (%s,%d) sold  %d units of %s",
+                         self.name, self.tickcount, self.total_item_sold[product], product.name)
+        logging.info("[Seller]: (%s,%d) Exit", self.name, self.tickcount)
 
     # if an item is sold, add it to the database
-    def sold(self,product):
+    def sold(self, product):
         self.lock.acquire()
         self.item_sold[product] += 1
-        self.total_item_sold[product] +=1
+        self.total_item_sold[product] += 1
         self.lock.release()
 
     # one timestep in the simulation world
@@ -99,7 +100,7 @@ class Seller(object):
 
             # initial release of product
             if self.tickcount == product.launchtick and product.launchtick != 0:
-                Market.update_inventory(product,product.quantity)
+                Market.update_inventory(product, product.quantity)
             # reproduce of product
             # if self.tickcount % product.reproduce_period == 0:
             #     Market.update_inventory(product, product.reproduce_amount)
