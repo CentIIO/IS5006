@@ -11,6 +11,7 @@ from google_ads import GoogleAds
 from market import Market
 from twitter import Twitter
 import random
+from rule_base_system import rbs_get_product_newamount
 
 
 class Seller(object):
@@ -210,4 +211,11 @@ class Seller(object):
         #HOW SCALE OPERATION IS CALCULATED?? CAN THIS BE INTELLIGENT
         scale = int(self.wallet // sum([GoogleAds.advert_price[v] for k,v in adverts.items()]) // 2) #not spending everything
         logging.info('[Seller]: (%s,%d) CEO selected advert scale %s', self.name, self.tickcount, scale)
+
+        # update inventory at the end of each tick
+        for product in self.products:
+            amtinInv = Market.inventory[product]
+            newamount = rbs_get_product_newamount(product, amtinInv)
+            Market.update_inventory(product, newamount - amtinInv)
+
         return adverts, scale
