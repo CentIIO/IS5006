@@ -19,6 +19,7 @@ class Seller(object):
     def __init__(self, name, products, wallet):
         self.name = name
         self.products = []
+        self.accessaries = []
         self.wallet = wallet
         logging.info("[Seller]:Seller %s Created", self.name)
         self.item_sold = {}
@@ -26,7 +27,13 @@ class Seller(object):
         self.sales_history = {}
         self.sentiment_history = {}
         self.expense_history = {}
+        self.total_expense_history = [0]
+        self.total_sales_history = []
+        self.wallet_history = []
         self.inventory_history = {}
+        self.price_history = {}
+        self.adverts_type_history = {}
+        self.adverts_scale_history = {}
         for product in products:
             # register the seller in market
             if product not in self.products:
@@ -40,10 +47,13 @@ class Seller(object):
                 self.sentiment_history[product] = []
                 self.expense_history[product] = [0]
                 self.inventory_history[product] = []
+                self.price_history[product] = []
+                self.adverts_type_history[product] = []
+                self.adverts_scale_history[product] = []
                 # add accessory product
                 for accessory in product.accessories:
                     if accessory not in self.products:
-                        # self.products.append(accessory)
+                        self.accessaries.append(accessory)
                         Market.register_seller(self, accessory)
                         if product.launchtick == 0:
                             Market.update_inventory(accessory, accessory.quantity)
@@ -53,11 +63,12 @@ class Seller(object):
                         self.sentiment_history[accessory] = []
                         self.expense_history[accessory] = [0]
                         self.inventory_history[accessory] = []
+                        self.price_history[accessory] = []
 
         # metrics tracker
         self.revenue_history = []
         self.profit_history = []
-        self.quarter = []
+        self.month = []
         self.tickcount = 0
         # Flag for thread
         self.STOP = False
@@ -72,8 +83,8 @@ class Seller(object):
         logging.info("[Seller]:Seller %s started Trading", self.name)
         while not self.STOP:
             self.tickcount += 1
-            self.quarter.append(self.tickcount)
-            logging.info("[Seller]:(%s,%d): Next Quarter Begins ", self.name, self.tickcount)
+            self.month.append(self.tickcount)
+            logging.info("[Seller]:(%s,%d): Next month Begins ", self.name, self.tickcount)
             self.tick()
             time.sleep(tick_time)
         # test=', '.join(x.name for x in self.sales_history)
@@ -92,7 +103,7 @@ class Seller(object):
     # one timestep in the simulation world
     def tick(self):
         self.lock.acquire()
-        for product in self.products:
+        for product in (self.products + self.accessaries):
             # append the saleshistory record to the history
             self.sales_history[product].append(self.item_sold[product])
             # reset the saleshistory counter
@@ -105,14 +116,10 @@ class Seller(object):
             # if self.tickcount % product.reproduce_period == 0:
             #     Market.update_inventory(product, product.reproduce_amount)
 
-            try:
-                self.inventory_history[product].append(Market.get_inventory(product))
-            except:
-                print("[seller]exception: product name:{}".format(product.name))
         self.lock.release()
 
         # Calculate the metrics for previous tick and add to tracker
-        self.revenue_history.append(sum([self.sales_history[x][-1] * x.price for x in self.products]))
+        self.revenue_history.append(sum([self.sales_history[x][-1] * x.price for x in (self.products + self.accessaries)]))
         self.profit_history.append(self.revenue_history[-1] - sum([self.expense_history[x][-1] for x in self.products]))
         sentiments = self.user_sentiment()
         for product in self.products:
@@ -127,18 +134,29 @@ class Seller(object):
         # ANSWER a. print data to show progress
         #test=', '.join(for x in self.sentiment_history)
         
-        logging.info ('[Seller]: (%s,%d) Revenue in previous quarter:%d', self.name,self.tickcount,self.my_revenue(True))
-        logging.info ('[Seller]: (%s,%d) Expenses in previous quarter:%d', self.name,self.tickcount,self.my_expenses(True))
-        logging.info ('[Seller]: (%s,%d) Profit in previous quarter:%d', self.name,self.tickcount,self.my_profit(True))
+        logging.info ('[Seller]: (%s,%d) Revenue in previous month:%d', self.name,self.tickcount,self.my_revenue(True))
+        logging.info ('[Seller]: (%s,%d) Expenses in previous month:%d', self.name,self.tickcount,self.my_expenses(True))
+        logging.info ('[Seller]: (%s,%d) Profit in previous month:%d', self.name,self.tickcount,self.my_profit(True))
         sentiments = self.user_sentiment()
         for product in self.products:
-            logging.info ('[Seller]: (%s,%d) Sentiment for %s in previous quarter:%d', self.name,self.tickcount,product.name, sentiments[product])
-        #logging.info ('[Seller]: (%s,%d) Sales in previous quarter:%d', self.name,self.tickcount,self.sales_history(True))
-        #logging.info ('[Seller]: (%s,%d)Strategy for next quarter \nAdvert Type: {}, scale: {}\n\n'.format(advert_type, scale))
+            logging.info ('[Seller]: (%s,%d) Sentiment for %s in previous month:%d', self.name,self.tickcount,product.name, sentiments[product])
+        #logging.info ('[Seller]: (%s,%d) Sales in previous month:%d', self.name,self.tickcount,self.sales_history(True))
+        #logging.info ('[Seller]: (%s,%d)Strategy for next month \nAdvert Type: {}, scale: {}\n\n'.format(advert_type, scale))
         
         # perform the actions and view the expense
+        total_expense_history= 0
         for product in self.products:
-            self.expense_history[product].append(GoogleAds.post_advertisement(self, product, adverts[product], scales[product]))
+            product_expense = GoogleAds.post_advertisement(self, product, adverts[product], int(scales[product]))
+            self.expense_history[product].append(product_expense)
+            total_expense_history += product_expense
+            self.inventory_history[product].append(Market.get_inventory(product))
+            self.price_history[product].append(product.price)
+            self.adverts_type_history[product].append((adverts[product]))
+            self.adverts_scale_history[product].append(scales[product])
+        self.total_sales_history.append(sum([self.sales_history[x][-1] for x in self.products]))
+        self.total_expense_history.append(total_expense_history)
+        self.wallet_history.append(self.wallet)
+
 
     # calculates the total revenue. Gives the revenue in last tick if latest_only = True
     def my_revenue(self, latest_only=False):
@@ -211,7 +229,6 @@ class Seller(object):
                 adverts[product] = GoogleAds.ADVERT_TARGETED
 
             scales[product] = int(newbudget // GoogleAds.advert_price[adverts[product]])
-
             # print("[Seller]: CEO decide advert type for {} is {}.".format(product.name, advert_type))
             logging.info('[Seller]: (%s,%d) CEO selected advert_type as %s for %s',
                          self.name, self.tickcount, adverts[product], product.name)
@@ -220,7 +237,7 @@ class Seller(object):
         if newbudget_total > self.wallet * 0.4:
             reduce_ratio = newbudget_total / (self.wallet * 0.4)
             for product in self.products:
-                scales[product] = scales[product] / reduce_ratio
+                scales[product] = scales[product] // reduce_ratio
 
         #HOW SCALE OPERATION IS CALCULATED?? CAN THIS BE INTELLIGENT
         # scale = int(newbudget_total // sum([GoogleAds.advert_price[v] for k,v in adverts.items()])) #not spending everything

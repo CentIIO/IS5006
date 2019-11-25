@@ -32,13 +32,26 @@ def update_google_sheet_csv(seller):
     # export data to csv and import to populate google sheet
     csv_path = os.path.join("log",formatted_seller_name + '_Data.csv')
     dict_for_pandas = {}
-    dict_for_pandas['Quarter'] = seller.quarter
+    dict_for_pandas['Month'] = seller.month
+    dict_for_pandas['Revenue'] = seller.revenue_history
+    dict_for_pandas['Total_expense'] = seller.total_expense_history[1:]
+    dict_for_pandas['Profit'] = seller.profit_history
+    dict_for_pandas['Total_sales'] = seller.total_sales_history
+    dict_for_pandas['Wallet'] = seller.wallet_history
     for product in seller.products:
+        dict_for_pandas['Inventory_' + product.name] = seller.inventory_history[product]
+        dict_for_pandas['Price_' + product.name] = seller.price_history[product]
         dict_for_pandas['Sales_'+product.name] = seller.sales_history[product]
         dict_for_pandas['Expense_'+product.name] = seller.expense_history[product][1:]
         dict_for_pandas['sentiment_'+product.name] = seller.sentiment_history[product]
-    dict_for_pandas['Revenue'] = seller.revenue_history
-    dict_for_pandas['Profit'] = seller.profit_history
+        dict_for_pandas['Ad_type_' + product.name] = seller.adverts_type_history[product]
+        dict_for_pandas['Ad_scale_' + product.name] = seller.adverts_scale_history[product]
+
+    for product in seller.accessaries:
+        dict_for_pandas['Sales_' + product.name] = seller.sales_history[product]
+
+    for k,v in dict_for_pandas.items():
+        print("key:",k,"value length:",len(v))
     pandas.DataFrame(dict_for_pandas).to_csv(csv_path, mode = 'w', index=False)
     # pandas.DataFrame({'Sales': seller.sales_history,
     #                   'Revenue': seller.revenue_history,
