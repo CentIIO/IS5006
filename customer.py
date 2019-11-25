@@ -11,7 +11,7 @@ from market import Market
 from twitter import Twitter
 # from fuzzy_logic import
 from rule_base_system import rbs_get_customer_attributes
-
+import DBConn as DB
 
 
 random.seed(seed)
@@ -25,7 +25,7 @@ class Customer(object):
         logging.info ("[Customer]:Customer %s Created",self.name)
         # Register the user with google ads
         GoogleAds.register_user(self)
-
+        DB.update_CustDB(self.name,str(self.wallet),self.type)
 
         # ad space stores all the adverts consumed by this user
         self.ad_space = set()
