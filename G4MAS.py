@@ -14,7 +14,7 @@ from datetime import datetime
 import sys
 import platform
 import numpy as np
-import DBConn as Db
+import Database as Db
 def InitCustomer():
     noCustomers = para.numberofcustomer
     customers = [Customer(name=names.get_full_name(), wallet=np.random.random_integers(500, 1000),

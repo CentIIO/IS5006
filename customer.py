@@ -11,7 +11,7 @@ from market import Market
 from twitter import Twitter
 # from fuzzy_logic import
 from rule_base_system import rbs_get_customer_attributes
-import DBConn as DB
+import Database as DB
 
 
 random.seed(seed)

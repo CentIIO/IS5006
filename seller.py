@@ -12,13 +12,15 @@ from market import Market
 from twitter import Twitter
 import random
 from rule_base_system import rbs_get_product_newamount, rbs_CEO_decide_new_price_budget
-
+import Database as DB
 
 class Seller(object):
 
     def __init__(self, name, products, wallet):
         self.name = name
         self.products = []
+        self.dbprod=[]
+        self.dbacces=[]
         self.accessaries = []
         self.wallet = wallet
         logging.info("[Seller]:Seller %s Created", self.name)
@@ -38,6 +40,7 @@ class Seller(object):
             # register the seller in market
             if product not in self.products:
                 self.products.append(product)
+                self.dbprod.append(product.name)
                 Market.register_seller(self, product)
                 if product.launchtick == 0:
                     Market.update_inventory(product, product.quantity)
@@ -54,6 +57,7 @@ class Seller(object):
                 for accessory in product.accessories:
                     if accessory not in self.products:
                         self.accessaries.append(accessory)
+                        self.dbacces.append(accessory.name)
                         Market.register_seller(self, accessory)
                         if product.launchtick == 0:
                             Market.update_inventory(accessory, accessory.quantity)
@@ -72,7 +76,7 @@ class Seller(object):
         self.tickcount = 0
         # Flag for thread
         self.STOP = False
-
+        DB.update_SellerDB(self.name, str(self.dbprod), str(self.dbacces),(self.wallet))
         self.lock = Lock()
 
         # start this seller in separate thread
