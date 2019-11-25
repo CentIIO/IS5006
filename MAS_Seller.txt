@@ -1,0 +1,8 @@
+id          Seller_Name  Products                 Accessories                                                             Wallet    
+----------  -----------  -----------------------  ----------------------------------------------------------------------  ----------
+1           APPLE INC    ['iphoneX', 'iphone11']  ['iphoneX_screen', 'iphoneX_case', 'iphone11_screen', 'iphone11_case']  1000      
+2           SAMSUNG MOB  ['galaxy']               ['galaxy_screen', 'galaxy_case']                                        500       
+3           SONY INC     ['Xperia']               ['xperia_screen', 'xperia_case']                                        500       
+4           APPLE INC    ['iphoneX', 'iphone11']  ['iphoneX_screen', 'iphoneX_case', 'iphone11_screen', 'iphone11_case']  1000      
+5           SAMSUNG MOB  ['galaxy']               ['galaxy_screen', 'galaxy_case']                                        500       
+6           SONY INC     ['Xperia']               ['xperia_screen', 'xperia_case']                                        500       
