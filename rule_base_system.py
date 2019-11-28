@@ -25,6 +25,9 @@ def rbs_get_customer_attributes(customer_type):
         ratio = 0.02
     return quality_tolerance, price_tolerance, sentiment_tolerance, ratio
 
+# THE GET PRODUCT AMOUNT FUNCTION IS AIMED TO REFILL INVENTORY WITH DYNAMIC AMOUNTS AT THE END OF EACH TICK.
+# THE INTUITION FOR THIS IS BASED ON DEMAND - SUPPLY CONCEPT.
+# IF DEMAND IS HIGH THEN ACQUIRE MORE PRODUCTS FROM MANUFACTURERS AND VICE VERSA.
 def rbs_get_product_newamount(product,amtinInv):
 
     if amtinInv <= product.quantity *0.2:
@@ -37,6 +40,9 @@ def rbs_get_product_newamount(product,amtinInv):
         newamount = amtinInv
     return newamount
 
+# THE DECIDE NEW PRICE BUDGET IS A RULE BASED FUNCTION THAT GUIDES THE CEO TO MAKE INTELLIGENT DECISIONS.
+# THE FUNCTION SETS THE PRODUCT PRICE AND AD BUDGET FOR EACH QUARTER.
+# THE INTUTION FOR THIS FUNCTION IS DESCRIPED IN DEPTH @ DOCx.
 def rbs_CEO_decide_new_price_budget(product, saleshistory, profithistory, adbudget):
     sales1,sales2,sales3 = saleshistory[-3],saleshistory[-2],saleshistory[-1]
     profit1, profit2, profit3 = profithistory[-3], profithistory[-2], profithistory[-1]
