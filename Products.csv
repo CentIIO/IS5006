@@ -1,0 +1,13 @@
+Name,Price,Quality,Launch ,Company,Related Items
+iphoneX,300,0.9,5,APPLE INC,"iphoneX_screen,iphoneX_case"
+iphone11,350,0.92,0,APPLE INC,"iphone11_screen,iphone11_case"
+iphone11_screen,30,0.92,0,APPLE INC,-
+iphone11_case,35,0.92,0,APPLE INC,-
+iphoneX_screen,25,0.9,0,APPLE INC,-
+iphoneX_case,20,0.9,0,APPLE INC,-
+galaxy,200,0.6,0,SAMSUNG MOBILES,"galaxy_screen,galaxy_case"
+galaxy_screen,25,0.3,0,SAMSUNG MOBILES,-
+galaxy_case,23,0.4,0,SAMSUNG MOBILES,-
+xperia_screen,26,0.45,0,SONY INC,-
+xperia_case,24,0.54,0,SONY INC,-
+xperia,100,0.7,0,SONY INC,"xperia_case,xperia_screen"
