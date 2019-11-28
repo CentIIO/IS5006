@@ -1,4 +1,4 @@
-#NOT NEEDED
+#NOT NEEDED IF USING POWER BI
 import matplotlib.pyplot as plt
 import numpy
 
