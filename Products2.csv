@@ -1,13 +1,13 @@
 Name,Price,Quality,Launch ,Company,Related Items
-Iphone12,126,0.1,5,Apple,"Iphone12_Cover,LightningCable,Airpods"
+Iphone12,126,0.1,5,Apple,"Iphone12_Cover,LightningCable"
 Airpods,172,0.8,0,Apple,-
-Iphone11,211,0.65,0,Apple,Airpods
-MacBook,113,0.8,0,Apple,"Storage,Airpods"
+Iphone11,211,0.65,0,Apple,LightningCable
+MacBook,113,0.8,0,Apple,Storage
 Iphone12_Cover,167,0.3,0,Spigen,-
 LightningCable,195,0.4,0,aPPLE,-
 xperia,130,0.1,0,LG,"Cover,cable"
 Note,200,0.7,0,Samsung,"Cover, cable"
 Chromebook,142,0,0,Google,"Storage,Cover"
 Storage,105,0.9,0,Hitachi,-
-MT15,126,0.7,0,Yamaha,Wheel
+MT15,126,0.7,0,Yamaha,"Wheel,Airpods"
 Wheel,185,0.8,0,BridgeStone,-

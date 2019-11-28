@@ -4,7 +4,7 @@ import pandas
 import os
 import constants as const
 
-#trim ngram product relation array
+# TRIM NGRAM PRODUCT RELATION ARRAY.
 def trim(count,list):
     rep=int(len(list)/count)
     loc=0
@@ -17,18 +17,23 @@ def trim(count,list):
         list2.append(temp)
         temp=0
     return list2
+
+# FUNCTION TO UPDATE GOOGLE SHEET WITH THE CSV FILE CREATED FOR EACH OF THE SELLER.
 def update_google_sheet_csv(seller):
-    # ## Initialise the client
+
+    # INITIALIZING THE CLIENT
     scope = ['https://spreadsheets.google.com/feeds',
              'https://www.googleapis.com/auth/drive']
-    credential_file = 'Group4-GoogleSheet-Credential.json'
-    client = gspread.authorize(ServiceAccountCredentials.from_json_keyfile_name(credential_file, scope))
 
+    # PROVIDING THE CONCERNED JSON FILE
+    credential_file = 'Group4-GoogleSheet-Credential.json'
+
+    client = gspread.authorize(ServiceAccountCredentials.from_json_keyfile_name(credential_file, scope))
     formatted_seller_name = seller.name.replace(" ","_")
     sheet_file_name = "IS5006_G4_MAS" + formatted_seller_name
     print("sheet_file_name:",sheet_file_name)
 
-    # ### Try to open the sheet. If it does not exist, create and share it.
+    # TRY TO OPEN SHEET, IF IT DOES NOT EXISTS THEN CREATE AND SHARE IT
     try:
         sheet = client.open(sheet_file_name)
         print("sheet open successfully.")
@@ -37,13 +42,7 @@ def update_google_sheet_csv(seller):
         sheet = client.create(sheet_file_name)
         sheet.share('a0197117y.receiver@gmail.com', perm_type='user', role='writer')
 
-    # ### Selecting a worksheet
-    # worksheet = sheet.worksheet("Sheet1")
-
-    # clear the worksheet
-    # worksheet.clear()
-
-    # export data to csv and import to populate google sheet
+    # EXPORTING DATA TO A CSV FILE
     csv_path = os.path.join("log",formatted_seller_name + '_Data.csv')
     print(csv_path)
     dict_for_pandas = {}
@@ -56,47 +55,28 @@ def update_google_sheet_csv(seller):
     for product in seller.products:
         dict_for_pandas['Inventory_' + product.name] = seller.inventory_history[product]
         dict_for_pandas['Price_' + product.name] = seller.price_history[product]
-        #bug
-        print("====")
-        print(product.name)
-        print(seller.sales_history[product])
-        print("+++++++")
         dict_for_pandas['Sales_'+product.name] = seller.sales_history[product]
         dict_for_pandas['Expense_'+product.name] = seller.expense_history[product][1:]
         dict_for_pandas['sentiment_'+product.name] = seller.sentiment_history[product]
         dict_for_pandas['Ad_type_' + product.name] = seller.adverts_type_history[product]
         dict_for_pandas['Ad_scale_' + product.name] = seller.adverts_scale_history[product]
-
-    #bug
     for product in seller.accessaries:
-        templist=[]
-        #length=len(seller.sales_history[product])
-        print("length^^",len(seller.sales_history[product]))
+        #print("length^^",len(seller.sales_history[product]))
         if len(seller.sales_history[product])==const.annum_count+1:
             dict_for_pandas['Sales_' + product.name] = seller.sales_history[product]
         else:
-
             trimmed=trim(len(seller.month),seller.sales_history[product])
             dict_for_pandas['Sales_' + product.name] = trimmed
-              #for i in range(0,)
-
-
-    print(dict_for_pandas)
-    for k,v in dict_for_pandas.items():
-        print("key:",k,"value length:",len(v))
+    #print(dict_for_pandas)
+    # for k,v in dict_for_pandas.items():
+    #     print("key:",k,"value length:",len(v))
     pandas.DataFrame(dict_for_pandas).to_csv(csv_path, mode = 'w', index=False)
-    # pandas.DataFrame({'Sales': seller.sales_history,
-    #                   'Revenue': seller.revenue_history,
-    #                   'Profit': seller.profit_history,
-    #                   'Expense': seller.expense_history[1:],
-    #                   'Sentiment': seller.sentiment_history}).to_csv(csv_path, mode='w', index=False)
-
     content = open(csv_path, 'r').read()
     client.import_csv(sheet.id, content)
 
+# IMPORTING THE CSV FILE TO POPULATE THE GOOGLE SHEET CREATED FOR EACH SELLER
 def read_from_csv():
     import csv
-
     with open('log\\APPLE_INC_Data.csv') as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',')
         line_count = 0
