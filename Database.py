@@ -6,7 +6,7 @@ from sqlite3 import Error
 
 
 
-
+# CREATE THE DATABASE FILE IN THE DESKTOP OF THE LOCAL MACHINE BASED ON THE OS
 def db_init():
     tar_sys = platform.system()
     home_dir = os.path.expanduser("~")
@@ -16,6 +16,7 @@ def db_init():
         db_1 = home_dir + "/Desktop/MAS_SQLite.db"
     return db_1
 
+# CREATE TWO TABLES IN THE DB AS CUSTOMER AND SELLER
 
 def customer_dbcreation(G4MAS_db):
     G4MAS_DBconn = None
@@ -44,6 +45,8 @@ def customer_dbcreation(G4MAS_db):
     except Error as e:
         print(e)
 
+# UPDATE THE CUSTOMER DATABASE
+
 def update_CustDB(name,wallet,type):
         try:
             test=(name,wallet,type)
@@ -60,6 +63,7 @@ def update_CustDB(name,wallet,type):
         except Error as e:
             print(e)
 
+# UPDATE THE SELLER DATABASE
 
 def update_SellerDB(name,product,accessories,wallet):
     try:
