@@ -2,7 +2,21 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 import pandas
 import os
+import constants as const
 
+#trim ngram product relation array
+def trim(count,list):
+    rep=int(len(list)/count)
+    loc=0
+    temp=0
+    list2=[]
+    for i in range(0,count):
+        for j in range(0,rep):
+            temp+=list[loc]
+            loc+=1
+        list2.append(temp)
+        temp=0
+    return list2
 def update_google_sheet_csv(seller):
     # ## Initialise the client
     scope = ['https://spreadsheets.google.com/feeds',
@@ -55,8 +69,19 @@ def update_google_sheet_csv(seller):
 
     #bug
     for product in seller.accessaries:
-        dict_for_pandas['Sales_' + product.name] = seller.sales_history[product]
+        templist=[]
+        #length=len(seller.sales_history[product])
+        print("length^^",len(seller.sales_history[product]))
+        if len(seller.sales_history[product])==const.annum_count+1:
+            dict_for_pandas['Sales_' + product.name] = seller.sales_history[product]
+        else:
 
+            trimmed=trim(len(seller.month),seller.sales_history[product])
+            dict_for_pandas['Sales_' + product.name] = trimmed
+              #for i in range(0,)
+
+
+    print(dict_for_pandas)
     for k,v in dict_for_pandas.items():
         print("key:",k,"value length:",len(v))
     pandas.DataFrame(dict_for_pandas).to_csv(csv_path, mode = 'w', index=False)
